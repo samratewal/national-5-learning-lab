@@ -1,34 +1,5 @@
 {
   "version": 1,
   "mission": "Weekly National 5-level learning across mathematics, science, computing, engineering, AI, business, communication and portfolio projects.",
-  "entries": [
-    {
-      "week": 1,
-      "concept_id": "physics.average-speed",
-      "title": "Average Speed — Distance Divided by Time",
-      "track": "Physics and aerospace",
-      "level": "National 5 beginner",
-      "core_concepts": [
-        "average speed",
-        "total distance",
-        "elapsed time",
-        "unit consistency"
-      ],
-      "builds_on": [],
-      "sources": [
-        {
-          "title": "2.2 Speed and Velocity — Physics — OpenStax",
-          "url": "https://openstax.org/books/physics/pages/2-2-speed-and-velocity",
-          "official": true,
-          "accessed_at": "2026-08-22"
-        },
-        {
-          "title": "Speed and Velocity — The Physics Classroom",
-          "url": "https://www.physicsclassroom.com/tutorial/1d-kinematics/language-of-kinematics/speed-and-velocity",
-          "official": false,
-          "accessed_at": "2026-08-22"
-        }
-      ]
-    }
-  ]
+  "entries": []
 }
