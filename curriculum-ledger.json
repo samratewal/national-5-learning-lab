@@ -1,5 +1,41 @@
 {
   "version": 1,
   "mission": "Weekly National 5-level learning across mathematics, science, computing, engineering, AI, business, communication and portfolio projects.",
-  "entries": []
+  "entries": [
+    {
+      "week": 1,
+      "concept_id": "computer-science.variables-and-assignment",
+      "title": "Variables and Assignment — Named Boxes in Memory",
+      "track": "Computer science",
+      "level": "National 5 beginner",
+      "core_concepts": [
+        "variable",
+        "assignment",
+        "data type",
+        "identifier naming",
+        "trace table"
+      ],
+      "builds_on": [],
+      "sources": [
+        {
+          "title": "National 5 Computing Science — Course overview and resources — Qualifications Scotland",
+          "url": "https://www.sqa.org.uk/sqa/56923.html",
+          "official": true,
+          "accessed_at": "2026-08-29"
+        },
+        {
+          "title": "Variables — Implementation: Computational constructs — BBC Bitesize National 5 Computing Science",
+          "url": "https://www.bbc.co.uk/bitesize/guides/z8dbtv4/revision/1",
+          "official": false,
+          "accessed_at": "2026-08-29"
+        },
+        {
+          "title": "3. An Informal Introduction to Python — Python 3.14.7 documentation",
+          "url": "https://docs.python.org/3/tutorial/introduction.html",
+          "official": true,
+          "accessed_at": "2026-08-29"
+        }
+      ]
+    }
+  ]
 }
