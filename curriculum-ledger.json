@@ -36,6 +36,43 @@
           "accessed_at": "2026-08-29"
         }
       ]
+    },
+    {
+      "week": 2,
+      "concept_id": "mathematical-reasoning.solving-linear-equations",
+      "title": "Solving Linear Equations — Undoing Operations Step by Step",
+      "track": "Mathematical reasoning",
+      "level": "National 5 beginner",
+      "core_concepts": [
+        "equation",
+        "unknown",
+        "inverse operation",
+        "balancing both sides",
+        "substitution check"
+      ],
+      "builds_on": [
+        "computer-science.variables-and-assignment"
+      ],
+      "sources": [
+        {
+          "title": "National 5 Mathematics Course Specification (version 3.0, May 2023) — Scottish Qualifications Authority",
+          "url": "https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-mathematics.pdf",
+          "official": true,
+          "accessed_at": "2026-09-05"
+        },
+        {
+          "title": "Solving equations and inequations — Working with linear equations and inequations — BBC Bitesize National 5 Maths",
+          "url": "https://www.bbc.co.uk/bitesize/guides/zwgdb82/revision/1",
+          "official": false,
+          "accessed_at": "2026-09-05"
+        },
+        {
+          "title": "Linear Equations — National 5 Maths — Free Resources (Maths.scot)",
+          "url": "https://maths.scot/nat5/linear-equations",
+          "official": false,
+          "accessed_at": "2026-09-05"
+        }
+      ]
     }
   ]
 }
