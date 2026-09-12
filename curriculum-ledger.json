@@ -73,6 +73,43 @@
           "accessed_at": "2026-09-05"
         }
       ]
+    },
+    {
+      "week": 3,
+      "concept_id": "computer-science.selection-if-statements",
+      "title": "Selection — Making Decisions with if Statements",
+      "track": "Computer science",
+      "level": "National 5 beginner",
+      "core_concepts": [
+        "selection",
+        "condition",
+        "boolean expression",
+        "comparison operator",
+        "if/elif/else"
+      ],
+      "builds_on": [
+        "computer-science.variables-and-assignment"
+      ],
+      "sources": [
+        {
+          "title": "National 5 Computing Science Course Specification (version 3.0, May 2023) — Scottish Qualifications Authority",
+          "url": "https://www.sqa.org.uk/sqa/files_ccc/n5-course-spec-computing-science.pdf",
+          "official": true,
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "Selection — using if statements — Implementation: Computational constructs — BBC Bitesize National 5 Computing Science",
+          "url": "https://www.bbc.co.uk/bitesize/guides/z8dbtv4/revision/4",
+          "official": false,
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "4. More Control Flow Tools — Python 3.14.7 documentation",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html",
+          "official": true,
+          "accessed_at": "2026-09-12"
+        }
+      ]
     }
   ]
 }
