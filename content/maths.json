@@ -21,7 +21,8 @@
      "q": "A car worth £12,000 depreciates by 12% each year. Find its value after 2 years.",
      "a": "Multiplier $= 0.88$. $12000 \\times 0.88^2 = 12000 \\times 0.7744 = \\pounds 9,292.80$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Fractions+%26+percentages"
   },
   {
    "slug": "surds-indices",
@@ -39,7 +40,8 @@
      "q": "Evaluate $27^{-\\frac{2}{3}}$",
      "a": "$27^{1/3}=3$, so $27^{-2/3}=\\dfrac{1}{3^2}=\\dfrac{1}{9}$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Surds+%26+indices"
   },
   {
    "slug": "scientific-notation",
@@ -57,7 +59,8 @@
      "q": "Write 6,850,000 in scientific notation.",
      "a": "$6.85\\times10^{6}$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Scientific+notation"
   },
   {
    "slug": "expanding-brackets",
@@ -75,7 +78,8 @@
      "q": "Expand $(3a-2)^2$",
      "a": "$(3a-2)(3a-2)=9a^2-6a-6a+4=9a^2-12a+4$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Expanding+brackets"
   },
   {
    "slug": "factorising",
@@ -93,7 +97,8 @@
      "q": "Factorise $2x^2+7x+3$",
      "a": "$ac=6$, need two numbers multiplying to 6 and adding to 7: 6 and 1. Split: $2x^2+6x+x+3 = 2x(x+3)+1(x+3)=(2x+1)(x+3)$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Factorising"
   },
   {
    "slug": "completing-square",
@@ -111,7 +116,8 @@
      "q": "State the minimum turning point of $y=x^2+10x+3$.",
      "a": "$p=5$, $q=3-25=-22$, so the minimum is $(-5,\\ -22)$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Completing+the+square"
   },
   {
    "slug": "algebraic-fractions",
@@ -129,7 +135,8 @@
      "q": "Express $\\dfrac{3}{x}+\\dfrac{2}{x+1}$ as a single fraction.",
      "a": "$\\dfrac{3(x+1)+2x}{x(x+1)} = \\dfrac{5x+3}{x(x+1)}$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Algebraic+fractions"
   },
   {
    "slug": "changing-subject",
@@ -147,7 +154,8 @@
      "q": "Make $a$ the subject of $v^2=u^2+2as$",
      "a": "$2as=v^2-u^2$, so $a=\\dfrac{v^2-u^2}{2s}$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Changing+the+subject"
   },
   {
    "slug": "equations-inequations",
@@ -165,7 +173,8 @@
      "q": "Solve $-2x \\ge 8$ and show the answer on a number line.",
      "a": "Divide by $-2$ and **flip**: $x \\le -4$. Closed circle at $-4$, arrow to the left."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Equations+%26+inequations"
   },
   {
    "slug": "simultaneous",
@@ -183,7 +192,8 @@
      "q": "Solve $4x+3y=18$ and $2x-3y=6$.",
      "a": "Add: $6x=24$, so $x=4$. Then $16+3y=18$, so $3y=2$, $y=\\tfrac23$. Solution $(4,\\tfrac23)$."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Simultaneous+equations"
   },
   {
    "slug": "straight-line",
@@ -201,7 +211,10 @@
      "q": "Find the equation of the line perpendicular to $y=3x+2$ passing through $(6,1)$.",
      "a": "Perpendicular gradient $=-\\tfrac13$. $1=-\\tfrac13(6)+c \\Rightarrow 1=-2+c \\Rightarrow c=3$. So $y=-\\tfrac13x+3$."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Straight line on axes showing the gradient triangle\"><line x1=\"50\" y1=\"195\" x2=\"370\" y2=\"195\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><line x1=\"50\" y1=\"195\" x2=\"50\" y2=\"30\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><text x=\"356\" y=\"216\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">x</text><text x=\"30\" y=\"40\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">y</text><line x1=\"50\" y1=\"170\" x2=\"330\" y2=\"55\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"145\" x2=\"250\" y2=\"145\" stroke=\"#7ee0a8\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"250\" y1=\"145\" x2=\"250\" y2=\"83\" stroke=\"#7ee0a8\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"193\" y=\"163\" text-anchor=\"middle\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">run</text><text x=\"262\" y=\"118\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">rise</text><text x=\"170\" y=\"42\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#ffcf5c\">gradient = rise / run</text></svg>",
+   "diagram_caption": "Gradient is the vertical change divided by the horizontal change.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+The+straight+line"
   },
   {
    "slug": "functions",
@@ -219,7 +232,8 @@
      "q": "$f(x)=x^2-5$. Solve $f(x)=20$.",
      "a": "$x^2-5=20 \\Rightarrow x^2=25 \\Rightarrow x=\\pm5$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Function+notation"
   },
   {
    "slug": "quadratic-graphs",
@@ -237,7 +251,10 @@
      "q": "State the number of real roots of $x^2+4x+9=0$.",
      "a": "$b^2-4ac=16-36=-20<0$, so **no real roots**."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabola showing two roots and the turning point\"><line x1=\"30\" y1=\"152\" x2=\"380\" y2=\"152\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><line x1=\"200\" y1=\"212\" x2=\"200\" y2=\"28\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><path d=\"M96 42 Q200 300 304 42\" fill=\"none\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><circle cx=\"127\" cy=\"152\" r=\"5\" fill=\"#7ee0a8\"/><circle cx=\"273\" cy=\"152\" r=\"5\" fill=\"#7ee0a8\"/><text x=\"108\" y=\"174\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">root</text><text x=\"262\" y=\"174\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">root</text><circle cx=\"200\" cy=\"124\" r=\"4.5\" fill=\"#ffcf5c\"/><text x=\"210\" y=\"120\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">turning point</text><text x=\"20\" y=\"222\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">a &gt; 0 opens up (minimum) &#183; a &lt; 0 opens down (maximum)</text></svg>",
+   "diagram_caption": "Roots are where y = 0, and a quadratic usually has two.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Quadratic+graphs+%26+equations"
   },
   {
    "slug": "pythagoras",
@@ -255,7 +272,10 @@
      "q": "A ladder 5 m long leans against a wall, with its foot 3 m from the base. How far up the wall does it reach?",
      "a": "$h=\\sqrt{5^2-3^2}=\\sqrt{25-9}=\\sqrt{16}=4$ m"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Right-angled triangle with sides a, b and hypotenuse c\"><polygon points=\"70,190 330,190 330,60\" fill=\"none\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><rect x=\"316\" y=\"178\" width=\"14\" height=\"12\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"195\" y=\"213\" text-anchor=\"middle\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\">a</text><text x=\"345\" y=\"128\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\">b</text><text x=\"185\" y=\"115\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">c (hypotenuse)</text><text x=\"292\" y=\"206\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">90&#176;</text><text x=\"70\" y=\"34\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">a&#178; + b&#178; = c&#178;</text></svg>",
+   "diagram_caption": "The hypotenuse is always opposite the right angle. Add the squares to find it; subtract to find a shorter side.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Pythagoras"
   },
   {
    "slug": "arcs-sectors",
@@ -273,7 +293,10 @@
      "q": "A sector has radius 6 cm and area 18 cm². Find its angle.",
      "a": "$\\dfrac{\\theta}{360}\\times\\pi\\times36=18 \\Rightarrow \\theta\\pi=180 \\Rightarrow \\theta=\\dfrac{180}{\\pi}\\approx57.3°$"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sector of a circle with radius and arc\"><circle cx=\"200\" cy=\"128\" r=\"95\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><path d=\"M200 128 L295 128 A95 95 0 0 0 247.5 45.7 Z\" fill=\"#4da3ff\" fill-opacity=\"0.22\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><circle cx=\"200\" cy=\"128\" r=\"3.5\" fill=\"#7ee0a8\"/><text x=\"246\" y=\"150\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">r</text><text x=\"288\" y=\"72\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#4da3ff\">arc</text><text x=\"226\" y=\"114\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">&#952;</text><text x=\"30\" y=\"228\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">fraction of circle = &#952; / 360</text></svg>",
+   "diagram_caption": "Arc length and sector area are the fraction theta/360 of the full circle.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Arcs+%26+sectors"
   },
   {
    "slug": "circle-angles",
@@ -291,7 +314,10 @@
      "q": "A cyclic quadrilateral has angles $2x$, $x+30$, $3x$ and $x+50$ degrees. Find $x$.",
      "a": "Opposite angles sum to 180°. Also all four sum to 360: $2x+x+30+3x+x+50=360 \\Rightarrow 7x+80=360 \\Rightarrow x=40$."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Circle with a tangent meeting a radius at ninety degrees\"><circle cx=\"185\" cy=\"118\" r=\"85\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"185\" cy=\"118\" r=\"3.5\" fill=\"#4da3ff\"/><text x=\"166\" y=\"112\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#4da3ff\">O</text><line x1=\"185\" y1=\"118\" x2=\"270\" y2=\"118\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#7ee0a8\"/><line x1=\"152\" y1=\"222\" x2=\"358\" y2=\"76\" stroke=\"#ffcf5c\" stroke-width=\"2.5\"/><rect x=\"270\" y=\"106\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#ff7a7a\" stroke-width=\"2\"/><text x=\"250\" y=\"100\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ff7a7a\">90&#176;</text><text x=\"274\" y=\"144\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">radius</text><text x=\"296\" y=\"62\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">tangent</text><text x=\"18\" y=\"226\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">centre angle = 2 &#215; circumference angle on the same arc</text></svg>",
+   "diagram_caption": "A tangent always meets a radius at 90 degrees.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Circle+angle+properties"
   },
   {
    "slug": "similar-shapes",
@@ -309,7 +335,8 @@
      "q": "Two similar rectangles have areas $24\\text{ cm}^2$ and $54\\text{ cm}^2$. The smaller is 4 cm long. Find the corresponding length on the larger.",
      "a": "Area factor $=\\dfrac{54}{24}=\\dfrac94$, so $k=\\sqrt{\\dfrac94}=\\dfrac32$. Length $=4\\times\\dfrac32=6$ cm."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Similar+shapes"
   },
   {
    "slug": "trig-bearings",
@@ -327,7 +354,10 @@
      "q": "The bearing of B from A is 125°. Find the bearing of A from B.",
      "a": "$125+180=305°$"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Bearing measured clockwise from north\"><circle cx=\"190\" cy=\"130\" r=\"4\" fill=\"#4da3ff\"/><line x1=\"190\" y1=\"130\" x2=\"190\" y2=\"34\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><text x=\"190\" y=\"24\" text-anchor=\"middle\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#4da3ff\">North</text><line x1=\"190\" y1=\"130\" x2=\"316\" y2=\"192\" stroke=\"#7ee0a8\" stroke-width=\"2.5\"/><path d=\"M190 78 A52 52 0 0 1 228 158\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><text x=\"242\" y=\"104\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">bearing</text><text x=\"258\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">direction of travel</text><text x=\"18\" y=\"30\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">Clockwise from North</text></svg>",
+   "diagram_caption": "Bearings are measured clockwise from North at each point, and written as three digits.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Trigonometry+%26+bearings"
   },
   {
    "slug": "sine-cosine-rule",
@@ -345,7 +375,10 @@
      "q": "A triangle has sides 5, 7 and 9. Find the largest angle.",
      "a": "Largest angle is opposite 9. $\\cos C=\\dfrac{25+49-81}{2(5)(7)}=\\dfrac{-7}{70}=-0.1$, so $C=\\cos^{-1}(-0.1)=95.7°$"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangle labelled A B C with opposite sides a b c\"><polygon points=\"62,190 348,190 152,48\" fill=\"none\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><text x=\"54\" y=\"206\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">A</text><text x=\"352\" y=\"206\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">B</text><text x=\"148\" y=\"40\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">C</text><text x=\"204\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">c</text><text x=\"240\" y=\"112\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">a</text><text x=\"96\" y=\"114\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">b</text><text x=\"18\" y=\"26\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">a / sin A = b / sin B = c / sin C</text><text x=\"18\" y=\"46\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">a&#178; = b&#178; + c&#178; &#8722; 2bc cos A</text></svg>",
+   "diagram_caption": "Side a is opposite angle A, and so on. With no matching side-angle pair, use the cosine rule.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Sine+rule%2C+cosine+rule+%26+triangle+area"
   },
   {
    "slug": "vectors",
@@ -363,7 +396,10 @@
      "q": "$\\overrightarrow{AB}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$ and $\\overrightarrow{BC}=\\begin{pmatrix}-5\\\\1\\end{pmatrix}$. Find $\\overrightarrow{AC}$.",
      "a": "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{BC}=\\begin{pmatrix}-3\\\\4\\end{pmatrix}$"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Vector broken into horizontal and vertical components\"><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"8\" refX=\"8\" refY=\"4\" orient=\"auto\"><path d=\"M0 0 L10 4 L0 8 z\" fill=\"#4da3ff\"/></marker></defs><line x1=\"70\" y1=\"176\" x2=\"300\" y2=\"176\" stroke=\"#5a6478\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\"/><line x1=\"300\" y1=\"176\" x2=\"300\" y2=\"66\" stroke=\"#5a6478\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\"/><line x1=\"70\" y1=\"176\" x2=\"300\" y2=\"66\" stroke=\"#4da3ff\" stroke-width=\"2.5\" marker-end=\"url(#ah)\"/><text x=\"178\" y=\"194\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">x</text><text x=\"312\" y=\"126\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">y</text><text x=\"120\" y=\"106\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#ffcf5c\">|v| = &#8730;(x&#178; + y&#178;)</text><text x=\"70\" y=\"34\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">2D: (x, y) &#183; 3D: (x, y, z)</text></svg>",
+   "diagram_caption": "Magnitude comes from Pythagoras on the components.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Vectors"
   },
   {
    "slug": "volume-surface-area",
@@ -381,7 +417,8 @@
      "q": "A cone has radius 5 cm and height 12 cm. Find its slant height and curved surface area.",
      "a": "Slant $l=\\sqrt{5^2+12^2}=\\sqrt{169}=13$ cm. Curved SA $=\\pi r l=\\pi(5)(13)=65\\pi\\approx204.2\\text{ cm}^2$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Volume+%26+surface+area"
   },
   {
    "slug": "statistics",
@@ -399,7 +436,8 @@
      "q": "Two classes' test scores have median 62, IQR 14 and median 58, IQR 22. Compare.",
      "a": "Class 1 scored higher on average (62 > 58). Class 2's scores were more varied (IQR 22 > 14)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Statistics+%26+standard+deviation"
   },
   {
    "slug": "probability",
@@ -417,7 +455,8 @@
      "q": "The probability it rains is 0.3. Find the expected number of rainy days in a 30-day month.",
      "a": "$0.3\\times30=9$ days"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Probability"
   },
   {
    "slug": "tolerance-bounds",
@@ -435,7 +474,8 @@
      "q": "A bolt has limits 39.8 mm and 40.2 mm. Express the tolerance as a ± value about the nominal size.",
      "a": "Nominal $=\\dfrac{39.8+40.2}{2}=40$ mm; tolerance $=\\pm0.2$ mm"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Tolerance+%26+bounds"
   },
   {
    "slug": "ratio-proportion",
@@ -453,7 +493,26 @@
      "q": "$y$ is inversely proportional to $x$. When $x=4$, $y=15$. Find $y$ when $x=10$.",
      "a": "$k=xy=60$, so $y=\\dfrac{60}{10}=6$"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Maths+Ratio+%26+proportion"
+  }
+ ],
+ "channels": [
+  {
+   "name": "Corbettmaths",
+   "url": "https://www.youtube.com/results?search_query=Corbettmaths"
+  },
+  {
+   "name": "Maths Genie",
+   "url": "https://www.youtube.com/results?search_query=Maths+Genie"
+  },
+  {
+   "name": "Khan Academy",
+   "url": "https://www.youtube.com/results?search_query=Khan+Academy"
+  },
+  {
+   "name": "National 5 Maths (maths.scot)",
+   "url": "https://www.youtube.com/results?search_query=National+5+Maths+%28maths.scot%29"
   }
  ]
 }

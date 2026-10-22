@@ -21,7 +21,8 @@
      "q": "A car travels **30 m east**, then **40 m west**. State the distance and the displacement.",
      "a": "Distance (scalar) $=30+40=70\\ \text{m}$.\n\nDisplacement (vector) $=30-40=-10\\ \text{m}$, i.e. magnitude **10 m** in the **west** direction.\n\n**Distance = 70 m; displacement = 10 m west.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Vectors+%26+scalars"
   },
   {
    "slug": "velocity-time",
@@ -39,7 +40,10 @@
      "q": "A car accelerates uniformly from rest to 12 m/s in 8.0 s. Use the graph area to find the distance travelled.",
      "a": "The graph is a triangle with base 8.0 s and height 12 m/s.\n\n$s=\tfrac12\times8.0\times12=48\\ \text{m}$.\n\n**Distance = 48 m** (2 s.f.)."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Velocity-time graph with the area shaded showing displacement\"><line x1=\"55\" y1=\"192\" x2=\"370\" y2=\"192\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><line x1=\"55\" y1=\"192\" x2=\"55\" y2=\"30\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><text x=\"358\" y=\"214\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">time</text><text x=\"18\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">v</text><polygon points=\"55,192 150,84 280,84 280,192\" fill=\"#4da3ff\" fill-opacity=\"0.2\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"84\" x2=\"280\" y2=\"84\" stroke=\"#4da3ff\" stroke-width=\"3\"/><text x=\"168\" y=\"122\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#ffcf5c\">area = displacement</text><line x1=\"150\" y1=\"84\" x2=\"150\" y2=\"192\" stroke=\"#7ee0a8\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"120\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">gradient = acceleration</text></svg>",
+   "diagram_caption": "Area under a velocity-time graph is displacement; gradient is acceleration.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Velocity%E2%80%93time+graphs"
   },
   {
    "slug": "acceleration",
@@ -57,7 +61,8 @@
      "q": "A train travelling at 25 m/s decelerates uniformly to rest in 20 s. Find its acceleration.",
      "a": "$a=\\dfrac{0-25}{20}=-1.25\\ \text{m s}^{-2}$.\n\n**Acceleration = $-1.25$ m s$^{-2}$** (a deceleration of 1.25 m s$^{-2}$; to 2 s.f. this is $-1.3$ m s$^{-2}$)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Acceleration"
   },
   {
    "slug": "newtons-laws",
@@ -75,7 +80,8 @@
      "q": "A 5.0 kg box has an unbalanced force of 20 N acting on it. Find its acceleration.",
      "a": "$a=\\dfrac{F}{m}=\\dfrac{20}{5.0}=4.0\\ \text{m s}^{-2}$.\n\n**Acceleration = 4.0 m s$^{-2}$** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Newton%27s+laws"
   },
   {
    "slug": "energy",
@@ -93,7 +99,8 @@
      "q": "Find the kinetic energy of a 1500 kg car travelling at 20 m/s.",
      "a": "$E_k=\tfrac12 mv^2=\tfrac12\times1500\times20^2=0.5\times1500\times400=3.0\times10^5\\ \text{J}$.\n\n**Kinetic energy = $3.0\times10^5$ J** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Energy"
   },
   {
    "slug": "projectile",
@@ -111,7 +118,8 @@
      "q": "Explain why a ball dropped from a height and an identical ball fired horizontally from the same height hit the ground at the same time.",
      "a": "Both have the same **vertical** initial velocity ($u_v=0$) and the same **vertical** acceleration ($g=9.8$ m s$^{-2}$). Horizontal velocity does not affect vertical motion, so both take the same time to fall the same height.\n\n**Same time of flight because the vertical motions are identical.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Projectile+motion"
   },
   {
    "slug": "space-exploration",
@@ -129,7 +137,8 @@
      "q": "Explain why a satellite in a higher orbit takes longer to complete one orbit than a satellite in a lower orbit.",
      "a": "A higher orbit has a **larger orbital radius**, so the satellite travels a **longer circumference** ($2\\pi r$). The gravitational force is weaker at that distance, so its orbital speed is lower. A longer distance travelled at a lower speed means a **longer period**.\n\n**Larger radius → longer circumference and lower speed → longer period.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Space+exploration"
   },
   {
    "slug": "cosmology",
@@ -147,7 +156,8 @@
      "q": "A distant galaxy is $1.9\times10^{17}$ m away. Express this distance in light-years.",
      "a": "$1.9\times10^{17}\\div9.46\times10^{15}=20.1$.\n\n**Distance = 20 light-years** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Cosmology"
   },
   {
    "slug": "charge-carriers",
@@ -165,7 +175,8 @@
      "q": "A charge of 15 C passes a point in 30 s. Find the current.",
      "a": "$I=\\dfrac{Q}{t}=\\dfrac{15}{30}=0.50\\ \text{A}$.\n\n**Current = 0.50 A** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Charge+carriers+%26+current"
   },
   {
    "slug": "potential-difference",
@@ -183,7 +194,8 @@
      "q": "45 J of energy is transferred to 9.0 C of charge. Find the potential difference.",
      "a": "$V=\\dfrac{E}{Q}=\\dfrac{45}{9.0}=5.0\\ \text{V}$.\n\n**Potential difference = 5.0 V** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Potential+difference"
   },
   {
    "slug": "ohms-law",
@@ -201,7 +213,8 @@
      "q": "A current of 0.20 A flows through a 50 $\\Omega$ resistor. Find the potential difference across it.",
      "a": "$V=IR=0.20\times50=10\\ \text{V}$.\n\n**Potential difference = 10 V** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Ohms+law"
   },
   {
    "slug": "circuits",
@@ -219,7 +232,10 @@
      "q": "Two resistors of 6 $\\Omega$ and 3 $\\Omega$ are connected in parallel. Find the total resistance.",
      "a": "$\\dfrac{1}{R_T}=\\dfrac{1}{6}+\\dfrac{1}{3}=\\dfrac{1}{6}+\\dfrac{2}{6}=\\dfrac{3}{6}=\\dfrac12$, so $R_T=2\\ \\Omega$.\n\n**Total resistance = 2 $\\Omega$** (less than the smallest resistor, 3 $\\Omega$, as expected)."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Series and parallel circuits compared\"><text x=\"18\" y=\"26\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Series</text><line x1=\"40\" y1=\"156\" x2=\"40\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"40\" y1=\"70\" x2=\"100\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"100\" y1=\"70\" x2=\"100\" y2=\"96\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"100\" y1=\"126\" x2=\"100\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"90\" y=\"96\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><line x1=\"100\" y1=\"156\" x2=\"40\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"26\" y=\"101\" width=\"26\" height=\"22\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"30\" y=\"188\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">same current everywhere</text><text x=\"228\" y=\"26\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Parallel</text><line x1=\"248\" y1=\"70\" x2=\"364\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"156\" x2=\"364\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"70\" x2=\"248\" y2=\"98\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"128\" x2=\"248\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"238\" y=\"98\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><line x1=\"292\" y1=\"70\" x2=\"292\" y2=\"94\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"292\" y1=\"124\" x2=\"292\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"282\" y=\"94\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><line x1=\"364\" y1=\"70\" x2=\"364\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><text x=\"232\" y=\"188\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">same voltage across each branch</text></svg>",
+   "diagram_caption": "Series: current is the same everywhere. Parallel: voltage is the same across each branch.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Series+%26+parallel+circuits"
   },
   {
    "slug": "electrical-power",
@@ -237,7 +253,8 @@
      "q": "A 60 W lamp is switched on for 5.0 minutes. Find the energy transferred.",
      "a": "$t=5.0\times60=300\\ \text{s}$; $E=Pt=60\times300=18\\,000\\ \text{J}$.\n\n**Energy = $1.8\times10^4$ J** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Electrical+power"
   },
   {
    "slug": "shc",
@@ -255,7 +272,8 @@
      "q": "3.0 kg of water (c = 4180 J kg$^{-1}$ °C$^{-1}$) is heated through 25 °C. Find the heat energy supplied.",
      "a": "$E_h=cm\\Delta T=4180\times3.0\times25=313\\,500\\ \text{J}$.\n\n**Heat energy = $3.1\times10^5$ J** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Specific+heat+capacity"
   },
   {
    "slug": "latent-heat",
@@ -273,7 +291,8 @@
      "q": "0.50 kg of ice at 0 °C is melted. The specific latent heat of fusion of water is $3.34\times10^5$ J kg$^{-1}$. Find the heat energy required.",
      "a": "$E_h=ml=0.50\times3.34\times10^5=1.67\times10^5\\ \text{J}$.\n\n**Heat energy = $1.7\times10^5$ J** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Specific+latent+heat"
   },
   {
    "slug": "gas-laws",
@@ -291,7 +310,8 @@
      "q": "A fixed mass of gas occupies 500 cm³ at 27 °C. It is cooled at constant pressure until its volume is 200 cm³. Find the new temperature in °C.",
      "a": "$T_1=27+273=300\\ \text{K}$.\n\n$T_2=\\dfrac{T_1V_2}{V_1}=\\dfrac{300\times200}{500}=120\\ \text{K}$.\n\n$120\\ \text{K}=120-273=-153\\ ^\\circ\text{C}$.\n\n**New temperature = $-153$ °C.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Gas+laws+%26+the+kinetic+model"
   },
   {
    "slug": "wave-parameters",
@@ -309,7 +329,10 @@
      "q": "12 complete waves pass a point in 3.0 s. Find the frequency and the period.",
      "a": "$f=\\dfrac{N}{t}=\\dfrac{12}{3.0}=4.0\\ \text{Hz}$; $T=\\dfrac{1}{f}=\\dfrac{1}{4.0}=0.25\\ \text{s}$.\n\n**Frequency = 4.0 Hz; period = 0.25 s.**"
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sine wave with wavelength and amplitude labelled\"><line x1=\"30\" y1=\"120\" x2=\"380\" y2=\"120\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><path d=\"M40 120 Q70 38 100 120 Q130 202 160 120 Q190 38 220 120 Q250 202 280 120 Q310 38 340 120\" fill=\"none\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><line x1=\"100\" y1=\"40\" x2=\"220\" y2=\"40\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><text x=\"124\" y=\"32\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">wavelength &#955;</text><line x1=\"368\" y1=\"120\" x2=\"368\" y2=\"60\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"286\" y=\"204\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">amplitude</text><text x=\"20\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#4da3ff\">v = f &#955;</text></svg>",
+   "diagram_caption": "Wavelength is one full cycle; amplitude is the height from the centre line.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Wave+parameters+%26+behaviour"
   },
   {
    "slug": "em-spectrum",
@@ -327,7 +350,8 @@
      "q": "An X-ray has a wavelength of $1.0\times10^{-10}$ m. Find its frequency.",
      "a": "$f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\times10^8}{1.0\times10^{-10}}=3.0\times10^{18}\\ \text{Hz}$.\n\n**Frequency = $3.0\times10^{18}$ Hz** (2 s.f.)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+The+electromagnetic+spectrum"
   },
   {
    "slug": "refraction",
@@ -345,7 +369,10 @@
      "q": "Light of wavelength 500 nm passes from air into water (speed in water = 2.3×10⁸ m/s). Find its wavelength in the water.",
      "a": "$f=\\dfrac{c}{\\lambda_{\text{air}}}=\\dfrac{3.0\times10^8}{500\times10^{-9}}=6.0\times10^{14}\\ \text{Hz}$.\n\n$\\lambda_{\text{water}}=\\dfrac{v_{\text{water}}}{f}=\\dfrac{2.3\times10^8}{6.0\times10^{14}}=3.83\times10^{-7}\\ \text{m}$.\n\n**Wavelength in water = $3.8\times10^{-7}$ m (380 nm)** (2 s.f.)."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Light ray refracting at a boundary and bending toward the normal\"><line x1=\"20\" y1=\"124\" x2=\"380\" y2=\"124\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"322\" y=\"116\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">boundary</text><line x1=\"200\" y1=\"22\" x2=\"200\" y2=\"218\" stroke=\"#5a6478\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\"/><text x=\"206\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">normal</text><line x1=\"82\" y1=\"44\" x2=\"200\" y2=\"124\" stroke=\"#ffcf5c\" stroke-width=\"2.5\"/><line x1=\"200\" y1=\"124\" x2=\"268\" y2=\"206\" stroke=\"#ffcf5c\" stroke-width=\"2.5\"/><text x=\"46\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">incident ray</text><text x=\"248\" y=\"202\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">refracted ray</text><text x=\"212\" y=\"100\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#4da3ff\">slower medium</text></svg>",
+   "diagram_caption": "Entering a slower medium the ray bends toward the normal.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Refraction+of+light"
   },
   {
    "slug": "nuclear-radiation",
@@ -363,7 +390,8 @@
      "q": "A source's radiation passes through paper but is stopped by a few millimetres of aluminium. Identify the radiation and explain your answer.",
      "a": "The radiation is **beta**. Alpha would be stopped by the paper, while gamma would pass through the aluminium. Beta passes through paper but is stopped by aluminium.\n\n**Beta radiation.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Nuclear+radiation"
   },
   {
    "slug": "half-life",
@@ -381,7 +409,8 @@
      "q": "A 64 g sample of a radioactive material decays until only 8 g remains. How many half-lives have passed?",
      "a": "$64\to32\to16\to8$ is 3 halvings.\n\n**3 half-lives have passed.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Half-life"
   },
   {
    "slug": "dosimetry",
@@ -399,7 +428,26 @@
      "q": "A worker receives an absorbed dose of 0.0010 Gy from alpha radiation. Find the equivalent dose.",
      "a": "$H=D w_r=0.0010\times20=0.020\\ \text{Sv}$.\n\n**Equivalent dose = 0.020 Sv = 20 mSv.**"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Dose%2C+equivalent+dose+%26+safety"
+  }
+ ],
+ "channels": [
+  {
+   "name": "Cognito",
+   "url": "https://www.youtube.com/results?search_query=Cognito"
+  },
+  {
+   "name": "Free Science Lessons",
+   "url": "https://www.youtube.com/results?search_query=Free+Science+Lessons"
+  },
+  {
+   "name": "The Organic Chemistry Tutor",
+   "url": "https://www.youtube.com/results?search_query=The+Organic+Chemistry+Tutor"
+  },
+  {
+   "name": "BBC Bitesize",
+   "url": "https://www.youtube.com/results?search_query=BBC+Bitesize"
   }
  ]
 }

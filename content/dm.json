@@ -21,7 +21,8 @@
      "q": "Explain why modelling is important in the design process. (2)",
      "a": "A model lets the designer test form, fit and function cheaply before committing to manufacture (1), revealing problems that are hard to see on a drawing (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+The+design+process"
   },
   {
    "slug": "research-techniques",
@@ -39,7 +40,8 @@
      "q": "Explain one advantage of secondary research. (2)",
      "a": "It is quick and cheap because the data already exists (1), so the designer can learn about standards and competitor products without spending time or money collecting new data (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Research+techniques"
   },
   {
    "slug": "specification",
@@ -57,7 +59,8 @@
      "q": "Name four headings a specification should cover. (4)",
      "a": "Function; performance; ergonomics; aesthetics (also acceptable: materials, cost, manufacture, safety, sustainability)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+The+product+specification"
   },
   {
    "slug": "idea-generation",
@@ -75,7 +78,8 @@
      "q": "Why should ideas be evaluated against the specification? (2)",
      "a": "The specification states what the product must achieve, so scoring ideas against it gives an objective basis for choosing (1) rather than selecting on personal preference (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Idea-generation+techniques"
   },
   {
    "slug": "modelling",
@@ -93,7 +97,8 @@
      "q": "State one limitation of a scale model. (1)",
      "a": "It may not behave the same as the full-size product — for example, strength and weight do not always scale proportionally."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Modelling"
   },
   {
    "slug": "graphics",
@@ -111,7 +116,10 @@
      "q": "Why must a working drawing include tolerances? (2)",
      "a": "Manufacturing cannot be perfectly exact, so tolerances state the acceptable variation (1) and allow the part to be made and still fit with others (2)."
     }
-   ]
+   ],
+   "diagram": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Isometric cube beside orthographic front and plan views\"><text x=\"16\" y=\"24\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Isometric</text><polygon points=\"60,150 130,185 130,115 60,80\" fill=\"#4da3ff\" fill-opacity=\"0.15\" stroke=\"#4da3ff\" stroke-width=\"2\"/><polygon points=\"130,185 200,150 200,80 130,115\" fill=\"#4da3ff\" fill-opacity=\"0.25\" stroke=\"#4da3ff\" stroke-width=\"2\"/><polygon points=\"60,80 130,115 200,80 130,45\" fill=\"#4da3ff\" fill-opacity=\"0.35\" stroke=\"#4da3ff\" stroke-width=\"2\"/><text x=\"250\" y=\"24\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Orthographic</text><rect x=\"250\" y=\"60\" width=\"92\" height=\"52\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"278\" y=\"93\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">front</text><rect x=\"250\" y=\"128\" width=\"92\" height=\"52\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><text x=\"282\" y=\"161\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">plan</text></svg>",
+   "diagram_caption": "Isometric shows 3D; orthographic shows separate flat views carrying the dimensions.",
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Graphics+in+design"
   },
   {
    "slug": "function-performance",
@@ -129,7 +137,8 @@
      "q": "Explain how testing a prototype improves performance. (2)",
      "a": "Testing reveals where the design fails in real use (1), so the designer can strengthen or adjust those parts before manufacture, improving reliability (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Function+%26+performance"
   },
   {
    "slug": "market-aesthetics",
@@ -147,7 +156,8 @@
      "q": "State two ergonomic considerations for a kitchen knife handle. (2)",
      "a": "Handle diameter should fit the average hand; the shape should prevent the hand slipping forward onto the blade."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Market%2C+aesthetics+%26+ergonomics"
   },
   {
    "slug": "people-influence",
@@ -165,7 +175,8 @@
      "q": "Explain the Bauhaus principle 'form follows function'. (2)",
      "a": "It means the shape of a product should be determined by what it needs to do rather than decoration (1), so unnecessary ornament is removed and the design is efficient and easy to manufacture (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+People+who+influence+design"
   },
   {
    "slug": "materials-woods",
@@ -183,7 +194,8 @@
      "q": "Why is chipboard widely used in flat-pack furniture? (2)",
      "a": "It is inexpensive to produce from waste wood (1) and can be veneered or laminated to look like solid wood, keeping costs low (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Woods+%26+manufactured+boards"
   },
   {
    "slug": "materials-metals",
@@ -201,7 +213,8 @@
      "q": "Explain why PVC is used for window frames. (2)",
      "a": "PVC is a thermoplastic that does not corrode or rot and needs no painting (1), so it is low maintenance and durable outdoors (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Metals+%26+plastics"
   },
   {
    "slug": "measuring-tools",
@@ -219,7 +232,8 @@
      "q": "Explain the difference between a marking gauge and a mortise gauge. (2)",
      "a": "A marking gauge has one pin and marks a single line parallel to an edge; a mortise gauge has two pins and marks two parallel lines at once for joints such as mortise and tenon."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Measuring+%26+marking-out+tools"
   },
   {
    "slug": "hand-tools",
@@ -237,7 +251,8 @@
      "q": "Explain why a G-clamp is used when drilling. (2)",
      "a": "It holds the workpiece firmly to the bench (1), so it cannot spin or move while drilling, which prevents injury and inaccurate holes (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Hand+tools"
   },
   {
    "slug": "machine-tools",
@@ -255,7 +270,8 @@
      "q": "Explain why a CNC lathe suits batch production. (2)",
      "a": "Once programmed, it repeats identical operations without variation (1), so hundreds of identical parts can be made accurately with less skilled labour per unit (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Machine+tools"
   },
   {
    "slug": "joining",
@@ -273,7 +289,8 @@
      "q": "Explain when screws are preferable to nails. (2)",
      "a": "Screws hold more securely and can be removed later for dismantling or repair (1), whereas nails are driven in permanently and can split thin wood (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Joining+%26+assembly"
   },
   {
    "slug": "finishing",
@@ -291,7 +308,8 @@
      "q": "Explain the purpose of anodising aluminium. (2)",
      "a": "It thickens the natural oxide layer on the surface (1), improving corrosion resistance and allowing coloured dyes to be absorbed for a decorative finish (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Finishing"
   },
   {
    "slug": "commercial-manufacture",
@@ -309,7 +327,8 @@
      "q": "Why do unit costs fall as production volume increases? (2)",
      "a": "Set-up costs and tooling are spread over many more units (1), and automated production reduces labour cost per item (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Commercial+manufacture"
   },
   {
    "slug": "impact-sustainability",
@@ -327,7 +346,8 @@
      "q": "Explain why locally sourcing materials can be more sustainable. (2)",
      "a": "Shorter transport distances reduce fuel use and carbon emissions (1), and local sourcing can support the regional economy (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Impact+%26+sustainability"
   },
   {
    "slug": "planning-evaluation",
@@ -345,7 +365,22 @@
      "q": "Explain why evaluation should refer to the specification. (2)",
      "a": "The specification states the criteria the product was designed to meet (1), so measuring against it gives an objective judgement of success rather than personal opinion (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Planning+for+manufacture+%26+evaluation"
+  }
+ ],
+ "channels": [
+  {
+   "name": "Mr Carter D&T",
+   "url": "https://www.youtube.com/results?search_query=Mr+Carter+D%26T"
+  },
+  {
+   "name": "Technology Student",
+   "url": "https://www.youtube.com/results?search_query=Technology+Student"
+  },
+  {
+   "name": "BBC Bitesize Design and Technology",
+   "url": "https://www.youtube.com/results?search_query=BBC+Bitesize+Design+and+Technology"
   }
  ]
 }

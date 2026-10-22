@@ -21,7 +21,8 @@
      "q": "Explain why a wide repertoire of skills benefits a performer. (2)",
      "a": "Having more skills available lets the performer choose the best response to each situation (1), making them less predictable to opponents and more effective in changing conditions (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Performance+skills"
   },
   {
    "slug": "mental-factors",
@@ -39,7 +40,8 @@
      "q": "Describe one way an athlete could improve concentration. (2)",
      "a": "Using a pre-performance routine, such as controlled breathing and a fixed focus cue, to block out distractions and settle attention before each attempt."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Mental+factors"
   },
   {
    "slug": "emotional-factors",
@@ -57,7 +59,8 @@
      "q": "Describe one emotional factor that could negatively affect a golfer. (2)",
      "a": "Fear of failure on a difficult shot could cause the player to decelerate through the swing, producing a poor strike and losing distance or accuracy."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Emotional+factors"
   },
   {
    "slug": "social-factors",
@@ -75,7 +78,8 @@
      "q": "Describe one way a captain demonstrates leadership. (2)",
      "a": "By communicating clearly and motivating teammates when the team is losing, keeping morale and effort high when it would be easy to give up."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Social+factors"
   },
   {
    "slug": "physical-factors",
@@ -93,7 +97,8 @@
      "q": "Which physical factor is most important for a sprinter at the start of a race? Justify. (2)",
      "a": "Speed (or power). The sprinter needs to generate maximum acceleration in the first seconds, so explosive speed and power determine how quickly they reach top pace."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Physical+factors"
   },
   {
    "slug": "approaches",
@@ -111,7 +116,8 @@
      "q": "Explain how goal setting helps develop performance. (2)",
      "a": "SMART goals give a clear, measurable target and a deadline (1), which focuses training, motivates effort and lets the performer track improvement and adjust their approach (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Approaches+to+development"
   },
   {
    "slug": "monitoring",
@@ -129,7 +135,8 @@
      "q": "Explain why a baseline measurement is needed before starting a development programme. (2)",
      "a": "A baseline records performance before training begins (1), so any improvement afterwards can be measured and attributed to the programme rather than guessed (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+Monitoring%2C+recording+%26+evaluating"
   },
   {
    "slug": "portfolio",
@@ -147,7 +154,22 @@
      "q": "Why is evaluation the most heavily weighted part of the portfolio?",
      "a": "It requires the candidate to judge whether the development approach actually improved performance, using evidence. It tests analysis and decision making rather than description, which is why it carries the most marks."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Physical+Education+The+portfolio"
+  }
+ ],
+ "channels": [
+  {
+   "name": "BBC Bitesize PE",
+   "url": "https://www.youtube.com/results?search_query=BBC+Bitesize+PE"
+  },
+  {
+   "name": "PE Scholar",
+   "url": "https://www.youtube.com/results?search_query=PE+Scholar"
+  },
+  {
+   "name": "The PE Tutor",
+   "url": "https://www.youtube.com/results?search_query=The+PE+Tutor"
   }
  ]
 }

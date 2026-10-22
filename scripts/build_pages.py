@@ -113,11 +113,28 @@ def render_topic(t, n):
     if prac_html:
         prac_html = f'<div class="prac"><h4>Practice</h4>{prac_html}</div>'
 
+    video_html = ""
+    if t.get("video"):
+        v = t["video"]
+        video_html = (
+            f'<p class="video"><a href="{v}" target="_blank" rel="noopener">'
+            f'\u25b6 Watch video explanations for this topic</a></p>'
+        )
+
+    diagram = t.get("diagram")
+    fig = ""
+    if diagram:
+        cap = t.get("diagram_caption", "")
+        fig = (f'<figure>{diagram}'
+               f'{f"<figcaption>{esc(cap)}</figcaption>" if cap else ""}'
+               f'</figure>')
+
     return f"""
 <section class="topic" id="{t['slug']}">
   <h3><span class="num">{n}</span>{esc(t['title'])}</h3>
   <div class="badges"><span class="tag paper">{badge} {label}</span></div>
-
+  {fig}
+  {video_html}
   <div class="rule"><h4>💡 The rule</h4>{md_block(t['rule'])}</div>
   <div class="ex"><h4>📝 Worked example</h4>{md_block(t['example'])}</div>
   <div class="trap"><h4>🚨 Exam trap</h4>{md_block(t['trap'])}</div>
@@ -128,6 +145,19 @@ def render_topic(t, n):
 def render_page(data):
     slug = data["subject"]
     topics = data.get("topics", [])
+
+    chans = data.get("channels", [])
+    channels_html = ""
+    if chans:
+        links = " ".join(
+            f'<a href="{c["url"]}" target="_blank" rel="noopener">{esc(c["name"])}</a>'
+            for c in chans
+        )
+        channels_html = (
+            '<h2>Channels worth searching</h2>'
+            '<p class="lede">Search these channels on YouTube for video explanations of these topics.</p>'
+            f'<div class="chips">{links}</div>'
+        )
 
     index_rows = "".join(
         f'<tr><td><a href="#{t["slug"]}">{esc(t["title"])}</a></td>'
@@ -164,6 +194,7 @@ practice questions before you move on. If you cannot do the practice without loo
 is not secure yet.
 </div>
 
+{channels_html}
 <h2>Topic index</h2>
 <div class="tbl-wrap"><table><thead><tr><th>Topic</th><th>Paper</th></tr></thead>
 <tbody>{index_rows}</tbody></table></div>

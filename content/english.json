@@ -21,7 +21,8 @@
      "q": "Explain how the writer links the two paragraphs: \"...a problem that affects every household. Yet the solution proposed is far simpler than that suggests.\" (2)",
      "a": "'a problem that affects every household' links back to the previous paragraph about the scale of the issue (1). 'Yet the solution proposed' introduces the next point, the proposed solution (1)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+RUAE%3A+Understanding"
   },
   {
    "slug": "ruae-word-choice",
@@ -39,7 +40,8 @@
      "q": "\"A **clutch** of ravens watched from the wall.\" Explain the effect of word choice. (2)",
      "a": "'Clutch' (1) has connotations of gripping or holding tightly, suggesting the birds were ominously gathered and watching closely, creating a threatening atmosphere (1)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+RUAE%3A+Word+choice"
   },
   {
    "slug": "ruae-imagery",
@@ -57,7 +59,8 @@
      "q": "\"Fear **crawled** into her mind.\" Name and explain the technique. (3)",
      "a": "Personification (1). Just as a living creature crawls slowly and creeps unnoticed (2), the comparison suggests her fear built up gradually and took hold without her being able to stop it (3)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+RUAE%3A+Imagery"
   },
   {
    "slug": "ruae-structure-tone",
@@ -75,7 +78,8 @@
      "q": "\"Oh, brilliant. Another meeting.\" What is the tone and how is it created? (2)",
      "a": "Sarcastic/ironic tone (1). 'Brilliant' is normally positive but is placed beside 'another meeting' — showing the opposite of enthusiasm (1)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+RUAE%3A+Sentence+structure+%26+tone"
   },
   {
    "slug": "ruae-evaluation",
@@ -93,7 +97,8 @@
      "q": "Evaluate the effectiveness of a concluding rhetorical question. (2)",
      "a": "Effective (1): by asking the reader a question they cannot easily answer, the writer leaves them personally implicated, so the argument stays with them after reading (2)."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+RUAE%3A+Evaluation"
   },
   {
    "slug": "scottish-text",
@@ -111,7 +116,8 @@
      "q": "What is the single biggest mistake in this section?",
      "a": "Answering only from the printed extract. The question requires reference to the extract **and** another part of the text, so topic-based revision of the whole text is essential."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+Scottish+text"
   },
   {
    "slug": "critical-essay",
@@ -129,7 +135,8 @@
      "q": "Rewrite this weak point: 'Macbeth was ambitious and this shows he was bad.'",
      "a": "Macbeth's ambition is presented as a destructive force. Shakespeare's use of soliloquy, such as 'vaulting ambition, which o'erleaps itself', reveals his awareness that his desire exceeds moral limits — implying he is a man consumed by a flaw he recognises but cannot control."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+Critical+essay"
   },
   {
    "slug": "portfolio-creative",
@@ -147,7 +154,8 @@
      "q": "Why does varying sentence length matter?",
      "a": "It controls pace and tension. Short sentences speed up action and create a sense of shock; longer complex sentences slow the reader down and create reflection. This is a technique markers look for."
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+Portfolio%3A+creative+writing"
   },
   {
    "slug": "portfolio-discursive",
@@ -165,7 +173,22 @@
      "q": "Improve this assertion: 'Social media is bad for teenagers.'",
      "a": "'A 2023 study of 10,000 teenagers found that those using social media for more than three hours a day were twice as likely to report symptoms of anxiety — evidence that heavy use correlates with poorer mental health.'"
     }
-   ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+English+Portfolio%3A+discursive+writing"
+  }
+ ],
+ "channels": [
+  {
+   "name": "Mr Bruff",
+   "url": "https://www.youtube.com/results?search_query=Mr+Bruff"
+  },
+  {
+   "name": "Mr Salles Teaches English",
+   "url": "https://www.youtube.com/results?search_query=Mr+Salles+Teaches+English"
+  },
+  {
+   "name": "BBC Bitesize English",
+   "url": "https://www.youtube.com/results?search_query=BBC+Bitesize+English"
   }
  ]
 }

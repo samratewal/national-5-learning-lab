@@ -159,3 +159,8 @@ footer{padding:36px 0 60px;color:var(--dim);font-size:13px;border-top:1px solid 
   a{color:#111}
   th{background:#eee;color:#111}
 }
+
+/* video link under each topic */
+.video{margin:14px 0 0}
+.video a{display:inline-block;font-size:13.5px;font-weight:700;background:#2a1c24;border:1px solid #5a2b3a;color:#ff9ec4;padding:8px 14px;border-radius:9px}
+.video a:hover{background:#3a2430;text-decoration:none}

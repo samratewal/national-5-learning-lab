@@ -1,153 +1,175 @@
 {
-  "subject": "cook",
-  "title": "Practical Cookery",
-  "icon": "🍳",
-  "assessment": "Question paper: 1 hour (30 marks, scaled to 25) | Assignment planning: 18 marks | Practical activity: 82 marks",
-  "intro": "National 5 Practical Cookery is assessed by a **question paper** (30 marks, scaled to 25), an **assignment planning** task (18 marks) and the **practical activity** (82 marks) — together 75% of the course. This pack covers the food preparation techniques, cookery processes, dietary advice, ingredients, meal planning, finishing and safety/hygiene you need to know.",
-  "topics": [
+ "subject": "cook",
+ "title": "Practical Cookery",
+ "icon": "🍳",
+ "assessment": "Question paper: 1 hour (30 marks, scaled to 25) | Assignment planning: 18 marks | Practical activity: 82 marks",
+ "intro": "National 5 Practical Cookery is assessed by a **question paper** (30 marks, scaled to 25), an **assignment planning** task (18 marks) and the **practical activity** (82 marks) — together 75% of the course. This pack covers the food preparation techniques, cookery processes, dietary advice, ingredients, meal planning, finishing and safety/hygiene you need to know.",
+ "topics": [
+  {
+   "slug": "food-prep",
+   "title": "Food preparation techniques",
+   "paper": "either",
+   "rule": "**Food preparation techniques** are the skills used to get ingredients ready before or during cooking. SQA groups them as:\n\n| Technique | What it means |\n|---|---|\n| **Peel / skin** | Remove the outer layer: a peeler for vegetables, a knife or boiling water for tomatoes and peppers |\n| **Chop / slice / dice** | *Chop* = rough, irregular pieces (stock, soup); *slice* = flat even pieces (onion rings, bread); *dice* = neat cubes of a set size (5 mm, 1 cm) |\n| **Matchsticks (julienne) / batons** | Matchsticks = short thin strips; batons = thicker, chip-like sticks |\n| **Segment** | Cut citrus fruit between the membranes so only the flesh is left |\n| **Blanche** | Part-cook briefly in boiling water, then *refresh* in cold water to stop cooking |\n| **Purée** | Blend or sieve cooked food to a smooth paste |\n| **Marinate** | Soak in a flavoured liquid to add flavour and/or tenderise |\n| **Strain / pass** | Push through a sieve to remove lumps and give a smooth texture |\n| **Grate** | Rub food against a grater for fine shreds (cheese, carrot, lemon zest) |\n| **Coat** | Cover food, e.g. flour–egg–breadcrumb, or a sauce/glaze |\n| **Mix / blend / whisk / cream / fold** | Mix = combine; blend = smooth together; whisk = add air; cream = beat fat and sugar until pale and fluffy; fold = gently combine to keep air in |\n| **Rub in** | Rub fat into flour with the fingertips until it looks like breadcrumbs |\n| **Knead** | Stretch and fold dough to develop gluten |\n| **Roll out** | Press pastry/dough to an even thickness |\n| **Portion / shape** | Divide into even amounts and form into a set shape |\n| **Line** | Cover a tin with baking paper or pastry |\n| **Bake blind** | Bake an empty pastry case, weighted with baking beans, so the base does not rise |\n| **Glaze** | Brush with egg, milk, sugar or stock to add colour and shine |\n| **Pipe** | Force soft mixture through a piping bag into a shape |",
+   "example": "Making a **vegetable soup**: peel and dice the carrots and potatoes to an even size, chop the onion roughly, then sweat in oil. Before serving, **purée** or **pass** the soup through a sieve for a smooth texture and **portion** into bowls with an even-sized ladle. A **quiche** shows **line** and **bake blind** in one dish.",
+   "trap": "Losing marks by naming a technique instead of *describing the method*. SQA wants the process, e.g. \"**Cut into 1 cm cubes with a sharp knife on a board**\" — not simply \"dice the carrot\". Also do not confuse **dice** (neat cubes) with **chop** (rough pieces), and remember **blanching always ends with refreshing in cold water** — stopping there is a common half-mark answer.",
+   "practice": [
     {
-      "slug": "food-prep",
-      "title": "Food preparation techniques",
-      "paper": "either",
-      "rule": "**Food preparation techniques** are the skills used to get ingredients ready before or during cooking. SQA groups them as:\n\n| Technique | What it means |\n|---|---|\n| **Peel / skin** | Remove the outer layer: a peeler for vegetables, a knife or boiling water for tomatoes and peppers |\n| **Chop / slice / dice** | *Chop* = rough, irregular pieces (stock, soup); *slice* = flat even pieces (onion rings, bread); *dice* = neat cubes of a set size (5 mm, 1 cm) |\n| **Matchsticks (julienne) / batons** | Matchsticks = short thin strips; batons = thicker, chip-like sticks |\n| **Segment** | Cut citrus fruit between the membranes so only the flesh is left |\n| **Blanche** | Part-cook briefly in boiling water, then *refresh* in cold water to stop cooking |\n| **Purée** | Blend or sieve cooked food to a smooth paste |\n| **Marinate** | Soak in a flavoured liquid to add flavour and/or tenderise |\n| **Strain / pass** | Push through a sieve to remove lumps and give a smooth texture |\n| **Grate** | Rub food against a grater for fine shreds (cheese, carrot, lemon zest) |\n| **Coat** | Cover food, e.g. flour–egg–breadcrumb, or a sauce/glaze |\n| **Mix / blend / whisk / cream / fold** | Mix = combine; blend = smooth together; whisk = add air; cream = beat fat and sugar until pale and fluffy; fold = gently combine to keep air in |\n| **Rub in** | Rub fat into flour with the fingertips until it looks like breadcrumbs |\n| **Knead** | Stretch and fold dough to develop gluten |\n| **Roll out** | Press pastry/dough to an even thickness |\n| **Portion / shape** | Divide into even amounts and form into a set shape |\n| **Line** | Cover a tin with baking paper or pastry |\n| **Bake blind** | Bake an empty pastry case, weighted with baking beans, so the base does not rise |\n| **Glaze** | Brush with egg, milk, sugar or stock to add colour and shine |\n| **Pipe** | Force soft mixture through a piping bag into a shape |",
-      "example": "Making a **vegetable soup**: peel and dice the carrots and potatoes to an even size, chop the onion roughly, then sweat in oil. Before serving, **purée** or **pass** the soup through a sieve for a smooth texture and **portion** into bowls with an even-sized ladle. A **quiche** shows **line** and **bake blind** in one dish.",
-      "trap": "Losing marks by naming a technique instead of *describing the method*. SQA wants the process, e.g. \"**Cut into 1 cm cubes with a sharp knife on a board**\" — not simply \"dice the carrot\". Also do not confuse **dice** (neat cubes) with **chop** (rough pieces), and remember **blanching always ends with refreshing in cold water** — stopping there is a common half-mark answer.",
-      "practice": [
-        {
-          "q": "Describe how to **blanch** tomatoes and explain why it is done.",
-          "a": "Cut a small cross in the base of each tomato. Lower into boiling water for 15–30 seconds, then transfer straight to iced/cold water (**refresh**). The skin loosens and slips off easily. It is done to remove the skin cleanly without cooking the flesh, and to stop enzyme action that would discolour or soften the fruit."
-        },
-        {
-          "q": "Explain the difference between **folding** and **creaming**, giving a dish for each.",
-          "a": "**Folding** gently combines a light, airy mixture (e.g. whisked egg white or cream) into a heavier one using a metal spoon in a figure-of-eight, to keep the air in — e.g. a whisked sponge or mousse. **Creaming** beats fat and sugar together until pale and fluffy, incorporating air — e.g. a Victoria sponge or shortbread-style biscuit."
-        }
-      ]
+     "q": "Describe how to **blanch** tomatoes and explain why it is done.",
+     "a": "Cut a small cross in the base of each tomato. Lower into boiling water for 15–30 seconds, then transfer straight to iced/cold water (**refresh**). The skin loosens and slips off easily. It is done to remove the skin cleanly without cooking the flesh, and to stop enzyme action that would discolour or soften the fruit."
     },
     {
-      "slug": "cookery-processes",
-      "title": "Cookery processes",
-      "paper": "either",
-      "rule": "**Cookery processes** are the methods of applying heat to food. SQA lists: **baking, boiling, grilling, poaching, shallow frying, stir-frying, steaming and stewing**.\n\n- **Baking** — dry heat in an oven (bread, cakes, pastry, fish).\n- **Boiling** — cooking in liquid at 100 °C (pasta, rice, vegetables).\n- **Grilling** — intense radiant heat from above (steak, cheese on toast, fish).\n- **Poaching** — cooking gently in liquid just below boiling (eggs, fish, fruit).\n- **Shallow frying** — small amount of fat in a hot pan (eggs, pancakes, fish).\n- **Stir-frying** — very high heat, little oil, constant movement, food cut small (strips of chicken and vegetables).\n- **Steaming** — moist heat from steam, food not in the water (vegetables, dumplings, pudding), which **keeps nutrients** because the food does not leach into water.\n- **Stewing** — slow cooking in liquid in a covered pot (casseroles, stews); good for cheaper, tougher cuts which become tender.\n\nChoose the process to suit the food: dry heat for browning and flavour, moist heat for tender texture and preserving nutrients.",
-      "example": "A **chicken casserole** uses **stewing** to tenderise the cheaper thigh meat over a long slow cook, while a **stir-fry** uses **stir-frying** so thin strips of chicken and crunchy vegetables cook in minutes without going soggy.",
-      "trap": "Choosing a process for the wrong reason, e.g. \"boil the vegetables because it is quick\" — SQA expects the reason to link to the *effect on the food* (nutrient retention, texture, flavour, tenderising). Another common error is calling oven cooking of a casserole \"baking\" when the liquid makes it **stewing**.",
-      "practice": [
-        {
-          "q": "Give **two** reasons why **steaming** is a good choice for vegetables.",
-          "a": "1) Water-soluble vitamins and minerals are not lost into the cooking water, so it is more nutritious. 2) The vegetables keep their colour, flavour and a firm bite texture instead of going soft and watery."
-        },
-        {
-          "q": "Name a suitable process for each and justify it: (a) a cheap cut of beef, (b) fillet of salmon.",
-          "a": "(a) **Stewing** — the long, moist, slow cook breaks down the tough connective tissue in a cheap cut and makes it tender (e.g. beef stew). (b) **Poaching** — the gentle moist heat just below boiling cooks the delicate salmon without drying or breaking it up."
-        }
-      ]
-    },
-    {
-      "slug": "dietary-advice",
-      "title": "Current dietary advice",
-      "paper": "either",
-      "rule": "Current UK advice is based on the **Eatwell Guide**, which shows the proportions of a healthy, balanced diet:\n\n- **Fruit and vegetables** — about a third of the diet (**5 A DAY**, each portion about 80 g).\n- **Starchy carbohydrates** (potatoes, bread, rice, pasta, oats) — about a third, and choose **wholegrain/high-fibre** versions.\n- **Beans, pulses, fish, eggs, meat and other proteins** — a smaller amount; aim for **2 portions of fish a week, one of them oil-rich** (salmon, mackerel, sardines).\n- **Dairy and alternatives** — moderate amounts; choose lower-fat versions.\n- **Oils and spreads** — only a small amount; choose unsaturated oils.\n- **Foods high in fat, sugar and salt** — eat less often and in small amounts.\n\nThe **Scottish Dietary Goals** add: eat more fruit and veg, more fibre and more oil-rich fish, and less red processed meat, salt, added sugar and saturated fat. Key practical points: **eat a variety of foods**, cut down on **saturated fat, sugar and salt**, **drink 6–8 glasses of fluid a day**, and read food labels. For special diets remember **vegetarian, vegan, coeliac (gluten-free), lactose-free and diabetic** needs.",
-      "example": "A **healthy main meal** applying this advice: **grilled salmon** (oil-rich fish, protein) with **brown rice** (high-fibre starch) and **steamed broccoli and carrots** (2 of the 5 A DAY), with a **side salad** — little added fat, no added salt, no added sugar.",
-      "trap": "Giving the *wrong proportion* or treating all fats as equal. Marks are lost for saying \"fruit and veg is the largest group\" without the balanced explanation, or for failing to say **which** fat/sugar/salt to cut down on (**saturated** fat, **added/free** sugar, salt). Also do not claim the advice removes all fat or sugar — the answer is *eat less* and *choose unsaturated*, not *ban*.",
-      "practice": [
-        {
-          "q": "State **one** piece of current dietary advice about each of: fat, fibre and salt, and give an example of how to follow each.",
-          "a": "**Fat:** eat less saturated fat and choose unsaturated oils — e.g. grill rather than deep fry and use olive/rapeseed oil. **Fibre:** eat more high-fibre/starchy carbohydrate — e.g. switch to wholemeal bread and brown rice. **Salt:** eat less salt — e.g. flavour food with herbs and spices instead of adding salt and check labels for hidden salt."
-        },
-        {
-          "q": "Explain how a chef would adapt a **beef burger and chips** meal to meet current dietary advice.",
-          "a": "Grill the burger instead of frying it and use a leaner mince; serve in a wholemeal bun; bake (oven-cook) the chips with a little oil instead of deep frying; add salad and serve with extra vegetables; do not add salt and offer a lower-sugar drink or water. This cuts saturated fat, added salt and sugar while adding fibre and fruit/veg."
-        }
-      ]
-    },
-    {
-      "slug": "ingredient-categories",
-      "title": "Categories of ingredients",
-      "paper": "either",
-      "rule": "Ingredients are grouped into categories so a cook can choose, substitute and balance them. The main **food groups** are:\n\n- **Starchy carbohydrates / cereals** — flour, bread, rice, pasta, oats, potatoes.\n- **Fruit and vegetables** — fresh, frozen, canned, dried, juiced.\n- **Milk and dairy** — milk, cheese, yogurt, butter, cream.\n- **Protein foods** — meat, poultry, fish, eggs, beans, pulses, nuts, soya.\n- **Fats and oils** — butter, margarine, oil, lard.\n- **Sugar and sweeteners** — sugar, honey, syrup, artificial sweeteners.\n- **Salts and seasonings** — salt, pepper, herbs, spices, stock.\n\nIngredients can also be classed by their **function** in a recipe:\n\n- **Raising agents** — self-raising flour, baking powder, bicarbonate of soda, yeast (make mixtures rise).\n- **Thickening agents** — flour, cornflour, arrowroot, roux (thicken liquids).\n- **Setting agents** — gelatine, agar, egg (set liquids into solid).\n- **Flavouring / colouring** — vanilla, herbs, spices, cocoa, food colouring.\n- **Preservatives / other** — salt, sugar, vinegar, oil (keep food and improve shelf life).",
-      "example": "In a **queen of puddings** the **bread and jam** supply starchy carbohydrate and fruit, the **milk, eggs and sugar** give protein, dairy and sweetness, and the **egg** also acts as a **setting agent** in the custard.",
-      "trap": "Listing the *name* of an ingredient instead of its *category or function*. SQA wants \"**cornflour is a thickening agent**\" not just \"cornflour\". A second common error is saying **egg is a raising agent** — egg sets (setting agent) or thickens; the raising agent is usually the flour, baking powder, bicarbonate of soda or yeast.",
-      "practice": [
-        {
-          "q": "State the **function** of each in a recipe: baking powder, cornflour, gelatine, vanilla essence.",
-          "a": "**Baking powder** — raising agent (makes the mixture rise by releasing carbon dioxide). **Cornflour** — thickening agent (thickens liquid, used in sauces and clear glazes). **Gelatine** — setting agent (sets a liquid into a jelly/solid). **Vanilla essence** — flavouring (adds or improves flavour)."
-        },
-        {
-          "q": "Name the food group and one main nutrient provided by: (a) cheese, (b) lentils, (c) olive oil.",
-          "a": "(a) **Cheese** — milk and dairy group; provides protein, fat, calcium and vitamin A. (b) **Lentils** — protein foods (pulses) group; provide protein, fibre, iron and B vitamins; low in fat. (c) **Olive oil** — fats and oils group; provides fat (mainly unsaturated), vitamin E."
-        }
-      ]
-    },
-    {
-      "slug": "understanding-ingredients",
-      "title": "Understanding ingredients",
-      "paper": "either",
-      "rule": "Understanding ingredients means being able to judge and use them well:\n\n- **Characteristics** — judge by appearance (colour, shape), texture, flavour, smell and nutritional content. Good ingredients are fresh, in season and in good condition. This determines how they must be stored and cooked.\n- **Sustainability** — choosing **seasonal, local** food (reduces **food miles**), **organic, Fairtrade, free-range, MSC-certified** fish, and produce from **sustainable fish stocks**. This protects the environment and supports producers; it also affects cost and availability.\n- **Costing** — compare **price per unit weight**, not just the price of the pack; consider **own-brand vs branded, bulk/bigger packs, fresh vs frozen vs canned**, and work out **cost per portion**. Seasonality and quality affect cost.\n- **Safe storage** — the **fridge at 0–5 °C** (store raw meat and fish on the **bottom shelf** so juices cannot drip onto ready-to-eat food, cover or wrap everything), the **freezer at –18 °C or below** (label and date; never re-freeze thawed food), **dry goods in a cool, dry, airtight store**, and follow **use-by** and **best-before** dates (use-by is about safety, best-before about quality).\n- **Cross-contamination** — the transfer of bacteria from one food (usually raw meat/poultry) to another or to surfaces. Prevent it with **separate colour-coded chopping boards and knives, washing hands and equipment between jobs, storing raw and cooked food apart, and correct chilled storage**.",
-      "example": "Buying a **whole Scottish mackerel in season (local and MSC-certified)** keeps food miles and cost down. At home it is stored on the **bottom shelf of the fridge** in a covered dish, prepared on a separate board from the salad, and the cost per portion is worked out from the weight before cooking.",
-      "trap": "Muddying the terms. **Use-by** is a *safety* date (do not use after it); **best-before** is about *quality*. Storing raw meat on a **top shelf** would drip onto cooked food — always the bottom. And costing answers must convert to **cost per portion or per unit weight**; quoting only the pack price is not a full-mark answer.",
-      "practice": [
-        {
-          "q": "Explain **two** ways a chef can prevent **cross-contamination** when preparing raw chicken and a salad.",
-          "a": "1) Use a **separate (colour-coded) chopping board and knife** for the raw chicken and keep the salad preparation completely apart. 2) **Wash hands, the board and any equipment thoroughly** with hot soapy water after handling the raw chicken and before touching the salad; also store the raw chicken covered on the **bottom shelf** of the fridge."
-        },
-        {
-          "q": "A 1 kg bag of rice costs £2.00 and a 5 kg bag costs £8.00. Calculate the **cost per kg** of each and say which is better value.",
-          "a": "1 kg bag: £2.00 ÷ 1 = **£2.00 per kg**. 5 kg bag: £8.00 ÷ 5 = **£1.60 per kg**. The **5 kg bag is better value** — it costs less per kilogram, though the chef must consider whether it will be used before it goes past its best and where it will be stored."
-        }
-      ]
-    },
-    {
-      "slug": "planning-meals",
-      "title": "Planning meals",
-      "paper": "either",
-      "rule": "Planning a meal (and the N5 **assignment**) means thinking ahead about four things:\n\n- **Requisitioning** — working out the **exact ingredients and quantities** for the number of portions, then writing the **shopping/requisition list** with amounts and a **costing**. This avoids waste and controls the budget.\n- **Time planning** — writing a **step-by-step order of work** showing *what you do, in what order, and how long each stage takes* (and what can be done ahead, e.g. while a stew simmers you wash up and prepare the side). The **dish/meal must be ready to serve at the stated time, all together and hot**.\n- **Safety and hygiene** — plan in the safe practices: correct storage, hand washing, separate boards, safe use of knives and hot equipment, and safe temperatures.\n- **Service** — plan **how the dish is presented and served**: hot food on hot plates, correct portion size, garnish, and a balanced meal (protein, starch, vegetable). Consider the **customer** — dietary needs, likes/dislikes, and the occasion.\n\nA good plan links all four so the meal is **safe, on time, in budget and balanced**.",
-      "example": "For a **two-course meal for two** — chicken curry with rice, then fruit salad — the plan lists quantities (requisition), a time plan that puts the rice on so it finishes with the curry, **chills the fruit salad while the curry simmers**, and serves both on hot plates with a coriander garnish.",
-      "trap": "Writing a **list of ingredients with no quantities** (that is a shopping list, not a requisition) and writing a **time plan with no times or no serving time**. SQA also marks down plans where the food is **not all served together** or where safety/hygiene points are forgotten. Always state the **number of portions** and the **serving time**.",
-      "practice": [
-        {
-          "q": "What is meant by **requisitioning** in the N5 assignment, and why is it important?",
-          "a": "Requisitioning is working out the exact **ingredients, quantities and cost** needed to make the required number of portions, and writing them as an ordered list. It is important so that the correct amount of food is bought, nothing is wasted or runs short, the meal is costed within budget, and shopping is quick and organised."
-        },
-        {
-          "q": "Give **three** things a good **time plan** must show.",
-          "a": "Any three of: the **order/sequence** of the jobs (what is done first, next, etc.); the **time each stage takes** (and the clock time); the **serving time** the meal must be ready for; jobs that are done **at the same time (dovetailing)**; and **where safety/hygiene checks and washing up fit in**."
-        }
-      ]
-    },
-    {
-      "slug": "cooking-finishing",
-      "title": "Cooking & finishing dishes",
-      "paper": "either",
-      "rule": "Cooking and finishing covers **testing for doneness, finishing techniques and serving**:\n\n- **Doneness tests** — check food is properly cooked: skewer/toothpick comes out clean (cakes), firm to touch and shrinking from the tin (sponge), a knife inserted in the thickest part and juices run clear (roast meat/poultry), pasta/rice tender to the bite, fish flakes easily.\n- **Finishing techniques** — **glaze** (egg wash on pastry, sugar or stock glazes) to add colour and shine; **pipe** cream, icing or duchesse potato for decoration; **garnish** with fresh herbs, fruit or a sauce swirl; **dust** with icing sugar or cocoa; **tidy the plate** and wipe the rim.\n- **Sauces** — thicken correctly (roux, cornflour, reduction) and match the dish.\n- **Temperature & timing** — cook to the correct **core temperature**, **rest** roast meat before carving so juices redistribute, and **hold hot food above 63 °C** until service.\n- **Plating & portioning** — serve **even portions**, hot food on **hot plates**, and a **balanced arrangement** with protein, starch and vegetable/colour.",
-      "example": "A **cheddar and onion flan**: the pastry case is **baked blind** first, then the filling is added and baked until the egg custard is **just set and firm to the touch**; it is cooled slightly, **turned out cleanly**, **garnished with a parsley spring and a tomato wedge**, and served on a **hot plate** in even wedges.",
-      "trap": "Serving a dish that is **cooked correctly but badly finished/presented** — SQA awards marks for **garnish, portion size and presentation**. Other errors: **not baking blind** the pastry before a wet filling (soggy base), **overcooking** (egg custard goes rubbery, vegetables go soggy) and **not resting** roast meat so it loses its juices.",
-      "practice": [
-        {
-          "q": "Give **two** ways to test that a **sponge cake** is cooked.",
-          "a": "1) Insert a clean skewer/toothpick into the centre — it should come out **clean, with no raw mixture stuck to it**. 2) Press the centre lightly — it should feel **firm and springy** and the cake should have **shrunk slightly away from the sides** of the tin."
-        },
-        {
-          "q": "Explain what is meant by **baking blind** and why it is used for a flan.",
-          "a": "Baking blind means **lining the pastry case with baking paper and filling it with baking beans**, then baking it empty, then removing the beans and paper and returning it to the oven to dry the base. It is used so the pastry case is **cooked and crisp** before a **wet filling** is added — otherwise the base would go **soggy** and the pastry would puff up."
-        }
-      ]
-    },
-    {
-      "slug": "safety-hygiene",
-      "title": "Safety & hygiene",
-      "paper": "either",
-      "rule": "**Safety and hygiene** in the kitchen protects people from illness and injury.\n\n**Food hygiene (avoiding food poisoning):**\n- **Personal hygiene** — wash and dry hands before cooking and after handling raw meat, eggs, waste or using the toilet; keep hair tied back; wear a clean apron; never cough or sneeze over food; cover cuts with a waterproof plaster.\n- **Kitchen hygiene** — clean worktops and equipment before and after use; use **colour-coded boards**; wash up in hot soapy water; keep bins covered and emptied; no pets in the kitchen.\n- **Safety of food** — chill high-risk foods (meat, fish, dairy, cooked rice, eggs) promptly; keep the **fridge at 0–5 °C** and **freezer at –18 °C**; the **danger zone is 5–63 °C** where bacteria multiply fastest; **hot-hold food above 63 °C and reheat to at least 82 °C**; store raw below cooked; never re-freeze thawed food.\n- **Cross-contamination** — keep raw and cooked/ready-to-eat foods apart; wash hands, boards and knives between jobs.\n\n**Safety (avoiding accidents):**\n- **Personal safety** — no loose clothing/hair near heat; use dry cloths and oven gloves; lift pans with two hands; turn pan handles inwards; keep the floor clean and clear of spills; store knives safely, never in a sink of water.\n- **Equipment safety** — use equipment correctly and keep it clean; never leave hot pans unattended; check flexes and plugs; report any breakages.\n- **Hygiene of storage** — cover food, date and label; use within dates; keep the store clean, cool and dry.",
-      "example": "Preparing **raw chicken kebabs** for a barbecue: wash hands and use a **red (raw meat) board and separate knife**, store the raw kebabs **covered on the bottom shelf** at 0–5 °C, use a **clean board and tongs** for any cooked or salad food, and **reheat/cook the chicken so the juices run clear** and it is served piping hot.",
-      "trap": "Confusing the two dates and the two temperature ranges. **Use-by** = safety; **best-before** = quality. The **fridge** is 0–5 °C, the **danger zone** is 5–63 °C (not \"room temperature is safe\"), and **hot food must be held above 63 °C** and **reheated to at least 82 °C**. Another frequent error is saying you should wash raw chicken — SQA expects **do not wash it** (it splashes bacteria); cook it properly instead.",
-      "practice": [
-        {
-          "q": "State the temperature of the **danger zone** and explain why it matters.",
-          "a": "The danger zone is **5 °C to 63 °C**. Bacteria multiply fastest in this range, so food left in it can quickly become unsafe to eat. Food should be kept **below 5 °C** for cold storage or **above 63 °C** when being held hot, and cooled or reheated **quickly** through the danger zone."
-        },
-        {
-          "q": "List **three** personal hygiene rules a cook should follow in the kitchen and one reason for each.",
-          "a": "Any three of: **Wash and dry hands** thoroughly before touching food and after handling raw meat/eggs or waste (removes bacteria that would transfer to food). **Tie hair back / cover hair** (stops hair falling into food). **Wear a clean apron/uniform** (stops clothing contaminating food). **Never cough or sneeze over food** (spreads bacteria). **Cover cuts with a waterproof plaster** (stops bacteria from a wound getting into food)."
-        }
-      ]
+     "q": "Explain the difference between **folding** and **creaming**, giving a dish for each.",
+     "a": "**Folding** gently combines a light, airy mixture (e.g. whisked egg white or cream) into a heavier one using a metal spoon in a figure-of-eight, to keep the air in — e.g. a whisked sponge or mousse. **Creaming** beats fat and sugar together until pale and fluffy, incorporating air — e.g. a Victoria sponge or shortbread-style biscuit."
     }
-  ]
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Food+preparation+techniques"
+  },
+  {
+   "slug": "cookery-processes",
+   "title": "Cookery processes",
+   "paper": "either",
+   "rule": "**Cookery processes** are the methods of applying heat to food. SQA lists: **baking, boiling, grilling, poaching, shallow frying, stir-frying, steaming and stewing**.\n\n- **Baking** — dry heat in an oven (bread, cakes, pastry, fish).\n- **Boiling** — cooking in liquid at 100 °C (pasta, rice, vegetables).\n- **Grilling** — intense radiant heat from above (steak, cheese on toast, fish).\n- **Poaching** — cooking gently in liquid just below boiling (eggs, fish, fruit).\n- **Shallow frying** — small amount of fat in a hot pan (eggs, pancakes, fish).\n- **Stir-frying** — very high heat, little oil, constant movement, food cut small (strips of chicken and vegetables).\n- **Steaming** — moist heat from steam, food not in the water (vegetables, dumplings, pudding), which **keeps nutrients** because the food does not leach into water.\n- **Stewing** — slow cooking in liquid in a covered pot (casseroles, stews); good for cheaper, tougher cuts which become tender.\n\nChoose the process to suit the food: dry heat for browning and flavour, moist heat for tender texture and preserving nutrients.",
+   "example": "A **chicken casserole** uses **stewing** to tenderise the cheaper thigh meat over a long slow cook, while a **stir-fry** uses **stir-frying** so thin strips of chicken and crunchy vegetables cook in minutes without going soggy.",
+   "trap": "Choosing a process for the wrong reason, e.g. \"boil the vegetables because it is quick\" — SQA expects the reason to link to the *effect on the food* (nutrient retention, texture, flavour, tenderising). Another common error is calling oven cooking of a casserole \"baking\" when the liquid makes it **stewing**.",
+   "practice": [
+    {
+     "q": "Give **two** reasons why **steaming** is a good choice for vegetables.",
+     "a": "1) Water-soluble vitamins and minerals are not lost into the cooking water, so it is more nutritious. 2) The vegetables keep their colour, flavour and a firm bite texture instead of going soft and watery."
+    },
+    {
+     "q": "Name a suitable process for each and justify it: (a) a cheap cut of beef, (b) fillet of salmon.",
+     "a": "(a) **Stewing** — the long, moist, slow cook breaks down the tough connective tissue in a cheap cut and makes it tender (e.g. beef stew). (b) **Poaching** — the gentle moist heat just below boiling cooks the delicate salmon without drying or breaking it up."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Cookery+processes"
+  },
+  {
+   "slug": "dietary-advice",
+   "title": "Current dietary advice",
+   "paper": "either",
+   "rule": "Current UK advice is based on the **Eatwell Guide**, which shows the proportions of a healthy, balanced diet:\n\n- **Fruit and vegetables** — about a third of the diet (**5 A DAY**, each portion about 80 g).\n- **Starchy carbohydrates** (potatoes, bread, rice, pasta, oats) — about a third, and choose **wholegrain/high-fibre** versions.\n- **Beans, pulses, fish, eggs, meat and other proteins** — a smaller amount; aim for **2 portions of fish a week, one of them oil-rich** (salmon, mackerel, sardines).\n- **Dairy and alternatives** — moderate amounts; choose lower-fat versions.\n- **Oils and spreads** — only a small amount; choose unsaturated oils.\n- **Foods high in fat, sugar and salt** — eat less often and in small amounts.\n\nThe **Scottish Dietary Goals** add: eat more fruit and veg, more fibre and more oil-rich fish, and less red processed meat, salt, added sugar and saturated fat. Key practical points: **eat a variety of foods**, cut down on **saturated fat, sugar and salt**, **drink 6–8 glasses of fluid a day**, and read food labels. For special diets remember **vegetarian, vegan, coeliac (gluten-free), lactose-free and diabetic** needs.",
+   "example": "A **healthy main meal** applying this advice: **grilled salmon** (oil-rich fish, protein) with **brown rice** (high-fibre starch) and **steamed broccoli and carrots** (2 of the 5 A DAY), with a **side salad** — little added fat, no added salt, no added sugar.",
+   "trap": "Giving the *wrong proportion* or treating all fats as equal. Marks are lost for saying \"fruit and veg is the largest group\" without the balanced explanation, or for failing to say **which** fat/sugar/salt to cut down on (**saturated** fat, **added/free** sugar, salt). Also do not claim the advice removes all fat or sugar — the answer is *eat less* and *choose unsaturated*, not *ban*.",
+   "practice": [
+    {
+     "q": "State **one** piece of current dietary advice about each of: fat, fibre and salt, and give an example of how to follow each.",
+     "a": "**Fat:** eat less saturated fat and choose unsaturated oils — e.g. grill rather than deep fry and use olive/rapeseed oil. **Fibre:** eat more high-fibre/starchy carbohydrate — e.g. switch to wholemeal bread and brown rice. **Salt:** eat less salt — e.g. flavour food with herbs and spices instead of adding salt and check labels for hidden salt."
+    },
+    {
+     "q": "Explain how a chef would adapt a **beef burger and chips** meal to meet current dietary advice.",
+     "a": "Grill the burger instead of frying it and use a leaner mince; serve in a wholemeal bun; bake (oven-cook) the chips with a little oil instead of deep frying; add salad and serve with extra vegetables; do not add salt and offer a lower-sugar drink or water. This cuts saturated fat, added salt and sugar while adding fibre and fruit/veg."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Current+dietary+advice"
+  },
+  {
+   "slug": "ingredient-categories",
+   "title": "Categories of ingredients",
+   "paper": "either",
+   "rule": "Ingredients are grouped into categories so a cook can choose, substitute and balance them. The main **food groups** are:\n\n- **Starchy carbohydrates / cereals** — flour, bread, rice, pasta, oats, potatoes.\n- **Fruit and vegetables** — fresh, frozen, canned, dried, juiced.\n- **Milk and dairy** — milk, cheese, yogurt, butter, cream.\n- **Protein foods** — meat, poultry, fish, eggs, beans, pulses, nuts, soya.\n- **Fats and oils** — butter, margarine, oil, lard.\n- **Sugar and sweeteners** — sugar, honey, syrup, artificial sweeteners.\n- **Salts and seasonings** — salt, pepper, herbs, spices, stock.\n\nIngredients can also be classed by their **function** in a recipe:\n\n- **Raising agents** — self-raising flour, baking powder, bicarbonate of soda, yeast (make mixtures rise).\n- **Thickening agents** — flour, cornflour, arrowroot, roux (thicken liquids).\n- **Setting agents** — gelatine, agar, egg (set liquids into solid).\n- **Flavouring / colouring** — vanilla, herbs, spices, cocoa, food colouring.\n- **Preservatives / other** — salt, sugar, vinegar, oil (keep food and improve shelf life).",
+   "example": "In a **queen of puddings** the **bread and jam** supply starchy carbohydrate and fruit, the **milk, eggs and sugar** give protein, dairy and sweetness, and the **egg** also acts as a **setting agent** in the custard.",
+   "trap": "Listing the *name* of an ingredient instead of its *category or function*. SQA wants \"**cornflour is a thickening agent**\" not just \"cornflour\". A second common error is saying **egg is a raising agent** — egg sets (setting agent) or thickens; the raising agent is usually the flour, baking powder, bicarbonate of soda or yeast.",
+   "practice": [
+    {
+     "q": "State the **function** of each in a recipe: baking powder, cornflour, gelatine, vanilla essence.",
+     "a": "**Baking powder** — raising agent (makes the mixture rise by releasing carbon dioxide). **Cornflour** — thickening agent (thickens liquid, used in sauces and clear glazes). **Gelatine** — setting agent (sets a liquid into a jelly/solid). **Vanilla essence** — flavouring (adds or improves flavour)."
+    },
+    {
+     "q": "Name the food group and one main nutrient provided by: (a) cheese, (b) lentils, (c) olive oil.",
+     "a": "(a) **Cheese** — milk and dairy group; provides protein, fat, calcium and vitamin A. (b) **Lentils** — protein foods (pulses) group; provide protein, fibre, iron and B vitamins; low in fat. (c) **Olive oil** — fats and oils group; provides fat (mainly unsaturated), vitamin E."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Categories+of+ingredients"
+  },
+  {
+   "slug": "understanding-ingredients",
+   "title": "Understanding ingredients",
+   "paper": "either",
+   "rule": "Understanding ingredients means being able to judge and use them well:\n\n- **Characteristics** — judge by appearance (colour, shape), texture, flavour, smell and nutritional content. Good ingredients are fresh, in season and in good condition. This determines how they must be stored and cooked.\n- **Sustainability** — choosing **seasonal, local** food (reduces **food miles**), **organic, Fairtrade, free-range, MSC-certified** fish, and produce from **sustainable fish stocks**. This protects the environment and supports producers; it also affects cost and availability.\n- **Costing** — compare **price per unit weight**, not just the price of the pack; consider **own-brand vs branded, bulk/bigger packs, fresh vs frozen vs canned**, and work out **cost per portion**. Seasonality and quality affect cost.\n- **Safe storage** — the **fridge at 0–5 °C** (store raw meat and fish on the **bottom shelf** so juices cannot drip onto ready-to-eat food, cover or wrap everything), the **freezer at –18 °C or below** (label and date; never re-freeze thawed food), **dry goods in a cool, dry, airtight store**, and follow **use-by** and **best-before** dates (use-by is about safety, best-before about quality).\n- **Cross-contamination** — the transfer of bacteria from one food (usually raw meat/poultry) to another or to surfaces. Prevent it with **separate colour-coded chopping boards and knives, washing hands and equipment between jobs, storing raw and cooked food apart, and correct chilled storage**.",
+   "example": "Buying a **whole Scottish mackerel in season (local and MSC-certified)** keeps food miles and cost down. At home it is stored on the **bottom shelf of the fridge** in a covered dish, prepared on a separate board from the salad, and the cost per portion is worked out from the weight before cooking.",
+   "trap": "Muddying the terms. **Use-by** is a *safety* date (do not use after it); **best-before** is about *quality*. Storing raw meat on a **top shelf** would drip onto cooked food — always the bottom. And costing answers must convert to **cost per portion or per unit weight**; quoting only the pack price is not a full-mark answer.",
+   "practice": [
+    {
+     "q": "Explain **two** ways a chef can prevent **cross-contamination** when preparing raw chicken and a salad.",
+     "a": "1) Use a **separate (colour-coded) chopping board and knife** for the raw chicken and keep the salad preparation completely apart. 2) **Wash hands, the board and any equipment thoroughly** with hot soapy water after handling the raw chicken and before touching the salad; also store the raw chicken covered on the **bottom shelf** of the fridge."
+    },
+    {
+     "q": "A 1 kg bag of rice costs £2.00 and a 5 kg bag costs £8.00. Calculate the **cost per kg** of each and say which is better value.",
+     "a": "1 kg bag: £2.00 ÷ 1 = **£2.00 per kg**. 5 kg bag: £8.00 ÷ 5 = **£1.60 per kg**. The **5 kg bag is better value** — it costs less per kilogram, though the chef must consider whether it will be used before it goes past its best and where it will be stored."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Understanding+ingredients"
+  },
+  {
+   "slug": "planning-meals",
+   "title": "Planning meals",
+   "paper": "either",
+   "rule": "Planning a meal (and the N5 **assignment**) means thinking ahead about four things:\n\n- **Requisitioning** — working out the **exact ingredients and quantities** for the number of portions, then writing the **shopping/requisition list** with amounts and a **costing**. This avoids waste and controls the budget.\n- **Time planning** — writing a **step-by-step order of work** showing *what you do, in what order, and how long each stage takes* (and what can be done ahead, e.g. while a stew simmers you wash up and prepare the side). The **dish/meal must be ready to serve at the stated time, all together and hot**.\n- **Safety and hygiene** — plan in the safe practices: correct storage, hand washing, separate boards, safe use of knives and hot equipment, and safe temperatures.\n- **Service** — plan **how the dish is presented and served**: hot food on hot plates, correct portion size, garnish, and a balanced meal (protein, starch, vegetable). Consider the **customer** — dietary needs, likes/dislikes, and the occasion.\n\nA good plan links all four so the meal is **safe, on time, in budget and balanced**.",
+   "example": "For a **two-course meal for two** — chicken curry with rice, then fruit salad — the plan lists quantities (requisition), a time plan that puts the rice on so it finishes with the curry, **chills the fruit salad while the curry simmers**, and serves both on hot plates with a coriander garnish.",
+   "trap": "Writing a **list of ingredients with no quantities** (that is a shopping list, not a requisition) and writing a **time plan with no times or no serving time**. SQA also marks down plans where the food is **not all served together** or where safety/hygiene points are forgotten. Always state the **number of portions** and the **serving time**.",
+   "practice": [
+    {
+     "q": "What is meant by **requisitioning** in the N5 assignment, and why is it important?",
+     "a": "Requisitioning is working out the exact **ingredients, quantities and cost** needed to make the required number of portions, and writing them as an ordered list. It is important so that the correct amount of food is bought, nothing is wasted or runs short, the meal is costed within budget, and shopping is quick and organised."
+    },
+    {
+     "q": "Give **three** things a good **time plan** must show.",
+     "a": "Any three of: the **order/sequence** of the jobs (what is done first, next, etc.); the **time each stage takes** (and the clock time); the **serving time** the meal must be ready for; jobs that are done **at the same time (dovetailing)**; and **where safety/hygiene checks and washing up fit in**."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Planning+meals"
+  },
+  {
+   "slug": "cooking-finishing",
+   "title": "Cooking & finishing dishes",
+   "paper": "either",
+   "rule": "Cooking and finishing covers **testing for doneness, finishing techniques and serving**:\n\n- **Doneness tests** — check food is properly cooked: skewer/toothpick comes out clean (cakes), firm to touch and shrinking from the tin (sponge), a knife inserted in the thickest part and juices run clear (roast meat/poultry), pasta/rice tender to the bite, fish flakes easily.\n- **Finishing techniques** — **glaze** (egg wash on pastry, sugar or stock glazes) to add colour and shine; **pipe** cream, icing or duchesse potato for decoration; **garnish** with fresh herbs, fruit or a sauce swirl; **dust** with icing sugar or cocoa; **tidy the plate** and wipe the rim.\n- **Sauces** — thicken correctly (roux, cornflour, reduction) and match the dish.\n- **Temperature & timing** — cook to the correct **core temperature**, **rest** roast meat before carving so juices redistribute, and **hold hot food above 63 °C** until service.\n- **Plating & portioning** — serve **even portions**, hot food on **hot plates**, and a **balanced arrangement** with protein, starch and vegetable/colour.",
+   "example": "A **cheddar and onion flan**: the pastry case is **baked blind** first, then the filling is added and baked until the egg custard is **just set and firm to the touch**; it is cooled slightly, **turned out cleanly**, **garnished with a parsley spring and a tomato wedge**, and served on a **hot plate** in even wedges.",
+   "trap": "Serving a dish that is **cooked correctly but badly finished/presented** — SQA awards marks for **garnish, portion size and presentation**. Other errors: **not baking blind** the pastry before a wet filling (soggy base), **overcooking** (egg custard goes rubbery, vegetables go soggy) and **not resting** roast meat so it loses its juices.",
+   "practice": [
+    {
+     "q": "Give **two** ways to test that a **sponge cake** is cooked.",
+     "a": "1) Insert a clean skewer/toothpick into the centre — it should come out **clean, with no raw mixture stuck to it**. 2) Press the centre lightly — it should feel **firm and springy** and the cake should have **shrunk slightly away from the sides** of the tin."
+    },
+    {
+     "q": "Explain what is meant by **baking blind** and why it is used for a flan.",
+     "a": "Baking blind means **lining the pastry case with baking paper and filling it with baking beans**, then baking it empty, then removing the beans and paper and returning it to the oven to dry the base. It is used so the pastry case is **cooked and crisp** before a **wet filling** is added — otherwise the base would go **soggy** and the pastry would puff up."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Cooking+%26+finishing+dishes"
+  },
+  {
+   "slug": "safety-hygiene",
+   "title": "Safety & hygiene",
+   "paper": "either",
+   "rule": "**Safety and hygiene** in the kitchen protects people from illness and injury.\n\n**Food hygiene (avoiding food poisoning):**\n- **Personal hygiene** — wash and dry hands before cooking and after handling raw meat, eggs, waste or using the toilet; keep hair tied back; wear a clean apron; never cough or sneeze over food; cover cuts with a waterproof plaster.\n- **Kitchen hygiene** — clean worktops and equipment before and after use; use **colour-coded boards**; wash up in hot soapy water; keep bins covered and emptied; no pets in the kitchen.\n- **Safety of food** — chill high-risk foods (meat, fish, dairy, cooked rice, eggs) promptly; keep the **fridge at 0–5 °C** and **freezer at –18 °C**; the **danger zone is 5–63 °C** where bacteria multiply fastest; **hot-hold food above 63 °C and reheat to at least 82 °C**; store raw below cooked; never re-freeze thawed food.\n- **Cross-contamination** — keep raw and cooked/ready-to-eat foods apart; wash hands, boards and knives between jobs.\n\n**Safety (avoiding accidents):**\n- **Personal safety** — no loose clothing/hair near heat; use dry cloths and oven gloves; lift pans with two hands; turn pan handles inwards; keep the floor clean and clear of spills; store knives safely, never in a sink of water.\n- **Equipment safety** — use equipment correctly and keep it clean; never leave hot pans unattended; check flexes and plugs; report any breakages.\n- **Hygiene of storage** — cover food, date and label; use within dates; keep the store clean, cool and dry.",
+   "example": "Preparing **raw chicken kebabs** for a barbecue: wash hands and use a **red (raw meat) board and separate knife**, store the raw kebabs **covered on the bottom shelf** at 0–5 °C, use a **clean board and tongs** for any cooked or salad food, and **reheat/cook the chicken so the juices run clear** and it is served piping hot.",
+   "trap": "Confusing the two dates and the two temperature ranges. **Use-by** = safety; **best-before** = quality. The **fridge** is 0–5 °C, the **danger zone** is 5–63 °C (not \"room temperature is safe\"), and **hot food must be held above 63 °C** and **reheated to at least 82 °C**. Another frequent error is saying you should wash raw chicken — SQA expects **do not wash it** (it splashes bacteria); cook it properly instead.",
+   "practice": [
+    {
+     "q": "State the temperature of the **danger zone** and explain why it matters.",
+     "a": "The danger zone is **5 °C to 63 °C**. Bacteria multiply fastest in this range, so food left in it can quickly become unsafe to eat. Food should be kept **below 5 °C** for cold storage or **above 63 °C** when being held hot, and cooled or reheated **quickly** through the danger zone."
+    },
+    {
+     "q": "List **three** personal hygiene rules a cook should follow in the kitchen and one reason for each.",
+     "a": "Any three of: **Wash and dry hands** thoroughly before touching food and after handling raw meat/eggs or waste (removes bacteria that would transfer to food). **Tie hair back / cover hair** (stops hair falling into food). **Wear a clean apron/uniform** (stops clothing contaminating food). **Never cough or sneeze over food** (spreads bacteria). **Cover cuts with a waterproof plaster** (stops bacteria from a wound getting into food)."
+    }
+   ],
+   "video": "https://www.youtube.com/results?search_query=National+5+Practical+Cookery+Safety+%26+hygiene"
+  }
+ ],
+ "channels": [
+  {
+   "name": "Food a Fact of Life",
+   "url": "https://www.youtube.com/results?search_query=Food+a+Fact+of+Life"
+  },
+  {
+   "name": "BBC Good Food",
+   "url": "https://www.youtube.com/results?search_query=BBC+Good+Food"
+  },
+  {
+   "name": "BBC Bitesize Food and Health",
+   "url": "https://www.youtube.com/results?search_query=BBC+Bitesize+Food+and+Health"
+  }
+ ]
 }
