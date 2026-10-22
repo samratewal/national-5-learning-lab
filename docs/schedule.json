@@ -1,0 +1,1589 @@
+{
+ "start": "2026-10-23",
+ "days": [
+  {
+   "n": 1,
+   "date": "2026-10-23",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "fractions-percentages",
+      "surds-indices"
+     ],
+     "label": "Fractions & percentages \u00b7 Surds & indices",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "vectors-scalars"
+     ],
+     "label": "Vectors & scalars",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "scientific-notation",
+      "expanding-brackets"
+     ],
+     "label": "Scientific notation \u00b7 Expanding brackets",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "velocity-time"
+     ],
+     "label": "Velocity\u2013time graphs",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "review",
+     "topics": [],
+     "label": "Active recall: Maths mixed set + Physics mixed set (no new content)",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-understanding"
+     ],
+     "label": "RUAE \u2014 Understanding questions",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "factorising",
+      "completing-square"
+     ],
+     "label": "Factorising \u00b7 Completing the square",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "acceleration"
+     ],
+     "label": "Acceleration",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "algebraic-fractions",
+      "changing-subject"
+     ],
+     "label": "Algebraic fractions \u00b7 Changing the subject",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "newtons-laws"
+     ],
+     "label": "Newton's laws",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "equations-inequations"
+     ],
+     "label": "Equations & inequations",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "role-of-business",
+      "factors-production"
+     ],
+     "label": "Role of business \u00b7 Factors of production",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "date": "2026-10-29",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "physics",
+     "topics": [
+      "energy",
+      "projectile"
+     ],
+     "label": "Energy \u00b7 Projectile motion",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "performance-skills"
+     ],
+     "label": "Performance skills \u2014 portfolio sheet 1",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "date": "2026-10-30",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "simultaneous",
+      "straight-line"
+     ],
+     "label": "Simultaneous equations \u00b7 The straight line",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-word-choice"
+     ],
+     "label": "RUAE \u2014 Word choice",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "date": "2026-10-31",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "functions",
+      "quadratic-graphs"
+     ],
+     "label": "Function notation \u00b7 Quadratic graphs & equations",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "sectors",
+      "stakeholders"
+     ],
+     "label": "Sectors \u00b7 Stakeholders",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "date": "2026-11-01",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "review",
+     "topics": [],
+     "label": "Active recall: Maths mixed set + Business mixed set",
+     "mins": 55
+    },
+    {
+     "subject": "dm",
+     "topics": [
+      "design-process",
+      "research-techniques"
+     ],
+     "label": "Design process \u00b7 Research techniques",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "date": "2026-11-02",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "pythagoras"
+     ],
+     "label": "Pythagoras (incl. 3D & converse)",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "space-exploration",
+      "cosmology"
+     ],
+     "label": "Space exploration \u00b7 Cosmology",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "date": "2026-11-03",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "arcs-sectors",
+      "circle-angles"
+     ],
+     "label": "Arcs & sectors \u00b7 Circle angle properties",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-imagery"
+     ],
+     "label": "RUAE \u2014 Imagery",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "date": "2026-11-04",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "specification",
+      "idea-generation"
+     ],
+     "label": "Specification \u00b7 Idea generation",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "environments",
+      "marketing-mix"
+     ],
+     "label": "Environments \u00b7 Marketing mix",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "date": "2026-11-05",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "cook",
+     "topics": [
+      "food-prep"
+     ],
+     "label": "Food preparation techniques",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "mental-factors"
+     ],
+     "label": "Mental factors \u2014 portfolio sheet 2",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "date": "2026-11-06",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "similar-shapes"
+     ],
+     "label": "Similar shapes",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "charge-carriers",
+      "potential-difference"
+     ],
+     "label": "Charge carriers \u00b7 Potential difference",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "trig-bearings"
+     ],
+     "label": "Trigonometry & bearings",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-structure-tone"
+     ],
+     "label": "RUAE \u2014 Sentence structure & tone",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "modelling",
+      "graphics"
+     ],
+     "label": "Modelling \u00b7 Graphics",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "market-research",
+      "segmentation"
+     ],
+     "label": "Market research \u00b7 Segmentation",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "date": "2026-11-09",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "sine-cosine-rule"
+     ],
+     "label": "Sine rule, cosine rule & triangle area",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "ohms-law",
+      "circuits"
+     ],
+     "label": "Ohm's law \u00b7 Series & parallel circuits",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "date": "2026-11-10",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "review",
+     "topics": [],
+     "label": "Active recall: Maths + Physics mixed set",
+     "mins": 55
+    },
+    {
+     "subject": "cook",
+     "topics": [
+      "cookery-processes"
+     ],
+     "label": "Cookery processes",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "date": "2026-11-11",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "vectors"
+     ],
+     "label": "Vectors",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-evaluation"
+     ],
+     "label": "RUAE \u2014 Evaluation",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "date": "2026-11-12",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "function-performance",
+      "market-aesthetics"
+     ],
+     "label": "Function & performance \u00b7 Market, aesthetics & ergonomics",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "emotional-factors"
+     ],
+     "label": "Emotional factors \u2014 portfolio sheet 3",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "date": "2026-11-13",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "volume-surface-area"
+     ],
+     "label": "Volume & surface area",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "electrical-power",
+      "shc"
+     ],
+     "label": "Electrical power \u00b7 Specific heat capacity",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "date": "2026-11-14",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "statistics"
+     ],
+     "label": "Statistics & standard deviation",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "product-life-cycle",
+      "branding-promotion"
+     ],
+     "label": "Product life cycle \u00b7 Branding & promotion",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "date": "2026-11-15",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "english",
+     "topics": [
+      "scottish-text"
+     ],
+     "label": "Scottish text \u2014 poem/short story 1",
+     "mins": 55
+    },
+    {
+     "subject": "dm",
+     "topics": [
+      "people-influence",
+      "materials-woods"
+     ],
+     "label": "People who influence design \u00b7 Woods & boards",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "date": "2026-11-16",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "probability"
+     ],
+     "label": "Probability",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "latent-heat",
+      "gas-laws"
+     ],
+     "label": "Latent heat \u00b7 Gas laws",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "date": "2026-11-17",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "cook",
+     "topics": [
+      "dietary-advice",
+      "ingredient-categories"
+     ],
+     "label": "Dietary advice \u00b7 Ingredient categories",
+     "mins": 55
+    },
+    {
+     "subject": "maths",
+     "topics": [
+      "tolerance-bounds",
+      "ratio-proportion"
+     ],
+     "label": "Tolerance & bounds \u00b7 Ratio & proportion",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "date": "2026-11-18",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "english",
+     "topics": [
+      "critical-essay"
+     ],
+     "label": "Critical essay \u2014 planning & structure",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "pricing-distribution",
+      "suppliers"
+     ],
+     "label": "Pricing & distribution \u00b7 Suppliers",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "date": "2026-11-19",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "materials-metals",
+      "measuring-tools"
+     ],
+     "label": "Metals & plastics \u00b7 Measuring tools",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "social-factors"
+     ],
+     "label": "Social factors \u2014 portfolio sheet 4",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "date": "2026-11-20",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "physics",
+     "topics": [
+      "wave-parameters",
+      "em-spectrum"
+     ],
+     "label": "Wave parameters \u00b7 EM spectrum",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "portfolio-creative"
+     ],
+     "label": "Portfolio \u2014 creative writing draft",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "date": "2026-11-21",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "maths-past-paper-1"
+     ],
+     "label": "Maths past paper: non-calculator, Paper 1",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "inventory",
+      "production-methods"
+     ],
+     "label": "Inventory \u00b7 Methods of production",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "hand-tools",
+      "machine-tools"
+     ],
+     "label": "Hand tools \u00b7 Machine tools",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "refraction"
+     ],
+     "label": "Refraction of light",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "english",
+     "topics": [
+      "portfolio-discursive"
+     ],
+     "label": "Portfolio \u2014 discursive writing draft",
+     "mins": 55
+    },
+    {
+     "subject": "maths",
+     "topics": [
+      "maths-past-paper-2"
+     ],
+     "label": "Maths past paper: calculator, Paper 2",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "cook",
+     "topics": [
+      "understanding-ingredients"
+     ],
+     "label": "Understanding ingredients",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "quality",
+      "hr-planning"
+     ],
+     "label": "Quality \u00b7 HR planning",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "joining",
+      "finishing"
+     ],
+     "label": "Joining & assembly \u00b7 Finishing",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "nuclear-radiation",
+      "half-life"
+     ],
+     "label": "Nuclear radiation \u00b7 Half-life",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "date": "2026-11-26",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "pe",
+     "topics": [
+      "physical-factors"
+     ],
+     "label": "Physical factors \u2014 portfolio sheet 5",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "ruae-past-paper"
+     ],
+     "label": "RUAE past paper under timed conditions",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "date": "2026-11-27",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "maths",
+     "topics": [
+      "maths-past-paper-3"
+     ],
+     "label": "Maths past paper: non-calculator, timed",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "dosimetry",
+      "physics-past-paper-1"
+     ],
+     "label": "Dosimetry \u00b7 Physics past paper (Dynamics)",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "date": "2026-11-28",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "bm",
+     "topics": [
+      "recruitment",
+      "training",
+      "motivation"
+     ],
+     "label": "Recruitment \u00b7 Training \u00b7 Motivation",
+     "mins": 55
+    },
+    {
+     "subject": "cook",
+     "topics": [
+      "planning-meals",
+      "cooking-finishing"
+     ],
+     "label": "Planning meals \u00b7 Cooking & finishing",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "date": "2026-11-29",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "dm",
+     "topics": [
+      "commercial-manufacture",
+      "impact-sustainability"
+     ],
+     "label": "Commercial manufacture \u00b7 Impact",
+     "mins": 55
+    },
+    {
+     "subject": "english",
+     "topics": [
+      "english-past-paper-1"
+     ],
+     "label": "Critical Reading past paper \u2014 Scottish text",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "date": "2026-11-30",
+   "weekday": "Mon",
+   "blocks": [
+    {
+     "subject": "physics",
+     "topics": [
+      "physics-past-paper-4"
+     ],
+     "label": "Physics past paper: full paper, timed",
+     "mins": 55
+    },
+    {
+     "subject": "physics",
+     "topics": [
+      "physics-past-paper-2"
+     ],
+     "label": "Physics past paper (Electricity & Matter)",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "date": "2026-12-01",
+   "weekday": "Tue",
+   "blocks": [
+    {
+     "subject": "bm",
+     "topics": [
+      "sources-finance",
+      "break-even"
+     ],
+     "label": "Sources of finance \u00b7 Break-even",
+     "mins": 55
+    },
+    {
+     "subject": "dm",
+     "topics": [
+      "planning-evaluation"
+     ],
+     "label": "Planning for manufacture & evaluation",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "date": "2026-12-02",
+   "weekday": "Wed",
+   "blocks": [
+    {
+     "subject": "cook",
+     "topics": [
+      "safety-hygiene"
+     ],
+     "label": "Safety & hygiene",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "approaches",
+      "monitoring"
+     ],
+     "label": "Approaches to development \u00b7 Monitoring",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "date": "2026-12-03",
+   "weekday": "Thu",
+   "blocks": [
+    {
+     "subject": "english",
+     "topics": [
+      "english-past-paper-2"
+     ],
+     "label": "Critical Reading past paper \u2014 critical essay",
+     "mins": 55
+    },
+    {
+     "subject": "maths",
+     "topics": [
+      "maths-past-paper-4"
+     ],
+     "label": "Maths past paper: calculator, timed",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "date": "2026-12-04",
+   "weekday": "Fri",
+   "blocks": [
+    {
+     "subject": "bm",
+     "topics": [
+      "cash-flow",
+      "income-statement",
+      "ratios"
+     ],
+     "label": "Cash flow \u00b7 Income statement \u00b7 Ratios",
+     "mins": 55
+    },
+    {
+     "subject": "bm",
+     "topics": [
+      "bm-past-paper-1"
+     ],
+     "label": "Business Management past paper \u2014 Section 1",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "date": "2026-12-05",
+   "weekday": "Sat",
+   "blocks": [
+    {
+     "subject": "physics",
+     "topics": [
+      "physics-past-paper-3"
+     ],
+     "label": "Physics past paper (Waves, Radiation, Space)",
+     "mins": 55
+    },
+    {
+     "subject": "dm",
+     "topics": [
+      "dm-past-paper-1"
+     ],
+     "label": "Design & Manufacture past paper \u2014 full QP",
+     "mins": 55
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "blocks": [
+    {
+     "subject": "english",
+     "topics": [
+      "english-past-paper-3"
+     ],
+     "label": "English: full Critical Reading under time",
+     "mins": 55
+    },
+    {
+     "subject": "pe",
+     "topics": [
+      "portfolio"
+     ],
+     "label": "PE portfolio \u2014 final check against mark scheme",
+     "mins": 55
+    }
+   ]
+  }
+ ],
+ "subjects": {
+  "maths": {
+   "name": "Mathematics",
+   "page": "maths.html",
+   "icon": "\ud83d\udcd0"
+  },
+  "physics": {
+   "name": "Physics",
+   "page": "physics.html",
+   "icon": "\u269b\ufe0f"
+  },
+  "bm": {
+   "name": "Business Management",
+   "page": "business-management.html",
+   "icon": "\ud83d\udcbc"
+  },
+  "english": {
+   "name": "English",
+   "page": "english.html",
+   "icon": "\ud83d\udcd6"
+  },
+  "dm": {
+   "name": "Design & Manufacture",
+   "page": "design-manufacture.html",
+   "icon": "\ud83d\udd27"
+  },
+  "cook": {
+   "name": "Practical Cookery",
+   "page": "cookery.html",
+   "icon": "\ud83c\udf73"
+  },
+  "pe": {
+   "name": "Physical Education",
+   "page": "pe.html",
+   "icon": "\ud83c\udfc3"
+  }
+ },
+ "topics": {
+  "maths": [
+   {
+    "slug": "fractions-percentages",
+    "title": "Fractions & percentages"
+   },
+   {
+    "slug": "surds-indices",
+    "title": "Surds & indices"
+   },
+   {
+    "slug": "scientific-notation",
+    "title": "Scientific notation"
+   },
+   {
+    "slug": "expanding-brackets",
+    "title": "Expanding brackets"
+   },
+   {
+    "slug": "factorising",
+    "title": "Factorising"
+   },
+   {
+    "slug": "completing-square",
+    "title": "Completing the square"
+   },
+   {
+    "slug": "algebraic-fractions",
+    "title": "Algebraic fractions"
+   },
+   {
+    "slug": "changing-subject",
+    "title": "Changing the subject"
+   },
+   {
+    "slug": "equations-inequations",
+    "title": "Equations & inequations"
+   },
+   {
+    "slug": "simultaneous",
+    "title": "Simultaneous equations"
+   },
+   {
+    "slug": "straight-line",
+    "title": "The straight line"
+   },
+   {
+    "slug": "functions",
+    "title": "Function notation"
+   },
+   {
+    "slug": "quadratic-graphs",
+    "title": "Quadratic graphs & equations"
+   },
+   {
+    "slug": "pythagoras",
+    "title": "Pythagoras (incl. 3D & converse)"
+   },
+   {
+    "slug": "arcs-sectors",
+    "title": "Arcs & sectors"
+   },
+   {
+    "slug": "circle-angles",
+    "title": "Circle angle properties"
+   },
+   {
+    "slug": "similar-shapes",
+    "title": "Similar shapes"
+   },
+   {
+    "slug": "trig-bearings",
+    "title": "Trigonometry & bearings"
+   },
+   {
+    "slug": "sine-cosine-rule",
+    "title": "Sine rule, cosine rule & triangle area"
+   },
+   {
+    "slug": "vectors",
+    "title": "Vectors"
+   },
+   {
+    "slug": "volume-surface-area",
+    "title": "Volume & surface area"
+   },
+   {
+    "slug": "statistics",
+    "title": "Statistics & standard deviation"
+   },
+   {
+    "slug": "probability",
+    "title": "Probability"
+   },
+   {
+    "slug": "tolerance-bounds",
+    "title": "Tolerance & bounds"
+   },
+   {
+    "slug": "ratio-proportion",
+    "title": "Ratio & proportion"
+   }
+  ],
+  "physics": [
+   {
+    "slug": "vectors-scalars",
+    "title": "Vectors & scalars"
+   },
+   {
+    "slug": "velocity-time",
+    "title": "Velocity\u2013time graphs"
+   },
+   {
+    "slug": "acceleration",
+    "title": "Acceleration"
+   },
+   {
+    "slug": "newtons-laws",
+    "title": "Newton's laws"
+   },
+   {
+    "slug": "energy",
+    "title": "Energy"
+   },
+   {
+    "slug": "projectile",
+    "title": "Projectile motion"
+   },
+   {
+    "slug": "space-exploration",
+    "title": "Space exploration"
+   },
+   {
+    "slug": "cosmology",
+    "title": "Cosmology"
+   },
+   {
+    "slug": "charge-carriers",
+    "title": "Charge carriers & current"
+   },
+   {
+    "slug": "potential-difference",
+    "title": "Potential difference"
+   },
+   {
+    "slug": "ohms-law",
+    "title": "Ohm's law"
+   },
+   {
+    "slug": "circuits",
+    "title": "Series & parallel circuits"
+   },
+   {
+    "slug": "electrical-power",
+    "title": "Electrical power"
+   },
+   {
+    "slug": "shc",
+    "title": "Specific heat capacity"
+   },
+   {
+    "slug": "latent-heat",
+    "title": "Specific latent heat"
+   },
+   {
+    "slug": "gas-laws",
+    "title": "Gas laws & the kinetic model"
+   },
+   {
+    "slug": "wave-parameters",
+    "title": "Wave parameters & behaviour"
+   },
+   {
+    "slug": "em-spectrum",
+    "title": "The electromagnetic spectrum"
+   },
+   {
+    "slug": "refraction",
+    "title": "Refraction of light"
+   },
+   {
+    "slug": "nuclear-radiation",
+    "title": "Nuclear radiation"
+   },
+   {
+    "slug": "half-life",
+    "title": "Half-life"
+   },
+   {
+    "slug": "dosimetry",
+    "title": "Dose, equivalent dose & safety"
+   }
+  ],
+  "bm": [
+   {
+    "slug": "role-of-business",
+    "title": "Role of business in society"
+   },
+   {
+    "slug": "factors-production",
+    "title": "Factors of production"
+   },
+   {
+    "slug": "sectors",
+    "title": "Sectors of industry & economy"
+   },
+   {
+    "slug": "stakeholders",
+    "title": "Stakeholders"
+   },
+   {
+    "slug": "environments",
+    "title": "Internal & external environments"
+   },
+   {
+    "slug": "marketing-mix",
+    "title": "The marketing mix"
+   },
+   {
+    "slug": "market-research",
+    "title": "Market research"
+   },
+   {
+    "slug": "segmentation",
+    "title": "Market segmentation"
+   },
+   {
+    "slug": "product-life-cycle",
+    "title": "Product life cycle"
+   },
+   {
+    "slug": "branding-promotion",
+    "title": "Branding & promotion"
+   },
+   {
+    "slug": "pricing-distribution",
+    "title": "Pricing & distribution"
+   },
+   {
+    "slug": "suppliers",
+    "title": "Suppliers & supply chain"
+   },
+   {
+    "slug": "inventory",
+    "title": "Inventory management"
+   },
+   {
+    "slug": "production-methods",
+    "title": "Methods of production"
+   },
+   {
+    "slug": "quality",
+    "title": "Quality management"
+   },
+   {
+    "slug": "hr-planning",
+    "title": "Human resource planning"
+   },
+   {
+    "slug": "recruitment",
+    "title": "Recruitment & selection"
+   },
+   {
+    "slug": "training",
+    "title": "Training"
+   },
+   {
+    "slug": "motivation",
+    "title": "Motivation"
+   },
+   {
+    "slug": "sources-finance",
+    "title": "Sources of finance"
+   },
+   {
+    "slug": "break-even",
+    "title": "Break-even"
+   },
+   {
+    "slug": "cash-flow",
+    "title": "Cash flow forecasting"
+   },
+   {
+    "slug": "income-statement",
+    "title": "Income statement"
+   },
+   {
+    "slug": "ratios",
+    "title": "Ratio analysis"
+   }
+  ],
+  "english": [
+   {
+    "slug": "ruae-understanding",
+    "title": "RUAE: Understanding"
+   },
+   {
+    "slug": "ruae-word-choice",
+    "title": "RUAE: Word choice"
+   },
+   {
+    "slug": "ruae-imagery",
+    "title": "RUAE: Imagery"
+   },
+   {
+    "slug": "ruae-structure-tone",
+    "title": "RUAE: Sentence structure & tone"
+   },
+   {
+    "slug": "ruae-evaluation",
+    "title": "RUAE: Evaluation"
+   },
+   {
+    "slug": "scottish-text",
+    "title": "Scottish text (Critical Reading \u00a71)"
+   },
+   {
+    "slug": "critical-essay",
+    "title": "Critical essay (Critical Reading \u00a72)"
+   },
+   {
+    "slug": "portfolio-creative",
+    "title": "Portfolio: creative writing"
+   },
+   {
+    "slug": "portfolio-discursive",
+    "title": "Portfolio: discursive writing"
+   }
+  ],
+  "dm": [
+   {
+    "slug": "design-process",
+    "title": "The design process"
+   },
+   {
+    "slug": "research-techniques",
+    "title": "Research techniques"
+   },
+   {
+    "slug": "specification",
+    "title": "The product specification"
+   },
+   {
+    "slug": "idea-generation",
+    "title": "Idea-generation techniques"
+   },
+   {
+    "slug": "modelling",
+    "title": "Modelling"
+   },
+   {
+    "slug": "graphics",
+    "title": "Graphics in design"
+   },
+   {
+    "slug": "function-performance",
+    "title": "Function & performance"
+   },
+   {
+    "slug": "market-aesthetics",
+    "title": "Market, aesthetics & ergonomics"
+   },
+   {
+    "slug": "people-influence",
+    "title": "People who influence design"
+   },
+   {
+    "slug": "materials-woods",
+    "title": "Woods & manufactured boards"
+   },
+   {
+    "slug": "materials-metals",
+    "title": "Metals & plastics"
+   },
+   {
+    "slug": "measuring-tools",
+    "title": "Measuring & marking-out tools"
+   },
+   {
+    "slug": "hand-tools",
+    "title": "Hand tools"
+   },
+   {
+    "slug": "machine-tools",
+    "title": "Machine tools"
+   },
+   {
+    "slug": "joining",
+    "title": "Joining & assembly"
+   },
+   {
+    "slug": "finishing",
+    "title": "Finishing"
+   },
+   {
+    "slug": "commercial-manufacture",
+    "title": "Commercial manufacture"
+   },
+   {
+    "slug": "impact-sustainability",
+    "title": "Impact & sustainability"
+   },
+   {
+    "slug": "planning-evaluation",
+    "title": "Planning for manufacture & evaluation"
+   }
+  ],
+  "cook": [
+   {
+    "slug": "food-prep",
+    "title": "Food preparation techniques"
+   },
+   {
+    "slug": "cookery-processes",
+    "title": "Cookery processes"
+   },
+   {
+    "slug": "dietary-advice",
+    "title": "Current dietary advice"
+   },
+   {
+    "slug": "ingredient-categories",
+    "title": "Categories of ingredients"
+   },
+   {
+    "slug": "understanding-ingredients",
+    "title": "Understanding ingredients"
+   },
+   {
+    "slug": "planning-meals",
+    "title": "Planning meals"
+   },
+   {
+    "slug": "cooking-finishing",
+    "title": "Cooking & finishing dishes"
+   },
+   {
+    "slug": "safety-hygiene",
+    "title": "Safety & hygiene"
+   }
+  ],
+  "pe": [
+   {
+    "slug": "performance-skills",
+    "title": "Performance skills"
+   },
+   {
+    "slug": "mental-factors",
+    "title": "Mental factors"
+   },
+   {
+    "slug": "emotional-factors",
+    "title": "Emotional factors"
+   },
+   {
+    "slug": "social-factors",
+    "title": "Social factors"
+   },
+   {
+    "slug": "physical-factors",
+    "title": "Physical factors"
+   },
+   {
+    "slug": "approaches",
+    "title": "Approaches to development"
+   },
+   {
+    "slug": "monitoring",
+    "title": "Monitoring, recording & evaluating"
+   },
+   {
+    "slug": "portfolio",
+    "title": "The portfolio (60 marks)"
+   }
+  ]
+ }
+}
