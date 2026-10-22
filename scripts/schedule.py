@@ -21,7 +21,7 @@ SUBJECTS = {
     "bm":      dict(name="Business Management",     page="business-management.html",  cls="bm",      icon="💼"),
     "english": dict(name="English",                 page="english.html",              cls="english", icon="📖"),
     "dm":      dict(name="Design & Manufacture",    page="design-manufacture.html",   cls="dm",      icon="🔧"),
-    "cook":    dict(name="Practical Cookery",       page="cookery.html",              cls="cook",    icon="🍳"),
+    "cook":    dict(name="Practical Cookery",       page="practical-cookery.html",              cls="cook",    icon="🍳"),
     "pe":      dict(name="Physical Education",      page="pe.html",                   cls="pe",      icon="🏃"),
 }
 

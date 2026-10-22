@@ -2,6 +2,28 @@
 
 A weekly, beginner-friendly learning journey for an S4 high-school student. Every session focuses on **one concept**, takes about **one hour**, and builds knowledge through explanations, solved problems, experiments, coding, simulations, or small projects.
 
+## 🔥 Prelim revision hub (live now)
+
+**→ https://samratewal.github.io/national-5-learning-lab/**
+
+A complete 45-day, 7-subject revision plan for the S4 prelims, built from the official
+SQA National 5 course specifications:
+
+- **[The 45-day plan](https://samratewal.github.io/national-5-learning-lab/plan.html)** —
+  two 55-minute blocks every night, every examinable topic assigned to a date.
+- **Subject pages** — per-topic rule, worked example, exam trap and practice questions
+  for Mathematics, Physics, English, Business Management, Design & Manufacture,
+  Physical Education and Practical Cookery.
+- **Daily Discord drop** — a 7:30pm UK message linking straight to that night's topics
+  (cron job `f5b8b01aa799`, script `scripts/daily_link.py`).
+
+Rebuild the site after editing content:
+
+```bash
+python3 scripts/schedule.py     # regenerate plan.html + schedule.json
+python3 scripts/build_pages.py  # regenerate subject pages from content/*.json
+```
+
 ## Weekly schedule
 
 - **New session:** Saturday at 12:00 PM, Europe/London time

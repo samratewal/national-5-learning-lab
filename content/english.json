@@ -1,0 +1,171 @@
+{
+ "subject": "english",
+ "title": "English",
+ "icon": "📖",
+ "assessment": "Reading for Understanding, Analysis and Evaluation: 30 marks, 1 hour | Critical Reading: 40 marks, 1 hour 30 minutes | Portfolio-writing: 30 marks",
+ "intro": "National 5 English has three written components. The single most important rule across all of them: **identify the technique, then explain the effect**. Naming a technique without explaining why the writer used it earns nothing.",
+ "topics": [
+  {
+   "slug": "ruae-understanding",
+   "title": "RUAE: Understanding",
+   "paper": "either",
+   "rule": "Understanding questions ask **what** the writer says, not how they say it.\n\n- **\"Using your own words\"** = you must **not** lift from the passage. Lifting scores 0 even if correct.\n- **Summarising** for 3+ marks needs one clear point per mark.\n- **Link questions** need two parts: what the sentence refers back to, **and** what it introduces.\n\nTypical markers: *Using your own words, explain...*, *Summarise...*, *How does the writer link...*",
+   "example": "*Passage:* \"The council's scheme was costly. It was also, in the view of many residents, deeply unpopular.\"\n\n**Q: Using your own words, explain residents' attitude to the scheme.** (2 marks)\n\n**Model answer:** Many local people strongly disliked the scheme (1). They also felt it represented poor value for money (1).\n\n*Note:* 'costly' → 'poor value'; 'deeply unpopular' → 'strongly disliked'. No words lifted directly.",
+   "trap": "**Lifting whole phrases from the passage.** If the question says 'in your own words', copy-pasting scores nothing, even when your answer is factually right. Also, giving one vague point when the question is worth two marks — count the marks and give that many ideas.",
+   "practice": [
+    {
+     "q": "\"The town's new bypass has reduced journey times, though at considerable cost to the green belt.\" Using your own words, explain two effects of the bypass. (2)",
+     "a": "It has made journeys quicker / shortened travel time (1). It has damaged or built on open countryside (1). No words lifted."
+    },
+    {
+     "q": "Explain how the writer links the two paragraphs: \"...a problem that affects every household. Yet the solution proposed is far simpler than that suggests.\" (2)",
+     "a": "'a problem that affects every household' links back to the previous paragraph about the scale of the issue (1). 'Yet the solution proposed' introduces the next point, the proposed solution (1)."
+    }
+   ]
+  },
+  {
+   "slug": "ruae-word-choice",
+   "title": "RUAE: Word choice",
+   "paper": "either",
+   "rule": "Word choice questions require **three steps** for full marks:\n\n1. **Quote** the word or phrase.\n2. **Give a synonym** or explain the word's meaning/connotations.\n3. **Explain the effect** — what it makes the reader think or feel, or what it suggests about the subject.\n\nAim to comment on connotations, not just literal meaning. Words carry attitudes.",
+   "example": "*Passage:* \"The floodwaters **devoured** the village.\"\n\n**Q: Explain how the writer's word choice creates an impression of the flood.** (2)\n\n**Model answer:** The writer uses 'devoured' (1), which means to eat greedily or consume completely. This suggests the flood was violent and unstoppable, completely destroying the village as if it were prey (1).",
+   "trap": "Quoting the word and saying only 'it shows it was bad' — that is a **synonym with no effect**, worth half marks at best. The effect must be specific to the image, and must say what it makes you understand or feel.",
+   "practice": [
+    {
+     "q": "\"The politician's speech **oozed** insincerity.\" Explain how word choice creates an impression. (2)",
+     "a": "'Oozed' (1) means to flow slowly and unpleasantly, like pus. This suggests his insincerity was excessive and almost physically unpleasant, making the reader distrust him (1)."
+    },
+    {
+     "q": "\"A **clutch** of ravens watched from the wall.\" Explain the effect of word choice. (2)",
+     "a": "'Clutch' (1) has connotations of gripping or holding tightly, suggesting the birds were ominously gathered and watching closely, creating a threatening atmosphere (1)."
+    }
+   ]
+  },
+  {
+   "slug": "ruae-imagery",
+   "title": "RUAE: Imagery",
+   "paper": "either",
+   "rule": "Imagery questions use a strict **four-step** format for full marks:\n\n1. **Quote** the image.\n2. **Name the technique** — simile, metaphor, or personification.\n3. **Explain the literal comparison** — what is being compared to what, in plain terms (**just as...**).\n4. **Explain the effect** — what the comparison helps you understand or feel about the subject.\n\nUsing 'just as' forces you to make the comparison explicit — markers look for it.",
+   "example": "\"The city at night was a **jewelled crown**.\"\n\n**Q: Explain the effect of the imagery.** (3)\n\n**Model answer:** The writer uses a metaphor, describing the city as a 'jewelled crown' (1). Just as a jewelled crown is ornate, bright and precious (2), the comparison suggests the city at night is glittering, beautiful and valuable — perhaps regal and wealthy (3).",
+   "trap": "Naming the technique and stopping. **'It's a metaphor' earns 1 mark maximum.** Steps 3 and 4 carry the marks. Also, saying the comparison is 'effective' without explaining *why* it is effective.",
+   "practice": [
+    {
+     "q": "\"The old man's hands were **gnarled roots**.\" Explain the imagery. (3)",
+     "a": "Metaphor (1). Just as gnarled roots are twisted, tough and weathered (2), the comparison suggests the man's hands were rough and aged and that he has worked hard for a long time (3)."
+    },
+    {
+     "q": "\"Fear **crawled** into her mind.\" Name and explain the technique. (3)",
+     "a": "Personification (1). Just as a living creature crawls slowly and creeps unnoticed (2), the comparison suggests her fear built up gradually and took hold without her being able to stop it (3)."
+    }
+   ]
+  },
+  {
+   "slug": "ruae-structure-tone",
+   "title": "RUAE: Sentence structure & tone",
+   "paper": "either",
+   "rule": "**Sentence structure** questions need: quote the feature → **name** the feature → explain its **function/effect**.\n\nFeatures to look for: short sentence, long list, parenthesis (dashes/brackets), repetition, climax (build-up), antithesis (contrast), minor sentence, question, exclamation, colons.\n\n**Tone** questions need the tone **named** plus evidence and explanation. Common tones: humorous, sarcastic, critical, nostalgic, sympathetic, angry, ironic, reflective.\n\nA structure feature's effect is usually about **what it emphasises** or **how it build tension/pace**.",
+   "example": "\"He opened the door. Nothing. Silence. Emptiness.\"\n\n**Q: Explain how sentence structure emphasises the man's disappointment.** (2)\n\n**Model answer:** The writer uses three short, minor sentences in a list (1). This creates a staccato, halted rhythm that slows the reader down and isolates each emptiness in turn, emphasising that there was nothing there and mirroring the character's desolation (1).",
+   "trap": "Just naming the feature ('it's a short sentence') without its effect — that is 1 mark of 2. Similarly, for tone, quoting without naming the tone loses the mark. If you cannot name the tone, describe it precisely ('bitterly mocking') rather than vaguely ('negative').",
+   "practice": [
+    {
+     "q": "\"The plan failed. Utterly.\" Explain the effect of sentence structure. (2)",
+     "a": "The writer uses a minor, one-word sentence (1). This abruptly halts the sentence, giving the failure a final, absolute quality and emphasising the totality of the collapse (1)."
+    },
+    {
+     "q": "\"Oh, brilliant. Another meeting.\" What is the tone and how is it created? (2)",
+     "a": "Sarcastic/ironic tone (1). 'Brilliant' is normally positive but is placed beside 'another meeting' — showing the opposite of enthusiasm (1)."
+    }
+   ]
+  },
+  {
+   "slug": "ruae-evaluation",
+   "title": "RUAE: Evaluation",
+   "paper": "either",
+   "rule": "Evaluation questions ask **how effective** a passage is at doing something — persuading, shocking, engaging, informing.\n\nYou need to:\n1. Give a **point** about what the writer does.\n2. **Quote** evidence.\n3. **Explain the effect** on the reader / how it achieves the purpose.\n\nThe final mark is often for an **overall** judgement, so use the word effective and say *for whom* and *why*.",
+   "example": "**Q: How effective is the writer at persuading the reader that fast fashion is harmful? (4)**\n\n**Model answer:** The writer is effective because they use a shocking statistic: '24 billion garments are made and discarded each year' (1). The sheer scale is difficult to comprehend and makes the problem seem overwhelming and urgent (2). They also use emotive imagery, describing the waste as 'a mountain of clothes growing behind our backs' (3), which creates guilt in the reader because it suggests they are complicit. This makes the persuasive purpose effective for a general audience (4).",
+   "trap": "Saying a passage 'is effective' without saying **why** or **how**. Also, evaluating effectiveness without quoting — the marks come from linking **technique → evidence → effect**. End with an explicit overall judgement if the last mark is for it.",
+   "practice": [
+    {
+     "q": "How effective is an emotive headline at engaging the reader? Give one technique and explain. (3)",
+     "a": "Effective: the headline uses dramatic language, e.g. 'battle' (1), which frames the issue as a conflict the reader has a stake in (2), making them want to read on (3)."
+    },
+    {
+     "q": "Evaluate the effectiveness of a concluding rhetorical question. (2)",
+     "a": "Effective (1): by asking the reader a question they cannot easily answer, the writer leaves them personally implicated, so the argument stays with them after reading (2)."
+    }
+   ]
+  },
+  {
+   "slug": "scottish-text",
+   "title": "Scottish text (Critical Reading section 1)",
+   "paper": "either",
+   "rule": "Section 1 assesses a **Scottish text** (or a prescribed extract) you have studied in class. 20 marks, split between:\n- a set of **short-answer questions** on an extract\n- one question worth **8 marks**, requiring you to refer to the extract **and** the rest of the text.\n\nThe final 8-mark question typically asks about **theme, character, or a key concern** — you must quote and analyse from **at least two places**.",
+   "example": "Typical 8-mark task: *'By referring to this extract and to at least one other part of the text, discuss how the writer presents the theme of loss.'*\n\n**Structure that scores well:**\n- State the technique/idea clearly.\n- Quote from the extract, analyse.\n- Quote from elsewhere in the text, analyse.\n- Take a clear line on the theme.\n\nUse PEER paragraphs: **P**oint, **E**vidence, **E**xplanation, **R**elate back to the question.",
+   "trap": "Only discussing the extract and ignoring the **rest of the text** — that caps the answer at about half marks, since the question explicitly says 'and to at least one other part'. Also, retelling the story instead of analysing technique.",
+   "practice": [
+    {
+     "q": "Why is the 8-mark question graded so heavily?",
+     "a": "It tests knowledge of the whole text plus analysis and evaluation. Marks come from relevant quotations (1), explaining the technique and effect (2), and a limited number come from accuracy of knowledge about the text (3)."
+    },
+    {
+     "q": "What is the single biggest mistake in this section?",
+     "a": "Answering only from the printed extract. The question requires reference to the extract **and** another part of the text, so topic-based revision of the whole text is essential."
+    }
+   ]
+  },
+  {
+   "slug": "critical-essay",
+   "title": "Critical essay (Critical Reading section 2)",
+   "paper": "either",
+   "rule": "The critical essay is worth **20 marks** and is answered on **one text** (prose, poetry, drama, film or media) that you have studied.\n\nMarks are awarded for:\n- **Knowledge and understanding** of the text (accurate, relevant detail)\n- **Analysis** of the writer's techniques\n- **Evaluation** — your own judgement, backed by evidence\n- **Structure** and technical accuracy\n\nUse a **formal register**, **present tense**, and **third person**. Introduce with the author's name and the text's title. Every paragraph should link back to the question.",
+   "example": "**Structure that scores well:**\n\n**Introduction:** author, title, genre, brief context, and a clear answer to the question.\n**Body (4–6 paragraphs):** each with a clear topic sentence, technique → quotation → analysis → link to question.\n**Conclusion:** restate the answer with confidence; do not introduce new material.\n\n**Useful analysis phrases:** 'The writer employs...', 'This is evidenced by...', 'This suggests to the reader...', 'The use of ... creates...'",
+   "trap": "Retelling the plot instead of analysing technique — this is the most common cause of a C grade. Also, using 'this shows' with no explanation, never linking paragraphs back to the question, and mixing up present and past tense when discussing a text.",
+   "practice": [
+    {
+     "q": "What proportion of the critical essay marks come from analysis rather than plot summary?",
+     "a": "Most. Marks are weighted towards analysis and evaluation of technique, with only a limited amount for accurate knowledge of the text. A strong candidate quotes and analyses rather than narrates."
+    },
+    {
+     "q": "Rewrite this weak point: 'Macbeth was ambitious and this shows he was bad.'",
+     "a": "Macbeth's ambition is presented as a destructive force. Shakespeare's use of soliloquy, such as 'vaulting ambition, which o'erleaps itself', reveals his awareness that his desire exceeds moral limits — implying he is a man consumed by a flaw he recognises but cannot control."
+    }
+   ]
+  },
+  {
+   "slug": "portfolio-creative",
+   "title": "Portfolio: creative writing",
+   "paper": "either",
+   "rule": "The portfolio-writing is **one piece**, worth 15 marks scaled to **30** — the highest-weighted single component in the course.\n\nYou choose **broadly creative** OR **broadly discursive**. Creative writing can be prose fiction, poetry, or drama.\n\nMarks come from **content** (ideas, structure, imagination) and **technical accuracy** (spelling, punctuation, grammar, paragraphing) — both matter equally.\n\nYou may be assessed on a polished, redrafted piece, so drafts matter.",
+   "example": "**What good creative writing does:**\n- Opens **in the middle of the action**, not with 'It was a dark and stormy night.'\n- Uses **sensory detail** — sight, sound, smell, touch.\n- Varies **sentence length** for effect: long flowing sentences for calm, short for tension.\n- Shows, does not tells: not 'she was scared' but 'her hand shook as she reached for the handle'.\n- Has a clear **payoff** or twist.",
+   "trap": "Poor technical accuracy dragging down strong ideas — spelling and punctuation errors are penalised heavily. Also, over-long narratives with no shape; a tight, focused piece scores better than a sprawling one. Remember the word count guidance and stick near the middle of it.",
+   "practice": [
+    {
+     "q": "Rewrite to 'show, not tell': 'He was nervous as he entered the interview room.'",
+     "a": "His fingers tightened around the folder. The door handle felt cold and too smooth. He wiped his palm on his trousers and pushed it open."
+    },
+    {
+     "q": "Why does varying sentence length matter?",
+     "a": "It controls pace and tension. Short sentences speed up action and create a sense of shock; longer complex sentences slow the reader down and create reflection. This is a technique markers look for."
+    }
+   ]
+  },
+  {
+   "slug": "portfolio-discursive",
+   "title": "Portfolio: discursive writing",
+   "paper": "either",
+   "rule": "Discursive writing argues or discusses a **topic** — it can be persuasive, informative, or balanced.\n\nMarks come from **content and structure** (clear line of argument, well-developed paragraphs, relevant evidence) and **technical accuracy**.\n\nThe examiner expects:\n- A **clear thesis** stated early\n- **Paragraphs with topic sentences**\n- **Evidence** — statistics, examples, expert opinion\n- **Discourse markers** — furthermore, however, consequently, in contrast\n- A **conclusion** that answers the question",
+   "example": "**Opening that scores well:**\n\n'Sixteen-year-olds can legally leave school, pay tax and join the army. Yet they cannot vote. This inconsistency is at the heart of a debate that has rumbled in Britain for decades. This essay will argue that the voting age should be lowered, on the grounds of fairness, representation and civic engagement.'\n\nClear thesis, engaging opening, roadmap of argument.",
+   "trap": "Sitting on the fence for a persuasive task — if asked to persuade, you must take a **clear stance**. Also, unsupported assertions ('everyone knows that...'), and forgetting to address the counter-argument, which examiners reward.",
+   "practice": [
+    {
+     "q": "What is a discourse marker and why use one?",
+     "a": "A word or phrase that signals the relationship between ideas, e.g. 'however', 'furthermore', 'consequently'. They guide the reader through your argument and improve structure marks."
+    },
+    {
+     "q": "Improve this assertion: 'Social media is bad for teenagers.'",
+     "a": "'A 2023 study of 10,000 teenagers found that those using social media for more than three hours a day were twice as likely to report symptoms of anxiety — evidence that heavy use correlates with poorer mental health.'"
+    }
+   ]
+  }
+ ]
+}

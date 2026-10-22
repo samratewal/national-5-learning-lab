@@ -1,0 +1,153 @@
+{
+ "subject": "pe",
+ "title": "Physical Education",
+ "icon": "🏃",
+ "assessment": "Portfolio: 60 marks | Performance: 60 marks (two activities)",
+ "intro": "National 5 PE has **no question paper** — the written assessment is the **portfolio**. Every answer must link the factor to its impact on performance, using a named activity.",
+ "topics": [
+  {
+   "slug": "performance-skills",
+   "title": "Performance skills",
+   "paper": "either",
+   "rule": "**Performance skills** are the skills you demonstrate in an activity. They split into:\n\n**Fundamental/technical skills** — passing, shooting, dribbling, serving, turning, striking.\n\n**Cognitive skills** — decision making, problem solving, anticipating, spatial awareness.\n\n**Skill classification:**\n- **Simple** vs **complex**\n- **Open** (changing environment) vs **closed** (fixed environment)\n- **Gross** (large muscle groups) vs **fine** (small, precise movements)\n\nA **repertoire of skills** means having a wide range available to choose from.",
+   "example": "**Q: Describe two performance skills used by a basketball player and explain why each is important. (4)**\n\n**Model answer:** A basketball player uses **passing** (chest pass, bounce pass) to move the ball quickly past defenders (1), which helps the team keep possession and create shooting chances (2). They also use **decision making** to choose when to pass and when to drive (1); good decisions mean they exploit gaps in the defence and avoid turnovers (2).",
+   "trap": "Naming a skill without saying **why it matters in the activity**. Also, confusing open and closed skills — an open skill is performed in a changing environment (passing in football), a closed skill in a predictable one (a free throw).",
+   "practice": [
+    {
+     "q": "Classify a penalty kick in football as open or closed, and justify. (2)",
+     "a": "Closed skill. The environment is fixed and predictable — the ball is stationary and the player controls the timing, so the skill is performed the same way each time."
+    },
+    {
+     "q": "Explain why a wide repertoire of skills benefits a performer. (2)",
+     "a": "Having more skills available lets the performer choose the best response to each situation (1), making them less predictable to opponents and more effective in changing conditions (2)."
+    }
+   ]
+  },
+  {
+   "slug": "mental-factors",
+   "title": "Mental factors",
+   "paper": "either",
+   "rule": "**Mental factors** affect how well you think and cope during performance:\n\n- **Motivation** — drive to train and perform\n- **Confidence** — belief in your ability\n- **Concentration** — ability to focus and ignore distractions\n- **Decision making** — choosing the right option under pressure\n- **Anxiety/arousal** — nerves or over-excitement\n\n**Impact on performance:** low concentration causes missed cues and errors; low confidence causes hesitation and safe, ineffective play; high anxiety causes tension and poor technique.",
+   "example": "**Q: Explain how low confidence could affect performance in a tennis match. (2)**\n\n**Model answer:** A player with low confidence may hesitate before hitting attacking shots (1), choosing safe, defensive play instead. This lets the opponent control the rallies and makes it harder for the player to win points (2).",
+   "trap": "Describing the factor but not its **impact on performance**. 'I was nervous' scores nothing; 'I was nervous, so my hands shook and I missed serves' scores. Always name the activity.",
+   "practice": [
+    {
+     "q": "Explain how poor concentration could affect a goalkeeper's performance. (2)",
+     "a": "If the goalkeeper loses focus, they may react late to a shot or fail to track the ball (1), allowing a goal that a focused keeper would have saved (2)."
+    },
+    {
+     "q": "Describe one way an athlete could improve concentration. (2)",
+     "a": "Using a pre-performance routine, such as controlled breathing and a fixed focus cue, to block out distractions and settle attention before each attempt."
+    }
+   ]
+  },
+  {
+   "slug": "emotional-factors",
+   "title": "Emotional factors",
+   "paper": "either",
+   "rule": "**Emotional factors** relate to how you feel during performance:\n\n- **Anger/frustration** — losing temper after mistakes\n- **Fear** — of failure, injury or the opposition\n- **Resilience** — ability to recover from setbacks\n- **Enjoyment** — how much you like the activity\n- **Determination** — persisting when it gets hard\n\n**Impact:** anger causes rash decisions and fouls; fear causes hesitation and avoiding contact; high resilience means you recover quickly from a mistake and keep performing.",
+   "example": "**Q: Explain how frustration could affect a rugby player's performance. (2)**\n\n**Model answer:** After a mistake the player may become frustrated and make rash decisions (1), such as attempting an ambitious pass that is intercepted or committing a reckless tackle that gives away a penalty (2).",
+   "trap": "Confusing **emotional** with **mental** factors. Mental = thinking (concentration, decision making); emotional = feeling (anger, fear, resilience). Also, not linking the emotion to a specific performance consequence.",
+   "practice": [
+    {
+     "q": "Explain how resilience helps a performer after an error. (2)",
+     "a": "A resilient performer refocuses quickly instead of dwelling on the mistake (1), so they maintain technique and decision quality rather than letting one error cause more (2)."
+    },
+    {
+     "q": "Describe one emotional factor that could negatively affect a golfer. (2)",
+     "a": "Fear of failure on a difficult shot could cause the player to decelerate through the swing, producing a poor strike and losing distance or accuracy."
+    }
+   ]
+  },
+  {
+   "slug": "social-factors",
+   "title": "Social factors",
+   "paper": "either",
+   "rule": "**Social factors** relate to interaction with others:\n\n- **Teamwork** — working with others toward a shared goal\n- **Communication** — giving and receiving information\n- **Cooperation** — supporting and trusting teammates\n- **Leadership** — guiding and motivating the group\n- **Peer influence** — pressure from friends\n\n**Impact:** poor communication causes confusion and missed plays; strong teamwork improves cohesion and decision making; negative peer influence can reduce effort or cause a performer to drop out.",
+   "example": "**Q: Explain how poor communication could affect a team's performance in hockey. (2)**\n\n**Model answer:** If players do not call for the ball or signal their runs, teammates may not know where to pass (1), leading to passes going to the wrong place and possession being lost to the opposition (2).",
+   "trap": "Describing social factors in general terms without linking to the **team's performance**. Also, confusing teamwork (shared goal) with cooperation (supporting each other) — they are related but distinct.",
+   "practice": [
+    {
+     "q": "Explain how positive peer influence can improve performance. (2)",
+     "a": "Friends who train regularly and encourage effort can push a performer to work harder and attend sessions consistently (1), improving fitness and skill over time (2)."
+    },
+    {
+     "q": "Describe one way a captain demonstrates leadership. (2)",
+     "a": "By communicating clearly and motivating teammates when the team is losing, keeping morale and effort high when it would be easy to give up."
+    }
+   ]
+  },
+  {
+   "slug": "physical-factors",
+   "title": "Physical factors",
+   "paper": "either",
+   "rule": "**Physical factors** are the body's capacities:\n\n- **Cardiovascular endurance (CRE)** — ability to sustain exercise (heart and lungs)\n- **Muscular endurance** — repeated contractions without tiring\n- **Speed** — how fast you move\n- **Strength** — force you can apply\n- **Flexibility** — range of movement at a joint\n- **Power** — strength × speed\n- **Agility** — change direction quickly\n- **Balance** — staying stable\n- **Coordination** — moving body parts smoothly together\n\n**Impact:** low CRE means tiring early and dropping skill quality; poor flexibility restricts range and risks injury; low agility means being beaten by opponents changing direction.",
+   "example": "**Q: Explain how low cardiovascular endurance would affect a footballer. (2)**\n\n**Model answer:** A player with low CRE would tire early in the match (1), causing them to close down opponents more slowly and make poorer decisions late in the game as oxygen supply to the muscles falls (2).",
+   "trap": "Naming a physical factor without linking it to a **performance consequence** in the activity. Also, confusing muscular endurance (repeated contractions) with strength (maximum force), and power with speed.",
+   "practice": [
+    {
+     "q": "Explain how flexibility is important for a gymnast. (2)",
+     "a": "Greater flexibility allows the gymnast to achieve a wider range of movement at the joints (1), so they can complete splits and stretched positions required in routines and reduce injury risk (2)."
+    },
+    {
+     "q": "Which physical factor is most important for a sprinter at the start of a race? Justify. (2)",
+     "a": "Speed (or power). The sprinter needs to generate maximum acceleration in the first seconds, so explosive speed and power determine how quickly they reach top pace."
+    }
+   ]
+  },
+  {
+   "slug": "approaches",
+   "title": "Approaches to development",
+   "paper": "either",
+   "rule": "**Approaches used to develop performance:**\n\n- **Training methods** — continuous training (CRE), interval training (speed/CRE), fartlek, circuit training (muscular endurance/strength), weight training (strength/power), plyometrics (power), flexibility training (static/ballistic/dynamic)\n- **Skill development** — practice drills, conditioned games, shadow practice, gradual addition of difficulty\n- **Mental approaches** — goal setting (SMART), visualisation, relaxation techniques, positive self-talk\n\nChoose the approach to match the **factor** being improved.",
+   "example": "**Q: Describe a training approach to improve cardiovascular endurance and explain why it works. (2)**\n\n**Model answer:** Continuous training — running or cycling at a steady moderate intensity for 20–30 minutes without rest (1). This keeps the heart rate elevated for a sustained period, strengthening the heart and improving oxygen delivery so the performer can work for longer before tiring (2).",
+   "trap": "Choosing an approach that does not match the factor. Strength training will not improve flexibility. Also, describing an approach without saying **why it improves** that factor or the frequency/intensity needed.",
+   "practice": [
+    {
+     "q": "Describe how interval training improves speed. (2)",
+     "a": "Short bursts of high-intensity work followed by rest periods (1). This trains the body to work anaerobically and recruit fast-twitch muscle fibres, increasing maximum pace (2)."
+    },
+    {
+     "q": "Explain how goal setting helps develop performance. (2)",
+     "a": "SMART goals give a clear, measurable target and a deadline (1), which focuses training, motivates effort and lets the performer track improvement and adjust their approach (2)."
+    }
+   ]
+  },
+  {
+   "slug": "monitoring",
+   "title": "Monitoring, recording & evaluating",
+   "paper": "either",
+   "rule": "**Monitoring** = collecting data about your performance. Methods:\n- **Observation schedules** — a partner records how often you use a skill\n- **Video analysis** — recording performance to review technique\n- **Fitness tests** — e.g. 12-minute run (CRE), sit-and-reach (flexibility), Illinois agility test\n- **Training diary** — recording sessions and progress\n- **Heart rate monitors / apps**\n\n**Recording** = keeping the data in a log so comparisons can be made.\n\n**Evaluating** = comparing **before and after** to judge whether the development approach worked, then identifying what to change next.",
+   "example": "**Q: Explain how video analysis helps a performer improve. (2)**\n\n**Model answer:** Watching a recording lets the performer see their technique objectively rather than relying on how it felt (1), so they can identify specific faults, such as a poor follow-through, and correct them in the next training block (2).",
+   "trap": "Describing monitoring without saying what it is used for. The marks are for **why** the data is collected — to identify strengths/weaknesses and to measure whether development worked. Also, evaluating without comparing to a baseline.",
+   "practice": [
+    {
+     "q": "Name two methods of monitoring performance in a sport of your choice. (2)",
+     "a": "Video analysis of technique; a training diary recording sessions and results (also acceptable: observation schedule, fitness testing, heart rate monitoring)."
+    },
+    {
+     "q": "Explain why a baseline measurement is needed before starting a development programme. (2)",
+     "a": "A baseline records performance before training begins (1), so any improvement afterwards can be measured and attributed to the programme rather than guessed (2)."
+    }
+   ]
+  },
+  {
+   "slug": "portfolio",
+   "title": "The portfolio (60 marks)",
+   "paper": "either",
+   "rule": "The **portfolio** is the written assessment — 60 marks, and there is **no exam paper** for National 5 PE.\n\nIt asks you to:\n1. **Explain the factors** that impact on your performance (mental, emotional, social, physical)\n2. **Describe the approaches** you used to develop your performance\n3. **Monitor, record and evaluate** your development\n4. **Evaluate** whether the approaches worked and what you would change\n\n**Structure:**\n- Introduction — your activity and current performance level\n- Data collection — how you identified your strengths and weaknesses\n- Approaches — what you did and why\n- Monitoring — how you recorded progress\n- Evaluation — what improved and what to do next\n\nMarks come from **linking each factor to its impact on performance**, not from describing the activity.",
+   "example": "**Q: Describe how you would structure a portfolio answer about improving a physical factor. (4)**\n\n**Model answer:** State the factor and your activity, e.g. low CRE in football (1). Describe the data collection method used to identify it, such as a 12-minute run test compared to a teammate (2). Describe the approach taken — continuous training twice a week for six weeks (3). Then evaluate the improvement by comparing a re-test result, and suggest the next step (4).",
+   "trap": "Describing the activity rather than analysing the factor. 'I played football and got better' earns nothing. Every paragraph needs a **named factor**, its **impact on performance**, the **approach used**, and the **evidence of improvement**. Also, forgetting the evaluation — the last marks are for judging whether the approach worked.",
+   "practice": [
+    {
+     "q": "What four factor categories should a portfolio cover? (4)",
+     "a": "Mental; emotional; social; physical."
+    },
+    {
+     "q": "Why is evaluation the most heavily weighted part of the portfolio?",
+     "a": "It requires the candidate to judge whether the development approach actually improved performance, using evidence. It tests analysis and decision making rather than description, which is why it carries the most marks."
+    }
+   ]
+  }
+ ]
+}

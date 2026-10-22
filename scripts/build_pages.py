@@ -181,6 +181,17 @@ is not secure yet.
 </html>"""
 
 
+SUBJECT_PAGES = {
+    "maths": "maths.html",
+    "physics": "physics.html",
+    "english": "english.html",
+    "bm": "business-management.html",
+    "dm": "design-manufacture.html",
+    "pe": "pe.html",
+    "cook": "practical-cookery.html",
+}
+
+
 def main():
     DOCS.mkdir(exist_ok=True)
     wanted = sys.argv[1:]
@@ -193,7 +204,8 @@ def main():
     for f in files:
         data = json.loads(f.read_text(encoding="utf-8"))
         html = render_page(data)
-        out = DOCS / f"{data['subject']}.html"
+        fname = SUBJECT_PAGES.get(data["subject"], f"{data['subject']}.html")
+        out = DOCS / fname
         out.write_text(html, encoding="utf-8")
         print(f"{out.name:28} {len(data.get('topics', [])):3} topics  {len(html):>7,} bytes")
     return 0

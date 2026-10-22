@@ -1,0 +1,405 @@
+{
+  "subject": "physics",
+  "title": "Physics",
+  "icon": "⚛️",
+  "assessment": "Single question paper: 2 hours 30 minutes (110 marks)",
+  "intro": "Complete National 5 Physics revision, topic by topic. Work through the rule, cover the worked example, note the exam trap, then test yourself with the practice questions before moving on.",
+  "topics": [
+    {
+      "slug": "vectors-scalars",
+      "title": "Vectors & scalars",
+      "paper": "either",
+      "rule": "- **Scalar** — magnitude only, no direction. Examples: distance, speed, mass, time, energy, temperature.\n- **Vector** — magnitude **and** direction. Examples: displacement, velocity, force, acceleration, weight.\n- **Resultant of two perpendicular vectors** ($a$ and $b$): magnitude $R=\\sqrt{a^2+b^2}$; direction $\\theta=\\tan^{-1}\\!\\left(\\frac{b}{a}\\right)$ measured from $a$.\n- **One dimension:** add vectors in the same direction; subtract vectors acting in opposite directions.\n- Units are those of the vectors themselves, e.g. m or m s$^{-1}$.",
+      "example": "A walker goes **4.0 m east** then **3.0 m north**.\n\n$R=\\sqrt{4.0^2+3.0^2}=\\sqrt{16+9}=\\sqrt{25}=5.0\\ \\text{m}$\n\n$\\theta=\\tan^{-1}\\!\\left(\\frac{3.0}{4.0}\\right)=36.9^\\circ$ north of east.\n\nBoth data values have 2 significant figures, so the resultant is **5.0 m at 37° north of east**.",
+      "trap": "- **Distance vs displacement.** Distance is a scalar (total path length); displacement is a vector (straight line from start to finish, with direction). An answer of only \"5 m\" loses the direction mark.\n- **Adding magnitudes blindly.** $4.0+3.0=7.0$ m is wrong — the vectors are at right angles, so use Pythagoras.\n- **Omitting the direction** (e.g. \"north of east\") even when the magnitude is correct.\n- Using Pythagoras when the vectors are **not** at right angles — then a scale diagram is needed.",
+      "practice": [
+        {
+          "q": "A model boat is pulled by two ropes at right angles: **6.0 N east** and **8.0 N north**. Find the resultant force.",
+          "a": "$R=\\sqrt{6.0^2+8.0^2}=\\sqrt{36+64}=\\sqrt{100}=10\\ \text{N}$ (10 N, 2 s.f.).\n\n$\theta=\tan^{-1}\\!\\left(\frac{8.0}{6.0}\right)=53.1^\\circ$ north of east.\n\n**Resultant = 10 N at 53° north of east.**"
+        },
+        {
+          "q": "A car travels **30 m east**, then **40 m west**. State the distance and the displacement.",
+          "a": "Distance (scalar) $=30+40=70\\ \text{m}$.\n\nDisplacement (vector) $=30-40=-10\\ \text{m}$, i.e. magnitude **10 m** in the **west** direction.\n\n**Distance = 70 m; displacement = 10 m west.**"
+        }
+      ]
+    },
+    {
+      "slug": "velocity-time",
+      "title": "Velocity–time graphs",
+      "paper": "either",
+      "rule": "On a velocity–time graph:\n- **Gradient** $=\\dfrac{\\Delta v}{\\Delta t}=$ **acceleration** (m s$^{-2}$).\n- **Area under the graph** $=$ **displacement** (m).\n- A horizontal line means constant velocity (zero acceleration); a straight sloping line means uniform acceleration; a negative gradient means deceleration.\n- Split a complex graph into rectangles and triangles to find the area. Areas **below** the time axis count as negative displacement.\n- Units: velocity in m s$^{-1}$, time in s, area in m.",
+      "example": "A cyclist accelerates from 0 to 20 m/s in 5.0 s, travels at 20 m/s for 10 s, then brakes to rest in 4.0 s.\n\n**Acceleration (first 5.0 s):** $a=\\dfrac{v-u}{t}=\\dfrac{20-0}{5.0}=4.0\\ \\text{m s}^{-2}$\n\n**Displacement = area under the graph:**\n- first triangle: $\\tfrac12\\times5.0\\times20=50$ m\n- rectangle: $10\\times20=200$ m\n- second triangle: $\\tfrac12\\times4.0\\times20=40$ m\n\n$s=50+200+40=290\\ \\text{m}$ (2 s.f.).\n\n**Acceleration = 4.0 m s$^{-2}$; displacement = 290 m.**",
+      "trap": "- **Using the gradient to find distance.** The gradient gives acceleration; the **area** gives displacement.\n- **Using the wrong base.** A triangle's area is $\\tfrac12\\times$ base (time) $\\times$ height (velocity), not $\\tfrac12\\times v\\times v$.\n- **Ignoring negative areas.** Motion below the time axis reduces displacement; it does not add to it.\n- **Mixing units.** Convert km h$^{-1}$ to m s$^{-1}$ ($\\div3.6$) and minutes to seconds before reading the graph.",
+      "practice": [
+        {
+          "q": "A van's velocity rises from 10 m/s to 30 m/s in 4.0 s. Find its acceleration.",
+          "a": "$a=\\dfrac{v-u}{t}=\\dfrac{30-10}{4.0}=\\dfrac{20}{4.0}=5.0\\ \text{m s}^{-2}$.\n\n**Acceleration = 5.0 m s$^{-2}$** (2 s.f.)."
+        },
+        {
+          "q": "A car accelerates uniformly from rest to 12 m/s in 8.0 s. Use the graph area to find the distance travelled.",
+          "a": "The graph is a triangle with base 8.0 s and height 12 m/s.\n\n$s=\tfrac12\times8.0\times12=48\\ \text{m}$.\n\n**Distance = 48 m** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "acceleration",
+      "title": "Acceleration",
+      "paper": "either",
+      "rule": "- Acceleration is the **rate of change of velocity**: $a=\\dfrac{v-u}{t}$.\n- $u$ = initial velocity, $v$ = final velocity, $t$ = time (m s$^{-1}$, s).\n- SI unit: **m s$^{-2}$** (metres per second squared).\n- Acceleration is a **vector**. Negative acceleration means slowing down (when motion is positive) or acceleration in the opposite direction.",
+      "example": "A car speeds up from 12 m s$^{-1}$ to 27 m s$^{-1}$ in 5.0 s.\n\n$a=\\dfrac{v-u}{t}=\\dfrac{27-12}{5.0}=\\dfrac{15}{5.0}=3.0\\ \\text{m s}^{-2}$\n\n**Acceleration = 3.0 m s$^{-2}$** (2 s.f.).",
+      "trap": "- **Subtracting the wrong way round.** Use $v-u$ (final minus initial), not $u-v$.\n- **Forgetting to convert units.** 72 km h$^{-1}$ becomes $72\\div3.6=20$ m s$^{-1}$; minutes must become seconds.\n- **Losing the negative sign for deceleration.** A train slowing from 25 m/s to rest in 20 s has $a=-1.25$ m s$^{-2}$.\n- **Rounding too early.** Keep the full value until the final answer, then round to the least number of significant figures in the data.",
+      "practice": [
+        {
+          "q": "A cyclist accelerates from rest to 8.0 m/s in 4.0 s. Find the acceleration.",
+          "a": "$a=\\dfrac{8.0-0}{4.0}=2.0\\ \text{m s}^{-2}$.\n\n**Acceleration = 2.0 m s$^{-2}$** (2 s.f.)."
+        },
+        {
+          "q": "A train travelling at 25 m/s decelerates uniformly to rest in 20 s. Find its acceleration.",
+          "a": "$a=\\dfrac{0-25}{20}=-1.25\\ \text{m s}^{-2}$.\n\n**Acceleration = $-1.25$ m s$^{-2}$** (a deceleration of 1.25 m s$^{-2}$; to 2 s.f. this is $-1.3$ m s$^{-2}$)."
+        }
+      ]
+    },
+    {
+      "slug": "newtons-laws",
+      "title": "Newton's laws",
+      "paper": "either",
+      "rule": "- **Newton's first law:** balanced forces → an object stays at rest or moves with constant velocity.\n- **Newton's second law:** an unbalanced force causes acceleration: $F_{\\text{unbalanced}}=ma$.\n- **Newton's third law:** forces occur in equal and opposite pairs acting on **different** objects.\n- **Weight:** $W=mg$, where $g$ is the gravitational field strength (N kg$^{-1}$).\n- Units: $F$ and $W$ in N, $m$ in kg, $a$ in m s$^{-2}$, $g$ in N kg$^{-1}$.",
+      "example": "A 1200 kg car experiences a driving force of 2800 N and a drag force of 400 N.\n\nUnbalanced force: $F=2800-400=2400\\ \\text{N}$\n\n$a=\\dfrac{F}{m}=\\dfrac{2400}{1200}=2.0\\ \\text{m s}^{-2}$\n\nWeight on Earth: $W=mg=1200\\times9.8=11760\\ \\text{N}\\approx1.2\\times10^4\\ \\text{N}$.\n\n**Acceleration = 2.0 m s$^{-2}$; weight = $1.2\\times10^4$ N.**",
+      "trap": "- **Using the total force instead of the unbalanced force.** Subtract opposing forces first.\n- **Confusing mass and weight.** Mass (kg) is constant; weight (N) depends on $g$.\n- **Using $g=10$ when the data sheet gives 9.8** (unless the question states otherwise).\n- **Thinking action–reaction forces cancel.** They act on different objects, so they do not cancel on the same object.\n- **Forgetting direction/sign** when forces act in opposite directions.",
+      "practice": [
+        {
+          "q": "Find the weight of an 80 kg astronaut on the Moon ($g=1.6$ N kg$^{-1}$).",
+          "a": "$W=mg=80\times1.6=128\\ \text{N}$.\n\n**Weight = 128 N** ($\u0007pprox1.3\times10^2$ N, 2 s.f.)."
+        },
+        {
+          "q": "A 5.0 kg box has an unbalanced force of 20 N acting on it. Find its acceleration.",
+          "a": "$a=\\dfrac{F}{m}=\\dfrac{20}{5.0}=4.0\\ \text{m s}^{-2}$.\n\n**Acceleration = 4.0 m s$^{-2}$** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "energy",
+      "title": "Energy",
+      "paper": "either",
+      "rule": "- **Work done:** $E_w=Fd$ (J), where $F$ is the unbalanced force (N) and $d$ is the distance (m).\n- **Gravitational potential energy:** $E_p=mgh$ (J).\n- **Kinetic energy:** $E_k=\\tfrac12 mv^2$ (J).\n- **Conservation of energy:** energy is transferred, not created or destroyed. In a closed system with no friction, $E_k=E_p$.\n- Units: J = N m = kg m$^2$ s$^{-2}$.",
+      "example": "A 2.0 kg ball is dropped from 5.0 m. Find its speed just before impact (ignore air resistance).\n\n$E_p=mgh=2.0\\times9.8\\times5.0=98\\ \\text{J}$\n\nAll of this becomes kinetic energy: $\\tfrac12 mv^2=98$\n\n$v=\\sqrt{\\dfrac{2\\times98}{2.0}}=\\sqrt{98}=9.9\\ \\text{m s}^{-1}$\n\n**Speed = 9.9 m s$^{-1}$** (2 s.f.).",
+      "trap": "- **Forgetting energy transfers.** Some energy may become heat or sound, so the final $E_k$ is often less than $E_p$.\n- **Mixing up $E_p$ and $E_k$**, or using the wrong height. Use the vertical height in metres.\n- **Not converting cm to m** or g to kg before calculating.\n- **Rounding too early**, especially inside the square root.\n- Using $g=10$ when the data sheet supplies 9.8.",
+      "practice": [
+        {
+          "q": "A 60 kg student climbs a 4.0 m staircase. Find the gain in gravitational potential energy.",
+          "a": "$E_p=mgh=60\times9.8\times4.0=2352\\ \text{J}$.\n\n**Gain in $E_p$ = 2352 J** ($\u0007pprox2.4\times10^3$ J, 2 s.f.)."
+        },
+        {
+          "q": "Find the kinetic energy of a 1500 kg car travelling at 20 m/s.",
+          "a": "$E_k=\tfrac12 mv^2=\tfrac12\times1500\times20^2=0.5\times1500\times400=3.0\times10^5\\ \text{J}$.\n\n**Kinetic energy = $3.0\times10^5$ J** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "projectile",
+      "title": "Projectile motion",
+      "paper": "either",
+      "rule": "- Projectile motion is split into **horizontal** and **vertical** motion.\n- **Horizontal:** constant velocity (no horizontal acceleration), so $s_h=v_h t$.\n- **Vertical:** constant acceleration $g$ downwards. For a horizontal launch $u_v=0$, so $v_v=u_v+at$; height can be found from the area under a vertical $v$–$t$ graph, or from $s=\\tfrac{u+v}{2}t$.\n- The **time is the same** for both directions.\n- Units: distance m, velocity m s$^{-1}$, time s, acceleration m s$^{-2}$.",
+      "example": "A ball is launched horizontally at 8.0 m s$^{-1}$ from a height of 45 m. Find the horizontal range.\n\n**Vertical:** $s=45$ m, $u_v=0$, $a=9.8$ m s$^{-2}$. Using $s=\\tfrac12 at^2$:\n\n$t=\\sqrt{\\dfrac{2s}{g}}=\\sqrt{\\dfrac{2\\times45}{9.8}}=\\sqrt{9.18}=3.03\\ \\text{s}$\n\n**Horizontal:** $s_h=v_h t=8.0\\times3.03=24.2\\ \\text{m}$\n\n**Range = 24 m** (2 s.f.).",
+      "trap": "- **Using the horizontal velocity in vertical calculations** (or vice versa). Keep the components separate.\n- **Forgetting $u_v=0$** for a horizontal launch.\n- **Using $g$ as 10** when the data sheet supplies 9.8.\n- **Mixing up range (horizontal) and height (vertical).**\n- **Thinking a dropped object lands at a different time from a horizontally fired one** — their vertical motions are identical.",
+      "practice": [
+        {
+          "q": "A ball is fired horizontally at 12 m/s from a height of 20 m. Find the time of flight and the horizontal range ($g=9.8$ m s$^{-2}$).",
+          "a": "Vertical: $t=\\sqrt{\\dfrac{2\times20}{9.8}}=\\sqrt{4.08}=2.02\\ \text{s}$.\n\nHorizontal: $s_h=v_h t=12\times2.02=24.2\\ \text{m}$.\n\n**Time = 2.0 s; range = 24 m** (2 s.f.)."
+        },
+        {
+          "q": "Explain why a ball dropped from a height and an identical ball fired horizontally from the same height hit the ground at the same time.",
+          "a": "Both have the same **vertical** initial velocity ($u_v=0$) and the same **vertical** acceleration ($g=9.8$ m s$^{-2}$). Horizontal velocity does not affect vertical motion, so both take the same time to fall the same height.\n\n**Same time of flight because the vertical motions are identical.**"
+        }
+      ]
+    },
+    {
+      "slug": "space-exploration",
+      "title": "Space exploration",
+      "paper": "either",
+      "rule": "- **Weight in a gravitational field:** $W=mg$, where $g$ varies across the universe (Earth 9.8, Moon 1.6, Mars 3.7 N kg$^{-1}$).\n- **Orbital speed** for a circular orbit: $v=\\dfrac{2\\pi r}{T}$ (circumference ÷ period).\n- **Geostationary satellites** have a period of **24 hours** and orbit at an altitude of about **36 000 km**.\n- A satellite in a **higher** orbit has a **longer** period than one in a lower orbit.\n- Units: N, N kg$^{-1}$, m, s, m s$^{-1}$.",
+      "example": "A satellite orbits Earth in a circle of radius $4.2\\times10^7$ m with a period of 24 hours. Find its orbital speed.\n\n$T=24\\ \\text{h}=24\\times3600=86\\,400\\ \\text{s}$\n\n$v=\\dfrac{2\\pi r}{T}=\\dfrac{2\\pi\\times4.2\\times10^7}{86\\,400}=3.05\\times10^3\\ \\text{m s}^{-1}$\n\n**Orbital speed = $3.1\\times10^3$ m s$^{-1}$** (2 s.f.).",
+      "trap": "- **Using altitude instead of orbital radius.** $r=R_{\\text{Earth}}+\\text{altitude}$.\n- **Forgetting to convert hours to seconds** ($\\times3600$).\n- **Using the surface value of $g$ for an orbiting satellite** — $g$ decreases with distance.\n- **Confusing mass and weight.** An astronaut's mass is unchanged in space, but weight changes with $g$.\n- **Mixing up period and orbital speed** in the orbit relationship.",
+      "practice": [
+        {
+          "q": "Find the weight of a 1500 kg satellite on the surface of Mars ($g=3.7$ N kg$^{-1}$).",
+          "a": "$W=mg=1500\times3.7=5550\\ \text{N}$.\n\n**Weight = 5550 N** ($\u0007pprox5.6\times10^3$ N, 2 s.f.)."
+        },
+        {
+          "q": "Explain why a satellite in a higher orbit takes longer to complete one orbit than a satellite in a lower orbit.",
+          "a": "A higher orbit has a **larger orbital radius**, so the satellite travels a **longer circumference** ($2\\pi r$). The gravitational force is weaker at that distance, so its orbital speed is lower. A longer distance travelled at a lower speed means a **longer period**.\n\n**Larger radius → longer circumference and lower speed → longer period.**"
+        }
+      ]
+    },
+    {
+      "slug": "cosmology",
+      "title": "Cosmology",
+      "paper": "either",
+      "rule": "- A **light-year** is the distance light travels in one year: $1\\ \\text{ly}=c\\,t=3.0\\times10^8\\times3.15\\times10^7=9.46\\times10^{15}\\ \\text{m}$.\n- The **Big Bang** theory: the universe began about **13.8 billion years** ago from a very hot, dense state and has been expanding ever since.\n- Evidence includes the **redshift** of light from distant galaxies (they are moving away) and the **cosmic microwave background** radiation.\n- The **whole electromagnetic spectrum** is used to study astronomical objects; **line spectra** identify the elements present in stars.\n- Units: distance in metres. A light-year is a **distance**, not a time.",
+      "example": "Convert **4.2 light-years** to metres.\n\n$1\\ \\text{ly}=9.46\\times10^{15}\\ \\text{m}$\n\n$4.2\\ \\text{ly}=4.2\\times9.46\\times10^{15}=3.97\\times10^{16}\\ \\text{m}$\n\n**Distance = $4.0\\times10^{16}$ m** (2 s.f.).",
+      "trap": "- **Treating a light-year as a time.** It is a **distance**.\n- **Using the wrong number of seconds in a year.** Use $3.15\\times10^7$ s, not 365.\n- **Rounding the speed of light or the year length too early.** Keep $3.0\\times10^8$ and $3.15\\times10^7$ until the final step.\n- **Forgetting the direction of redshift:** a redshift means the source is moving **away** (receding).\n- **Mixing up continuous and line spectra:** line spectra identify elements; continuous spectra come from hot, dense objects.",
+      "practice": [
+        {
+          "q": "Convert 10 light-years to metres (use $1\\ \text{ly}=9.46\times10^{15}$ m).",
+          "a": "$10\times9.46\times10^{15}=9.46\times10^{16}\\ \text{m}$.\n\n**Distance = $9.5\times10^{16}$ m** (2 s.f.)."
+        },
+        {
+          "q": "A distant galaxy is $1.9\times10^{17}$ m away. Express this distance in light-years.",
+          "a": "$1.9\times10^{17}\\div9.46\times10^{15}=20.1$.\n\n**Distance = 20 light-years** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "charge-carriers",
+      "title": "Charge carriers & current",
+      "paper": "either",
+      "rule": "- **Electric current** is the electric charge transferred per unit time: $I=\\dfrac{Q}{t}$, or $Q=It$.\n- $Q$ = charge (C), $I$ = current (A), $t$ = time (s). 1 C = 1 A s.\n- **Direct current (d.c.)** flows in one direction; **alternating current (a.c.)** changes direction periodically.\n- In a **series** circuit the current is the same at every point.\n- Units: charge in coulombs (C), current in amperes (A), time in seconds (s).",
+      "example": "A current of 0.50 A flows for 3.0 minutes. Find the charge transferred.\n\n$t=3.0\\ \\text{min}=3.0\\times60=180\\ \\text{s}$\n\n$Q=It=0.50\\times180=90\\ \\text{C}$\n\n**Charge = 90 C** (2 s.f.).",
+      "trap": "- **Forgetting to convert minutes to seconds** ($\\times60$).\n- **Confusing charge and current.** Charge is measured in coulombs; current in amperes.\n- **Not converting milliamps to amps.** 1 mA $=1\\times10^{-3}$ A.\n- **Thinking current is \"used up\"** in a circuit — the current leaving a series component equals the current entering it.",
+      "practice": [
+        {
+          "q": "A current of 2.0 A flows for 5.0 minutes. Calculate the charge transferred.",
+          "a": "$t=5.0\times60=300\\ \text{s}$; $Q=It=2.0\times300=600\\ \text{C}$.\n\n**Charge = 600 C** (2 s.f.)."
+        },
+        {
+          "q": "A charge of 15 C passes a point in 30 s. Find the current.",
+          "a": "$I=\\dfrac{Q}{t}=\\dfrac{15}{30}=0.50\\ \text{A}$.\n\n**Current = 0.50 A** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "potential-difference",
+      "title": "Potential difference",
+      "paper": "either",
+      "rule": "- **Potential difference (voltage)** is the energy transferred per unit charge: $V=\\dfrac{E}{Q}$, or $E=QV$.\n- $V$ in volts (V), $E$ in joules (J), $Q$ in coulombs (C). 1 V = 1 J C$^{-1}$.\n- The potential difference of the supply is a measure of the energy given to the charge carriers in a circuit.\n- A charged particle in an electric field experiences a force; between oppositely charged parallel plates the field is uniform and the particle follows a parabolic path.",
+      "example": "A 12 V supply transfers 60 J of energy to the charge passing through it. Find the charge.\n\n$V=\\dfrac{E}{Q}\\ \\Rightarrow\\ Q=\\dfrac{E}{V}=\\dfrac{60}{12}=5.0\\ \\text{C}$\n\n**Charge = 5.0 C** (2 s.f.).",
+      "trap": "- **Using $V=IR$ when energy and charge are given.** Use $V=E/Q$ (or $E=QV$).\n- **Confusing the two voltage relationships.** $V=E/Q$ concerns energy per charge; $V=IR$ concerns Ohm's law.\n- **Not converting kJ to J** before substituting.\n- **Thinking potential difference is \"used up\".** Components transfer energy; the pd is the energy transferred per unit charge.",
+      "practice": [
+        {
+          "q": "A 6.0 V supply transfers energy to 2.0 C of charge. Find the energy transferred.",
+          "a": "$E=QV=2.0\times6.0=12\\ \text{J}$.\n\n**Energy = 12 J** (2 s.f.)."
+        },
+        {
+          "q": "45 J of energy is transferred to 9.0 C of charge. Find the potential difference.",
+          "a": "$V=\\dfrac{E}{Q}=\\dfrac{45}{9.0}=5.0\\ \text{V}$.\n\n**Potential difference = 5.0 V** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "ohms-law",
+      "title": "Ohms law",
+      "paper": "either",
+      "rule": "- **Ohm's law:** the current through a conductor is directly proportional to the potential difference across it, provided its temperature is constant: $V=IR$.\n- $R=\\dfrac{V}{I}$; unit ohm ($\\Omega$), 1 $\\Omega$ = 1 V A$^{-1}$.\n- On a $V$–$I$ graph, resistance is the **gradient** of the line of best fit.\n- For most metals, increasing the temperature increases the resistance (e.g. a filament lamp).\n- Units: V, A, $\\Omega$.",
+      "example": "A potential difference of 6.0 V is across a resistor and the current is 0.25 A. Find its resistance.\n\n$R=\\dfrac{V}{I}=\\dfrac{6.0}{0.25}=24\\ \\Omega$\n\n**Resistance = 24 $\\Omega$** (2 s.f.).\n\nUsing the same relationship the other way: a current of 0.40 A through a 15 $\\Omega$ resistor needs $V=IR=0.40\\times15=6.0$ V.",
+      "trap": "- **Rearranging incorrectly.** Use $R=V/I$ and $I=V/R$, not $R=I/V$.\n- **Forgetting to convert mA to A.** 250 mA $=0.250$ A.\n- **Using the gradient of an $I$–$V$ graph.** Resistance is the gradient of a **$V$–$I$** graph.\n- **Assuming resistance is constant for a lamp.** A filament lamp heats up, so its resistance changes.",
+      "practice": [
+        {
+          "q": "A potential difference of 12 V is across a resistor carrying 3.0 A. Find the resistance.",
+          "a": "$R=\\dfrac{V}{I}=\\dfrac{12}{3.0}=4.0\\ \\Omega$.\n\n**Resistance = 4.0 $\\Omega$** (2 s.f.)."
+        },
+        {
+          "q": "A current of 0.20 A flows through a 50 $\\Omega$ resistor. Find the potential difference across it.",
+          "a": "$V=IR=0.20\times50=10\\ \text{V}$.\n\n**Potential difference = 10 V** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "circuits",
+      "title": "Series & parallel circuits",
+      "paper": "either",
+      "rule": "- **Series circuit:** $I_T=I_1=I_2=\\dots$; $V_T=V_1+V_2+\\dots$; $R_T=R_1+R_2+\\dots$\n- **Parallel circuit:** $V_T=V_1=V_2=\\dots$; $I_T=I_1+I_2+\\dots$; $\\dfrac{1}{R_T}=\\dfrac{1}{R_1}+\\dfrac{1}{R_2}+\\dots$\n- Adding resistors in series **increases** the total resistance; adding them in parallel **decreases** it.\n- For two resistors in parallel, $R_T$ is always **smaller** than the smallest individual resistor.\n- Units: current A, potential difference V, resistance $\\Omega$.",
+      "example": "A 6.0 V supply is connected to a 4.0 $\\Omega$ and a 12.0 $\\Omega$ resistor.\n\n**In series:**\n$R_T=4.0+12.0=16\\ \\Omega$, so $I=\\dfrac{V}{R_T}=\\dfrac{6.0}{16}=0.375\\ \\text{A}$.\n\n**In parallel:**\n$\\dfrac{1}{R_T}=\\dfrac{1}{4.0}+\\dfrac{1}{12.0}=\\dfrac{3}{12}+\\dfrac{1}{12}=\\dfrac{4}{12}$, so $R_T=3.0\\ \\Omega$.\n\n$I_T=\\dfrac{V}{R_T}=\\dfrac{6.0}{3.0}=2.0\\ \\text{A}$\n\n**Series: $R_T=16\\ \\Omega$, $I=0.38$ A. Parallel: $R_T=3.0\\ \\Omega$, $I_T=2.0$ A.**",
+      "trap": "- **Using series rules for a parallel circuit.** Current is **not** the same in parallel branches.\n- **Forgetting to invert.** $\\dfrac{1}{R_T}=\\dfrac{1}{R_1}+\\dfrac{1}{R_2}$ gives $1/R_T$; you must then invert to find $R_T$.\n- **Adding resistances directly in parallel** ($R_T=R_1+R_2$ is wrong for parallel).\n- **Not checking the answer.** A parallel total resistance must be less than the smallest resistor in the branch.",
+      "practice": [
+        {
+          "q": "Two resistors of 3 $\\Omega$ and 7 $\\Omega$ are connected in series. Find the total resistance.",
+          "a": "$R_T=R_1+R_2=3+7=10\\ \\Omega$.\n\n**Total resistance = 10 $\\Omega$.**"
+        },
+        {
+          "q": "Two resistors of 6 $\\Omega$ and 3 $\\Omega$ are connected in parallel. Find the total resistance.",
+          "a": "$\\dfrac{1}{R_T}=\\dfrac{1}{6}+\\dfrac{1}{3}=\\dfrac{1}{6}+\\dfrac{2}{6}=\\dfrac{3}{6}=\\dfrac12$, so $R_T=2\\ \\Omega$.\n\n**Total resistance = 2 $\\Omega$** (less than the smallest resistor, 3 $\\Omega$, as expected)."
+        }
+      ]
+    },
+    {
+      "slug": "electrical-power",
+      "title": "Electrical power",
+      "paper": "either",
+      "rule": "- **Electrical power** is the energy transferred per unit time: $P=\\dfrac{E}{t}$.\n- Equivalent forms: $P=IV$, $P=I^2R$ and $P=\\dfrac{V^2}{R}$.\n- $P$ in watts (W), $E$ in joules (J), $t$ in seconds (s); 1 W = 1 J s$^{-1}$.\n- **Fuse choice** at 230 V: a **3 A** fuse for appliances rated up to 720 W; a **13 A** fuse for appliances rated over 720 W.",
+      "example": "A 230 V appliance draws a current of 0.50 A. Find its power and the energy it transfers in 2.0 minutes.\n\n$P=IV=0.50\\times230=115\\ \\text{W}$\n\n$t=2.0\\ \\text{min}=120\\ \\text{s}$\n\n$E=Pt=115\\times120=13\\,800\\ \\text{J}\\approx1.4\\times10^4\\ \\text{J}$\n\nSince 115 W is less than 720 W, a **3 A fuse** is suitable.\n\n**Power = 115 W; energy = $1.4\\times10^4$ J; 3 A fuse.**",
+      "trap": "- **Using time in minutes instead of seconds.**\n- **Choosing the wrong fuse.** Select 3 A for up to 720 W and 13 A above 720 W.\n- **Confusing $P=IV$ with $P=IR$.** Use the form that matches the quantities given.\n- **Not converting kW to W** (1 kW = 1000 W) or minutes to seconds.",
+      "practice": [
+        {
+          "q": "A 230 V appliance draws a current of 4.0 A. Find its power and state a suitable fuse rating.",
+          "a": "$P=IV=4.0\times230=920\\ \text{W}$.\n\nSince 920 W is greater than 720 W, a **13 A fuse** is suitable.\n\n**Power = 920 W; 13 A fuse.**"
+        },
+        {
+          "q": "A 60 W lamp is switched on for 5.0 minutes. Find the energy transferred.",
+          "a": "$t=5.0\times60=300\\ \text{s}$; $E=Pt=60\times300=18\\,000\\ \text{J}$.\n\n**Energy = $1.8\times10^4$ J** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "shc",
+      "title": "Specific heat capacity",
+      "paper": "either",
+      "rule": "- **Specific heat capacity** $c$ is the heat energy required to raise the temperature of **1 kg** of a material by **1 °C**.\n- $E_h=cm\\Delta T$, where $\\Delta T$ is the temperature change.\n- Units: $c$ in J kg$^{-1}$ °C$^{-1}$, $E_h$ in J, $m$ in kg, $\\Delta T$ in °C.\n- Temperature is a measure of the mean kinetic energy of the particles of a substance.\n- For a **change** in temperature, a change of 1 °C equals a change of 1 K, so either unit may be used for $\\Delta T$.",
+      "example": "2.0 kg of water is heated from 20 °C to 80 °C. The specific heat capacity of water is 4180 J kg$^{-1}$ °C$^{-1}$. Find the heat energy supplied.\n\n$\\Delta T=80-20=60\\ ^\\circ\\text{C}$\n\n$E_h=cm\\Delta T=4180\\times2.0\\times60=501\\,600\\ \\text{J}$\n\n$E_h\\approx5.0\\times10^5\\ \\text{J}$\n\n**Heat energy = $5.0\\times10^5$ J** (2 s.f.).",
+      "trap": "- **Using the final temperature instead of $\\Delta T$.** Always subtract the initial temperature.\n- **Not converting grams to kilograms** (1 g $=1\\times10^{-3}$ kg).\n- **Using the wrong material's $c$** from the data sheet.\n- **Ignoring heat lost to the surroundings,** which makes the measured $c$ appear higher than the accepted value.",
+      "practice": [
+        {
+          "q": "0.50 kg of aluminium (c = 902 J kg$^{-1}$ °C$^{-1}$) is heated through 40 °C. Find the heat energy supplied.",
+          "a": "$E_h=cm\\Delta T=902\times0.50\times40=18\\,040\\ \text{J}$.\n\n**Heat energy = $1.8\times10^4$ J** (2 s.f.)."
+        },
+        {
+          "q": "3.0 kg of water (c = 4180 J kg$^{-1}$ °C$^{-1}$) is heated through 25 °C. Find the heat energy supplied.",
+          "a": "$E_h=cm\\Delta T=4180\times3.0\times25=313\\,500\\ \text{J}$.\n\n**Heat energy = $3.1\times10^5$ J** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "latent-heat",
+      "title": "Specific latent heat",
+      "paper": "either",
+      "rule": "- **Specific latent heat** $l$ is the heat energy required to change the state of **1 kg** of a material **without a change in temperature**.\n- $E_h=ml$.\n- **Fusion** = solid ↔ liquid: water has $l=3.34\\times10^5$ J kg$^{-1}$.\n- **Vaporisation** = liquid ↔ gas: water has $l=2.26\\times10^6$ J kg$^{-1}$.\n- Units: $l$ in J kg$^{-1}$, $E_h$ in J, $m$ in kg.\n- During a change of state the temperature stays constant; the energy is used to break or form bonds between particles.",
+      "example": "0.25 kg of ice at 0 °C is melted. The specific latent heat of fusion of water is $3.34\\times10^5$ J kg$^{-1}$. Find the heat energy required.\n\n$E_h=ml=0.25\\times3.34\\times10^5=83\\,500\\ \\text{J}$\n\n$E_h\\approx8.4\\times10^4\\ \\text{J}$\n\nThe temperature remains at 0 °C throughout the melting process.\n\n**Heat energy = $8.4\\times10^4$ J** (2 s.f.).",
+      "trap": "- **Using $E_h=cm\\Delta T$ for a change of state.** During melting or boiling $\\Delta T=0$, so that relationship gives zero.\n- **Using vaporisation when fusion is required** (or vice versa). Match the change of state to the correct $l$.\n- **Not converting grams to kilograms.**\n- **Forgetting the temperature is constant** during the change of state.\n- **Adding the energy for warming and melting incorrectly** — they are separate stages.",
+      "practice": [
+        {
+          "q": "0.10 kg of water at 100 °C is boiled into steam. The specific latent heat of vaporisation of water is $2.26\times10^6$ J kg$^{-1}$. Find the heat energy required.",
+          "a": "$E_h=ml=0.10\times2.26\times10^6=2.26\times10^5\\ \text{J}$.\n\n**Heat energy = $2.3\times10^5$ J** (2 s.f.)."
+        },
+        {
+          "q": "0.50 kg of ice at 0 °C is melted. The specific latent heat of fusion of water is $3.34\times10^5$ J kg$^{-1}$. Find the heat energy required.",
+          "a": "$E_h=ml=0.50\times3.34\times10^5=1.67\times10^5\\ \text{J}$.\n\n**Heat energy = $1.7\times10^5$ J** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "gas-laws",
+      "title": "Gas laws & the kinetic model",
+      "paper": "either",
+      "rule": "- **Pressure:** $p=\\dfrac{F}{A}$ (Pa = N m$^{-2}$).\n- **Kelvin:** $T(\\text{K})=T(^\\circ\\text{C})+273$; absolute zero is $0\\ \\text{K}=-273\\ ^\\circ\\text{C}$.\n- For a fixed mass of gas: $p_1V_1=p_2V_2$ (Boyle's law, constant $T$); $\\dfrac{p_1}{T_1}=\\dfrac{p_2}{T_2}$ (Gay-Lussac's law, constant $V$); $\\dfrac{V_1}{T_1}=\\dfrac{V_2}{T_2}$ (Charles's law, constant $p$); and $\\dfrac{pV}{T}=\\text{constant}$.\n- **Kinetic model:** gas pressure is caused by particles colliding with the container walls; temperature is related to the mean kinetic energy of the particles.",
+      "example": "A fixed mass of gas at 100 kPa and 300 K is heated to 450 K at constant volume. Find the new pressure.\n\n$\\dfrac{p_1}{T_1}=\\dfrac{p_2}{T_2}\\ \\Rightarrow\\ p_2=\\dfrac{p_1T_2}{T_1}$\n\n$p_2=\\dfrac{100\\times450}{300}=150\\ \\text{kPa}$\n\n**New pressure = 150 kPa** (2 s.f.).",
+      "trap": "- **Forgetting to convert °C to K.** Always add 273.\n- **Inverting the ratio.** Use $\\dfrac{p_1}{T_1}=\\dfrac{p_2}{T_2}$, not $\\dfrac{p_1}{T_2}=\\dfrac{p_2}{T_1}$.\n- **Mixing volume units** (e.g. cm$^3$ with m$^3$) without converting. Ratios are safe if both volumes use the same unit.\n- **Not checking which quantity is constant** before choosing the relationship.\n- **Using 273.15 unnecessarily** — National 5 uses 273.",
+      "practice": [
+        {
+          "q": "A fixed mass of gas at 120 kPa and 20 °C is heated to 40 °C at constant volume. Find the new pressure.",
+          "a": "$T_1=20+273=293\\ \text{K}$; $T_2=40+273=313\\ \text{K}$.\n\n$p_2=\\dfrac{p_1T_2}{T_1}=\\dfrac{120\times313}{293}=128.2\\ \text{kPa}$.\n\n**New pressure = $1.3\times10^2$ kPa** (2 s.f.)."
+        },
+        {
+          "q": "A fixed mass of gas occupies 500 cm³ at 27 °C. It is cooled at constant pressure until its volume is 200 cm³. Find the new temperature in °C.",
+          "a": "$T_1=27+273=300\\ \text{K}$.\n\n$T_2=\\dfrac{T_1V_2}{V_1}=\\dfrac{300\times200}{500}=120\\ \text{K}$.\n\n$120\\ \text{K}=120-273=-153\\ ^\\circ\text{C}$.\n\n**New temperature = $-153$ °C.**"
+        }
+      ]
+    },
+    {
+      "slug": "wave-parameters",
+      "title": "Wave parameters & behaviour",
+      "paper": "either",
+      "rule": "- **Wave speed:** $v=f\\lambda$; also $v=\\dfrac{d}{t}$.\n- **Frequency:** $f=\\dfrac{N}{t}$; **period:** $T=\\dfrac{1}{f}$.\n- Waves transfer energy without transferring matter.\n- **Transverse** waves vibrate at right angles to the direction of travel (e.g. water waves, EM radiation). **Longitudinal** waves vibrate along the direction of travel (e.g. sound).\n- **Diffraction** is the spreading of waves when they pass through a gap or around an object; it is greatest when the gap is about the same size as the wavelength.\n- Units: $v$ in m s$^{-1}$, $f$ in Hz, $\\lambda$ in m, $T$ in s; $N$ (number of waves) has no unit.",
+      "example": "A wave has a frequency of 50 Hz and a wavelength of 0.20 m. Find its speed and period.\n\n$v=f\\lambda=50\\times0.20=10\\ \\text{m s}^{-1}$\n\n$T=\\dfrac{1}{f}=\\dfrac{1}{50}=0.020\\ \\text{s}$\n\n**Wave speed = 10 m s$^{-1}$; period = 0.020 s** (2 s.f.).",
+      "trap": "- **Confusing frequency and period.** $T=1/f$, not $f=1/T$ (unless rearranged correctly).\n- **Using wavelength in cm instead of m.**\n- **Not converting kHz to Hz.** 1 kHz $=1\\times10^3$ Hz.\n- **Counting the wrong number of waves** when using $f=N/t$.\n- **Confusing amplitude with wavelength.** Amplitude is the maximum displacement from the rest position, not the distance between peaks.",
+      "practice": [
+        {
+          "q": "A wave has a frequency of 2000 Hz and a wavelength of 0.15 m. Find its speed.",
+          "a": "$v=f\\lambda=2000\times0.15=300\\ \text{m s}^{-1}$.\n\n**Wave speed = 300 m s$^{-1}$** (2 s.f.)."
+        },
+        {
+          "q": "12 complete waves pass a point in 3.0 s. Find the frequency and the period.",
+          "a": "$f=\\dfrac{N}{t}=\\dfrac{12}{3.0}=4.0\\ \text{Hz}$; $T=\\dfrac{1}{f}=\\dfrac{1}{4.0}=0.25\\ \text{s}$.\n\n**Frequency = 4.0 Hz; period = 0.25 s.**"
+        }
+      ]
+    },
+    {
+      "slug": "em-spectrum",
+      "title": "The electromagnetic spectrum",
+      "paper": "either",
+      "rule": "- All electromagnetic (EM) waves are **transverse** and travel at the speed of light in a vacuum: $c=3.0\\times10^8$ m s$^{-1}$.\n- Using $v=f\\lambda$ with $v=c$ gives $c=f\\lambda$, so $f=\\dfrac{c}{\\lambda}$.\n- Order of increasing frequency (decreasing wavelength): **radio → microwave → infrared → visible → ultraviolet → X-ray → gamma**.\n- Visible light has wavelengths from about $4\\times10^{-7}$ m to $7\\times10^{-7}$ m.\n- Units: $f$ in Hz, $\\lambda$ in m.\n- Uses: radio (communication), microwave (satellite links, cooking), infrared (heating, remote controls), visible (sight, photography), ultraviolet (sterilising), X-ray (imaging), gamma (cancer treatment).",
+      "example": "Green light has a wavelength of $5.4\\times10^{-7}$ m. Find its frequency.\n\n$f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{5.4\\times10^{-7}}=5.556\\times10^{14}\\ \\text{Hz}$\n\n$f\\approx5.6\\times10^{14}\\ \\text{Hz}$\n\n**Frequency = $5.6\\times10^{14}$ Hz** (2 s.f.).",
+      "trap": "- **Using the speed of sound (340 m/s)** instead of the speed of light.\n- **Forgetting to convert nm to m.** 1 nm $=1\\times10^{-9}$ m.\n- **Ordering the spectrum wrongly.** Radio has the lowest frequency; gamma the highest.\n- **Thinking different EM waves travel at different speeds in a vacuum.** They all travel at $c$.\n- **Confusing ionising and non-ionising radiation.** Ultraviolet, X-rays and gamma rays are ionising.",
+      "practice": [
+        {
+          "q": "A radio wave has a frequency of 100 MHz. Find its wavelength.",
+          "a": "$f=100\\ \text{MHz}=1.0\times10^8\\ \text{Hz}$.\n\n$\\lambda=\\dfrac{c}{f}=\\dfrac{3.0\times10^8}{1.0\times10^8}=3.0\\ \text{m}$.\n\n**Wavelength = 3.0 m** (2 s.f.)."
+        },
+        {
+          "q": "An X-ray has a wavelength of $1.0\times10^{-10}$ m. Find its frequency.",
+          "a": "$f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\times10^8}{1.0\times10^{-10}}=3.0\times10^{18}\\ \text{Hz}$.\n\n**Frequency = $3.0\times10^{18}$ Hz** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "refraction",
+      "title": "Refraction of light",
+      "paper": "either",
+      "rule": "- **Refraction** is the change in speed (and wavelength) of a wave when it passes from one medium into another. If the angle of incidence is greater than 0°, the wave also changes direction.\n- The **frequency stays constant** across the boundary, so because $v=f\\lambda$, the **wavelength changes** when the speed changes.\n- Going into a **more dense** medium (e.g. air → glass): speed decreases, wavelength decreases, and the ray bends **towards** the normal.\n- Going into a **less dense** medium: speed increases, wavelength increases, and the ray bends **away** from the normal.\n- Speeds from the data sheet: air $3.0\\times10^8$ m s$^{-1}$, glass $2.0\\times10^8$ m s$^{-1}$, water $2.3\\times10^8$ m s$^{-1}$.",
+      "example": "Light of wavelength 600 nm passes from air into glass. Find its frequency and its wavelength in the glass.\n\n$f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{600\\times10^{-9}}=5.0\\times10^{14}\\ \\text{Hz}$\n\nIn glass the speed is $2.0\\times10^8$ m s$^{-1}$, so:\n\n$\\lambda_{\\text{glass}}=\\dfrac{v}{f}=\\dfrac{2.0\\times10^8}{5.0\\times10^{14}}=4.0\\times10^{-7}\\ \\text{m}$\n\nThe ray bends **towards** the normal.\n\n**Frequency = $5.0\\times10^{14}$ Hz (unchanged); wavelength in glass = $4.0\\times10^{-7}$ m (400 nm).**",
+      "trap": "- **Saying the frequency changes.** Frequency is unchanged during refraction; speed and wavelength change.\n- **Measuring angles from the surface instead of the normal.** Always measure incidence and refraction angles from the normal (a dashed line at 90° to the surface).\n- **Saying the ray bends away from the normal when entering a denser medium.** It bends towards the normal.\n- **Using the wrong speed for the medium.**\n- **Forgetting that the wavelength changes** at the boundary.",
+      "practice": [
+        {
+          "q": "Light passes from water (2.3×10⁸ m/s) into air (3.0×10⁸ m/s). State and explain what happens to its speed, wavelength and direction.",
+          "a": "Speed **increases** (from $2.3\times10^8$ to $3.0\times10^8$ m s$^{-1}$). Frequency is constant, so by $v=f\\lambda$ the wavelength **increases**. The ray bends **away from the normal** (provided the angle of incidence is greater than 0°).\n\n**Speed increases; wavelength increases; ray bends away from the normal.**"
+        },
+        {
+          "q": "Light of wavelength 500 nm passes from air into water (speed in water = 2.3×10⁸ m/s). Find its wavelength in the water.",
+          "a": "$f=\\dfrac{c}{\\lambda_{\text{air}}}=\\dfrac{3.0\times10^8}{500\times10^{-9}}=6.0\times10^{14}\\ \text{Hz}$.\n\n$\\lambda_{\text{water}}=\\dfrac{v_{\text{water}}}{f}=\\dfrac{2.3\times10^8}{6.0\times10^{14}}=3.83\times10^{-7}\\ \text{m}$.\n\n**Wavelength in water = $3.8\times10^{-7}$ m (380 nm)** (2 s.f.)."
+        }
+      ]
+    },
+    {
+      "slug": "nuclear-radiation",
+      "title": "Nuclear radiation",
+      "paper": "either",
+      "rule": "- **Alpha (α):** 2 protons + 2 neutrons (a helium nucleus), charge +2. Highly ionising; stopped by paper or a few centimetres of air.\n- **Beta (β):** a fast electron, charge −1. Medium ionising; stopped by a few millimetres of aluminium.\n- **Gamma (γ):** electromagnetic radiation, no charge. Weakly ionising; stopped by thick lead or concrete.\n- **Ionisation** is the removal of electrons from neutral atoms, creating ions. It can damage living cells.\n- **Activity:** $A=\\dfrac{N}{t}$, where $N$ is the number of nuclear disintegrations and $t$ is time. Unit: becquerel (Bq) = 1 disintegration per second.\n- Sources of background radiation include radon gas, rocks, cosmic rays, food and medical sources.",
+      "example": "A radioactive source produces 6000 disintegrations in 200 s. Find its activity.\n\n$A=\\dfrac{N}{t}=\\dfrac{6000}{200}=30\\ \\text{Bq}$\n\n**Activity = 30 Bq** (2 s.f.).",
+      "trap": "- **Confusing the penetration order.** Alpha is stopped first (paper); gamma is the most penetrating (lead).\n- **Thinking gamma is charged.** Gamma is electromagnetic radiation with no charge.\n- **Forgetting that activity is disintegrations per second,** not the total count.\n- **Using minutes without converting to seconds.**\n- **Mixing up ionising ability and penetration.** Alpha is the most ionising but the least penetrating.",
+      "practice": [
+        {
+          "q": "A source produces 1.5×10⁴ disintegrations in 500 s. Find its activity.",
+          "a": "$A=\\dfrac{N}{t}=\\dfrac{1.5\times10^4}{500}=30\\ \text{Bq}$.\n\n**Activity = 30 Bq** (2 s.f.)."
+        },
+        {
+          "q": "A source's radiation passes through paper but is stopped by a few millimetres of aluminium. Identify the radiation and explain your answer.",
+          "a": "The radiation is **beta**. Alpha would be stopped by the paper, while gamma would pass through the aluminium. Beta passes through paper but is stopped by aluminium.\n\n**Beta radiation.**"
+        }
+      ]
+    },
+    {
+      "slug": "half-life",
+      "title": "Half-life",
+      "paper": "either",
+      "rule": "- **Half-life** is the time taken for half of the nuclei in a radioactive sample (or half its activity/count rate) to decay.\n- After $n$ half-lives: $A=A_0\\left(\\dfrac12\\right)^n$, where $n=\\dfrac{\\text{total time}}{\\text{half-life}}$.\n- Half-life is constant regardless of sample size, temperature or chemical state.\n- Units: time in s, minutes, hours, days or years; activity in Bq.\n- To find half-life from a graph, read the time taken for the activity to halve.",
+      "example": "A source has an initial activity of 800 Bq and a half-life of 6.0 hours. Find its activity after 18 hours.\n\n$n=\\dfrac{18}{6.0}=3$ half-lives\n\n$A=\\dfrac{A_0}{2^n}=\\dfrac{800}{2^3}=\\dfrac{800}{8}=100\\ \\text{Bq}$\n\n**Activity after 18 hours = 100 Bq** (2 s.f.).",
+      "trap": "- **Dividing by 2 once instead of by $2^n$.** After 3 half-lives the activity is divided by 8, not 2.\n- **Calculating $n$ incorrectly.** $n=$ total time ÷ half-life.\n- **Rounding too early** between successive halvings.\n- **Reading a graph at the wrong point.** The half-life is the time for the activity to halve, not to reach zero.\n- **Ignoring background count rate** when using count-rate data.",
+      "practice": [
+        {
+          "q": "An isotope has an initial activity of 4000 Bq and a half-life of 5 days. Find its activity after 20 days.",
+          "a": "$n=\\dfrac{20}{5}=4$ half-lives.\n\n$A=\\dfrac{4000}{2^4}=\\dfrac{4000}{16}=250\\ \text{Bq}$.\n\n**Activity = 250 Bq** (2 s.f.)."
+        },
+        {
+          "q": "A 64 g sample of a radioactive material decays until only 8 g remains. How many half-lives have passed?",
+          "a": "$64\to32\to16\to8$ is 3 halvings.\n\n**3 half-lives have passed.**"
+        }
+      ]
+    },
+    {
+      "slug": "dosimetry",
+      "title": "Dose, equivalent dose & safety",
+      "paper": "either",
+      "rule": "- **Absorbed dose:** $D=\\dfrac{E}{m}$ — energy absorbed per unit mass. Unit: gray (Gy), 1 Gy = 1 J kg$^{-1}$.\n- **Equivalent dose:** $H=D w_r$ — absorbed dose weighted for the biological harm of the radiation type. Unit: sievert (Sv), 1 Sv = 1 J kg$^{-1}$.\n- **Equivalent dose rate:** $\\dot{H}=\\dfrac{H}{t}$, in Sv s$^{-1}$ or µSv h$^{-1}$.\n- Radiation weighting factors (data sheet): alpha 20, beta 1, fast neutrons 10, gamma 1, slow neutrons 3.\n- UK average background radiation ≈ **2.2 mSv per year**; annual effective dose limit for the public **1 mSv**; for radiation workers **20 mSv**.",
+      "example": "0.50 kg of tissue absorbs 0.030 J of alpha radiation. Find the absorbed dose and the equivalent dose.\n\n$D=\\dfrac{E}{m}=\\dfrac{0.030}{0.50}=0.060\\ \\text{Gy}$\n\n$H=D w_r=0.060\\times20=1.2\\ \\text{Sv}$\n\n**Absorbed dose = 0.060 Gy; equivalent dose = 1.2 Sv** (2 s.f.).",
+      "trap": "- **Using mass in grams instead of kilograms.**\n- **Forgetting to multiply by the radiation weighting factor.** For alpha and neutrons, Gy ≠ Sv.\n- **Mixing Gy and Sv.** Absorbed dose is measured in grays; equivalent dose in sieverts.\n- **Not converting mSv to Sv.** 1 mSv $=1\\times10^{-3}$ Sv.\n- **Treating 2.2 mSv as a legal limit.** It is the average annual background radiation, not a limit.\n- **Not converting time units** when calculating an equivalent dose rate.",
+      "practice": [
+        {
+          "q": "2.0 kg of tissue absorbs 0.0040 J of gamma radiation. Find the absorbed dose and the equivalent dose.",
+          "a": "$D=\\dfrac{0.0040}{2.0}=2.0\times10^{-3}\\ \text{Gy}$.\n\nFor gamma, $w_r=1$, so $H=D w_r=2.0\times10^{-3}\\ \text{Sv}=2.0\\ \text{mSv}$.\n\n**Absorbed dose = $2.0\times10^{-3}$ Gy; equivalent dose = 2.0 mSv.**"
+        },
+        {
+          "q": "A worker receives an absorbed dose of 0.0010 Gy from alpha radiation. Find the equivalent dose.",
+          "a": "$H=D w_r=0.0010\times20=0.020\\ \text{Sv}$.\n\n**Equivalent dose = 0.020 Sv = 20 mSv.**"
+        }
+      ]
+    }
+  ]
+}

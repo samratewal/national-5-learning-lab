@@ -1,0 +1,351 @@
+{
+ "subject": "dm",
+ "title": "Design & Manufacture",
+ "icon": "🔧",
+ "assessment": "Question paper: 1 hour 45 minutes (80 marks) | Assignment design: 55 marks | Assignment practical: 45 marks",
+ "intro": "The Design & Manufacture paper is split into materials/hand tools/machinery and design. Answers must be **justified** — saying 'it is good' scores nothing without saying why.",
+ "topics": [
+  {
+   "slug": "design-process",
+   "title": "The design process",
+   "paper": "either",
+   "rule": "The design process is a structured sequence:\n\n1. **Identify the problem/need**\n2. **Research** — existing products, users, materials\n3. **Write the specification** — criteria the product must meet\n4. **Generate ideas** — sketches, brainstorming\n5. **Develop and model** — refine, make prototypes\n6. **Evaluate** — test against the specification\n7. **Manufacture**\n\nIt is **iterative** — you return to earlier stages as problems emerge.",
+   "example": "**Q: Explain why evaluation happens before manufacture. (2)**\n\n**Model answer:** Evaluating the prototype against the specification identifies weaknesses while changes are still cheap and easy (1). Fixing a fault before production avoids the far greater cost of re-tooling or recalling finished products (2).",
+   "trap": "Describing the process as strictly **linear**. Real design loops back — testing often reveals the specification needs revising. Also, listing stages without explaining the purpose of each.",
+   "practice": [
+    {
+     "q": "State the purpose of a product specification. (2)",
+     "a": "It lists the criteria the finished product must meet, giving designers a clear target and a basis for evaluating the final design."
+    },
+    {
+     "q": "Explain why modelling is important in the design process. (2)",
+     "a": "A model lets the designer test form, fit and function cheaply before committing to manufacture (1), revealing problems that are hard to see on a drawing (2)."
+    }
+   ]
+  },
+  {
+   "slug": "research-techniques",
+   "title": "Research techniques",
+   "paper": "either",
+   "rule": "**Primary research** — you collect it: user interviews, questionnaires, observation, ergonomic testing, making and testing models.\n\n**Secondary research** — already exists: market data, competitor analysis, standards (BS/ISO), material data sheets, online sources.\n\n**What to research:** the user's needs, existing products, materials and their properties, manufacturing methods, costs, safety standards, sustainability.\n\nGood research is **specific to the design problem**, not general.",
+   "example": "**Q: Explain how interviewing a user improves a design. (2)**\n\n**Model answer:** Interviewing the user reveals specific difficulties they have with existing products (1), so the designer can target the design at real problems rather than assumed ones (2).",
+   "trap": "Listing research methods without linking them to **why** they suit the particular design problem. Also, relying only on secondary research — it cannot tell you about the specific user's needs.",
+   "practice": [
+    {
+     "q": "Give two examples of primary research for a new kitchen utensil. (2)",
+     "a": "Interviewing people who cook regularly about grip and comfort; observing users preparing food to see where existing utensils cause difficulty."
+    },
+    {
+     "q": "Explain one advantage of secondary research. (2)",
+     "a": "It is quick and cheap because the data already exists (1), so the designer can learn about standards and competitor products without spending time or money collecting new data (2)."
+    }
+   ]
+  },
+  {
+   "slug": "specification",
+   "title": "The product specification",
+   "paper": "either",
+   "rule": "The specification is a list of **measurable criteria** the product must satisfy, written after research and before ideas are generated.\n\nIt should cover:\n- **Function** — what it must do\n- **Performance** — how well (load, durability)\n- **Ergonomics** — fit to the user\n- **Aesthetics** — appearance\n- **Materials** — properties required\n- **Cost** — target price\n- **Manufacture** — production method and scale\n- **Safety/standards** — legal requirements\n- **Sustainability** — environmental impact\n\nCriteria must be **testable** — 'lightweight' is weak; 'under 250 g' is strong.",
+   "example": "**Q: Explain why specification criteria should be measurable. (2)**\n\n**Model answer:** Measurable criteria can be objectively tested against the finished product (1), so the designer can prove whether the design meets the brief rather than relying on opinion (2).",
+   "trap": "Writing vague criteria such as 'must look nice' or 'must be strong'. These cannot be tested and score poorly. Also, writing the specification **after** generating ideas — it should guide the ideas.",
+   "practice": [
+    {
+     "q": "Rewrite this weak criterion to make it measurable: 'The chair should be comfortable.'",
+     "a": "'The seat height should be 450 mm ± 10 mm and the backrest should support the lumbar region when seated for 60 minutes.'"
+    },
+    {
+     "q": "Name four headings a specification should cover. (4)",
+     "a": "Function; performance; ergonomics; aesthetics (also acceptable: materials, cost, manufacture, safety, sustainability)."
+    }
+   ]
+  },
+  {
+   "slug": "idea-generation",
+   "title": "Idea-generation techniques",
+   "paper": "either",
+   "rule": "**Brainstorming** — generate many ideas quickly without judging them.\n\n**Morphological analysis** — break the problem into parts and combine options systematically.\n\n**SCAMPER** — Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse.\n\n**Analogy** — borrow solutions from other fields (e.g. Velcro from burdock seeds).\n\n**Sketching and annotation** — develop ideas visually, labelling key features.\n\nEvaluation of ideas uses the specification as the scoring criteria.",
+   "example": "**Q: Explain how SCAMPER helps generate design ideas. (2)**\n\n**Model answer:** SCAMPER provides prompts that force the designer to look at a product from seven different angles (1), such as combining two functions or eliminating an unnecessary part, which produces ideas that free thinking alone would miss (2).",
+   "trap": "Treating brainstorming as the only technique. Also, generating ideas without **annotating** them — marks are awarded for notes explaining the thinking, not just the drawing.",
+   "practice": [
+    {
+     "q": "What does the 'C' in SCAMPER stand for and give an example. (2)",
+     "a": "Combine. For example, combining a torch and a pen into one product so the user carries fewer items."
+    },
+    {
+     "q": "Why should ideas be evaluated against the specification? (2)",
+     "a": "The specification states what the product must achieve, so scoring ideas against it gives an objective basis for choosing (1) rather than selecting on personal preference (2)."
+    }
+   ]
+  },
+  {
+   "slug": "modelling",
+   "title": "Modelling",
+   "paper": "either",
+   "rule": "Models let designers test ideas before manufacture.\n\n**Types:**\n- **Card/paper models** — quick form and scale checks\n- **Foam board** — ergonomic testing (grip, shape)\n- **CAD (computer-aided design)** — 3D modelling, rendering, stress testing, rapid changes\n- **3D printing / rapid prototyping** — physical part from a CAD file\n- **Virtual models** — simulation without any physical material\n\n**Benefits:** cheap, fast, reveals problems, communicates ideas to clients.\n**Limits:** models may not behave exactly like the final material.",
+   "example": "**Q: Explain one advantage of CAD over a physical model. (2)**\n\n**Model answer:** CAD allows the designer to change dimensions and see the effect instantly without rebuilding anything (1), so many variations can be tested far more quickly and cheaply than by making each one by hand (2).",
+   "trap": "Saying CAD is 'better' without naming a specific advantage. Also forgetting the limits — a model in foam may not show how the real material performs under load.",
+   "practice": [
+    {
+     "q": "Give two reasons a designer might make a foam model of a handle. (2)",
+     "a": "To test the grip and comfort in the hand before manufacture; to check the shape and size are ergonomically suitable cheaply and quickly."
+    },
+    {
+     "q": "State one limitation of a scale model. (1)",
+     "a": "It may not behave the same as the full-size product — for example, strength and weight do not always scale proportionally."
+    }
+   ]
+  },
+  {
+   "slug": "graphics",
+   "title": "Graphics in design",
+   "paper": "either",
+   "rule": "Designers communicate through graphics.\n\n- **Isometric drawings** — 3D representation with 30 degree axes; shows three faces.\n- **Orthographic projection** — separate views (front, plan, end); first-angle or third-angle.\n- **Sectional views** — show internal detail, hatched.\n- **Exploded views** — parts separated to show assembly.\n- **Working drawings** — dimensions and tolerances needed for manufacture.\n- **CAD drawings** — accurate, editable, shareable.\n\n**Scale** must be stated. Dimensions must be clear and complete — a manufacturer must be able to make the part from the drawing alone.",
+   "example": "**Q: Why is an exploded view useful in a technical drawing? (2)**\n\n**Model answer:** It shows how the parts fit together in the order they assemble (1), which helps both the manufacturer and the customer understand the assembly without taking the product apart (2).",
+   "trap": "Confusing isometric with orthographic — isometric shows **3D**, orthographic shows **separate flat views**. Also, omitting dimensions or units from a working drawing, which makes it unusable.",
+   "practice": [
+    {
+     "q": "What is the difference between first-angle and third-angle projection? (2)",
+     "a": "In first-angle projection the view is placed on the opposite side of the object; in third-angle projection the view is placed on the same side as the object being viewed."
+    },
+    {
+     "q": "Why must a working drawing include tolerances? (2)",
+     "a": "Manufacturing cannot be perfectly exact, so tolerances state the acceptable variation (1) and allow the part to be made and still fit with others (2)."
+    }
+   ]
+  },
+  {
+   "slug": "function-performance",
+   "title": "Function & performance",
+   "paper": "either",
+   "rule": "**Function** is what the product does. **Performance** is how well it does it.\n\nConsiderations:\n- Does it do the job reliably?\n- Is it durable and safe?\n- Does it work in the intended environment?\n- How long will it last?\n- Is it easy to maintain and repair?\n\nDesigners test function by **modelling and prototype testing**, and evaluate performance against the specification.",
+   "example": "**Q: Explain why a product's intended environment affects material choice. (2)**\n\n**Model answer:** A product used outdoors must withstand rain, UV light and temperature change (1), so a material such as stainless steel or UV-stable plastic is chosen instead of mild steel that would rust (2).",
+   "trap": "Describing function without linking to **material or design choices**. Also, evaluating performance without reference to the specification criteria.",
+   "practice": [
+    {
+     "q": "Give two functional requirements of a school bag. (2)",
+     "a": "It must carry the required weight without the straps breaking; it must protect the contents from rain."
+    },
+    {
+     "q": "Explain how testing a prototype improves performance. (2)",
+     "a": "Testing reveals where the design fails in real use (1), so the designer can strengthen or adjust those parts before manufacture, improving reliability (2)."
+    }
+   ]
+  },
+  {
+   "slug": "market-aesthetics",
+   "title": "Market, aesthetics & ergonomics",
+   "paper": "either",
+   "rule": "**Market pull** — the design responds to what customers want (demand-driven).\n**Technology push** — a new technology creates a product people did not know they wanted.\n\n**Aesthetics** — how the product looks and feels: form, colour, texture, proportion, symmetry.\n\n**Ergonomics** — how well the product fits the human body: grip size, reach, posture, force required, comfort in use. Anthropometric data (measurements of the human body) informs ergonomic design.",
+   "example": "**Q: Explain how anthropometric data helps design a computer mouse. (2)**\n\n**Model answer:** Anthropometric data gives the range of hand sizes in the population (1), so the designer can shape the mouse to fit most users comfortably and reduce strain during long use (2).",
+   "trap": "Confusing **aesthetics** (appearance) with **ergonomics** (fit and comfort). Also, describing market pull and technology push without an example.",
+   "practice": [
+    {
+     "q": "Give one example of technology push. (1)",
+     "a": "The smartphone — touchscreen and mobile data technology made it possible before consumers had asked for it."
+    },
+    {
+     "q": "State two ergonomic considerations for a kitchen knife handle. (2)",
+     "a": "Handle diameter should fit the average hand; the shape should prevent the hand slipping forward onto the blade."
+    }
+   ]
+  },
+  {
+   "slug": "people-influence",
+   "title": "People who influence design",
+   "paper": "either",
+   "rule": "Designers and movements that have shaped products:\n\n- **Dieter Rams** — 'less but better'; ten principles of good design (functional, honest, durable, environmentally friendly)\n- **Charles and Ray Eames** — moulded plywood and plastic furniture; ergonomics and mass production\n- **Philippe Starck** — playful, sculptural products\n- **James Dyson** — function-led innovation (cyclone vacuum)\n- **Alessi** — colourful, characterful domestic products\n- **Bauhaus movement** — form follows function; simple geometric design\n\nTheir influence shows in materials, form and manufacturing approach.",
+   "example": "**Q: Explain how Dieter Rams' principles influence modern product design. (2)**\n\n**Model answer:** Rams argued products should be functional, simple and long-lasting rather than decorative (1). This is visible in modern minimalist products that hide controls and use restrained colours, prioritising usability over ornament (2).",
+   "trap": "Naming a designer without saying what they **did** or how it influenced design. Also, describing aesthetics only — the marks are for design thinking and its impact on products.",
+   "practice": [
+    {
+     "q": "State one of Dieter Rams' principles of good design. (1)",
+     "a": "'Good design is as little design as possible' (or: functional, durable, honest, environmentally friendly)."
+    },
+    {
+     "q": "Explain the Bauhaus principle 'form follows function'. (2)",
+     "a": "It means the shape of a product should be determined by what it needs to do rather than decoration (1), so unnecessary ornament is removed and the design is efficient and easy to manufacture (2)."
+    }
+   ]
+  },
+  {
+   "slug": "materials-woods",
+   "title": "Woods & manufactured boards",
+   "paper": "either",
+   "rule": "**Hardwoods** (from deciduous trees): oak, mahogany, ash, beech — generally harder and more expensive.\n\n**Softwoods** (from coniferous trees): pine, cedar, spruce — cheaper, easier to work, less durable.\n\n**Manufactured boards:**\n- **Plywood** — layers at right angles, strong and stable\n- **MDF** — smooth, easy to machine, no grain, dust hazard\n- **Chipboard** — cheap, used for flat-pack furniture\n- **Hardboard** — thin, smooth, used for backs of units\n\n**Properties to know:** strength, durability, weight, cost, appearance, workability, sustainability.",
+   "example": "**Q: Explain why plywood is stronger than solid wood of the same thickness. (2)**\n\n**Model answer:** Plywood is made from layers glued with the grain at right angles to each other (1). This cross-graining resists splitting and warping in any one direction, making it stronger and more stable than a single piece of solid timber (2).",
+   "trap": "Calling MDF or plywood a 'wood' — they are **manufactured boards**. Also, mixing up hardwood/softwood with hard/soft in terms of physical hardness; the terms refer to the tree type.",
+   "practice": [
+    {
+     "q": "Give two properties of oak that make it suitable for furniture. (2)",
+     "a": "It is hard and durable, resisting wear; it has an attractive grain that finishes well."
+    },
+    {
+     "q": "Why is chipboard widely used in flat-pack furniture? (2)",
+     "a": "It is inexpensive to produce from waste wood (1) and can be veneered or laminated to look like solid wood, keeping costs low (2)."
+    }
+   ]
+  },
+  {
+   "slug": "materials-metals",
+   "title": "Metals & plastics",
+   "paper": "either",
+   "rule": "**Ferrous metals** contain iron (mild steel, cast iron) — strong but rust unless protected.\n**Non-ferrous** contain no iron (aluminium, copper, brass) — resist rust.\n**Alloys** are mixtures (steel, brass, bronze).\n\n**Plastics:**\n- **Thermoplastics** — soften when heated and can be reshaped/recycled (acrylic, polythene, PVC, nylon)\n- **Thermosetting plastics** — set permanently and cannot be remelted (urea formaldehyde, epoxy resin)\n\nChoose by: strength, weight, corrosion resistance, cost, conductivity, workability.",
+   "example": "**Q: Explain why aluminium is used for aircraft bodies. (2)**\n\n**Model answer:** Aluminium is light for its strength (1), which reduces fuel consumption, and it forms a protective oxide layer that resists corrosion, so it lasts in wet conditions (2).",
+   "trap": "Confusing thermoplastic and thermosetting — **thermo**plastics can be reheated and reshaped; **thermosetting** cannot. Also, saying aluminium does not corrode at all — it does form an oxide layer.",
+   "practice": [
+    {
+     "q": "Give one difference between ferrous and non-ferrous metals. (2)",
+     "a": "Ferrous metals contain iron and are magnetic but rust unless protected; non-ferrous metals contain no iron and resist rust."
+    },
+    {
+     "q": "Explain why PVC is used for window frames. (2)",
+     "a": "PVC is a thermoplastic that does not corrode or rot and needs no painting (1), so it is low maintenance and durable outdoors (2)."
+    }
+   ]
+  },
+  {
+   "slug": "measuring-tools",
+   "title": "Measuring & marking-out tools",
+   "paper": "either",
+   "rule": "**Measuring:** steel rule (mm), tape measure (long lengths), vernier caliper (precision to 0.1 mm), micrometer (precision to 0.01 mm).\n\n**Marking out:**\n- **Try square** — 90 degree lines and checking squareness\n- **Marking gauge** — lines parallel to an edge\n- **Mortise gauge** — two parallel lines (mortise and tenon)\n- **Scriber** — marks metal (never a pencil on metal)\n- **Centre punch** — marks a point for drilling\n- **Dividers** — circles and arcs on metal\n- **Mitre square** — 45 degree angles",
+   "example": "**Q: Why is a centre punch used before drilling metal? (2)**\n\n**Model answer:** The centre punch creates a small indentation that stops the drill bit sliding off the marked point (1), so the hole is drilled in the correct position and the bit is less likely to break (2).",
+   "trap": "Using a **pencil** to mark metal — a scriber is required because pencil rubs off. Also, confusing the try square (90 degrees) with the mitre square (45 degrees).",
+   "practice": [
+    {
+     "q": "Which tool measures to 0.01 mm? (1)",
+     "a": "A micrometer."
+    },
+    {
+     "q": "Explain the difference between a marking gauge and a mortise gauge. (2)",
+     "a": "A marking gauge has one pin and marks a single line parallel to an edge; a mortise gauge has two pins and marks two parallel lines at once for joints such as mortise and tenon."
+    }
+   ]
+  },
+  {
+   "slug": "hand-tools",
+   "title": "Hand tools",
+   "paper": "either",
+   "rule": "**Cutting:** tenon saw (straight, fine cuts in wood), coping saw (curved cuts), hacksaw (metal), chisel (paring and cutting joints).\n\n**Shaping:** plane (flattening and smoothing wood), file (shaping and smoothing metal), rasp (rough shaping wood).\n\n**Drilling/holding:** hand drill, brace, G-clamp, bench vice, sash clamp.\n\n**Striking:** claw hammer (nails), mallet (chisels — protects the handle), ball-peen hammer (metalwork).\n\n**Safety:** always clamp work, cut away from the body, use the correct saw for the material.",
+   "example": "**Q: Why is a mallet used with a wood chisel rather than a hammer? (2)**\n\n**Model answer:** A mallet has a soft head that drives the chisel without damaging its wooden handle (1), whereas a metal hammer would split or mushroom the handle and ruin the tool (2).",
+   "trap": "Naming a tool without knowing its purpose. Also, using a **hacksaw** on wood or a **tenon saw** on metal — examiners test tool-to-material matching.",
+   "practice": [
+    {
+     "q": "Which saw would you use to cut a curve in plywood? (1)",
+     "a": "A coping saw."
+    },
+    {
+     "q": "Explain why a G-clamp is used when drilling. (2)",
+     "a": "It holds the workpiece firmly to the bench (1), so it cannot spin or move while drilling, which prevents injury and inaccurate holes (2)."
+    }
+   ]
+  },
+  {
+   "slug": "machine-tools",
+   "title": "Machine tools",
+   "paper": "either",
+   "rule": "**Pillar drill** — fixed drill for accurate vertical holes; use a guard, clamp the work, select the right speed.\n\n**Scroll saw** — fine curved cuts in thin material.\n\n**Band saw** — straight and curved cuts in thicker material.\n\n**Lathe** — turning cylindrical shapes (wood or metal).\n\n**Disc/belt sander** — finishing surfaces.\n\n**CNC machines** — computer-controlled, repeatable and accurate; expensive to set up but ideal for batch production.\n\nSafety: guards in place, correct bit/blade, eye protection, no loose clothing.",
+   "example": "**Q: Explain one advantage of a CNC machine over a manual machine tool. (2)**\n\n**Model answer:** A CNC machine follows a stored program, so every part is identical to within very tight tolerances (1). This consistency means less waste and no variation between operators, which matters in batch production (2).",
+   "trap": "Saying CNC is 'faster' without mentioning **consistency and repeatability**, which is the key benefit examiners look for. Also forgetting the high set-up cost and need for programming skills.",
+   "practice": [
+    {
+     "q": "State two safety precautions when using a pillar drill. (2)",
+     "a": "Clamp the workpiece and wear eye protection; ensure the chuck guard is in place before starting."
+    },
+    {
+     "q": "Explain why a CNC lathe suits batch production. (2)",
+     "a": "Once programmed, it repeats identical operations without variation (1), so hundreds of identical parts can be made accurately with less skilled labour per unit (2)."
+    }
+   ]
+  },
+  {
+   "slug": "joining",
+   "title": "Joining & assembly",
+   "paper": "either",
+   "rule": "**Permanent joints:**\n- Nails and screws (screws allow dismantling), glue (PVA for wood), welding/brazing (metal), rivets\n- **Wood joints:** butt, lap, mortise and tenon, dovetail, dowel — each trades strength against difficulty\n\n**Temporary/knock-down fittings:** bolts, nuts, cam locks, hinges (allow flat-pack assembly)\n\nChoose by: strength needed, whether it must come apart, materials, appearance, cost.",
+   "example": "**Q: Explain why knock-down fittings are used in flat-pack furniture. (2)**\n\n**Model answer:** They allow the product to be shipped flat and assembled by the customer (1), which reduces transport and storage costs dramatically compared with shipping assembled furniture (2).",
+   "trap": "Confusing **permanent** and **temporary** joints. Also, recommending a joint without considering the material — welding only works on metals, not wood.",
+   "practice": [
+    {
+     "q": "Which wood joint is strongest for a drawer corner and why? (2)",
+     "a": "A dovetail joint — the interlocking angled pins resist being pulled apart, making it very strong for drawer corners."
+    },
+    {
+     "q": "Explain when screws are preferable to nails. (2)",
+     "a": "Screws hold more securely and can be removed later for dismantling or repair (1), whereas nails are driven in permanently and can split thin wood (2)."
+    }
+   ]
+  },
+  {
+   "slug": "finishing",
+   "title": "Finishing",
+   "paper": "either",
+   "rule": "Finishes protect the material and improve appearance.\n\n**Wood finishes:** varnish (hard-wearing, waterproof), wood stain (colour), wax (subtle sheen), paint (colour, hides grain), oil (penetrates and protects).\n\n**Metal finishes:** paint, galvanising (zinc coating, rust protection), electroplating (chrome, nickel), anodising (aluminium), powder coating (durable colour).\n\n**Plastic finishes:** usually none needed; may be polished or textured during manufacture.\n\nFinishing is often the **final stage** before assembly.",
+   "example": "**Q: Explain why garden furniture is galvanised rather than painted. (2)**\n\n**Model answer:** Galvanising coats the steel in zinc, which corrodes sacrificially to protect the metal underneath (1). This lasts far longer outdoors than paint, which chips and lets rust start at the exposed edge (2).",
+   "trap": "Choosing a finish without saying what it **protects against**. Also, forgetting that a finish must suit the material — varnish on metal does nothing useful.",
+   "practice": [
+    {
+     "q": "Give two reasons for applying a finish to a wooden table. (2)",
+     "a": "To protect the wood from moisture and staining; to improve its appearance and enhance the grain."
+    },
+    {
+     "q": "Explain the purpose of anodising aluminium. (2)",
+     "a": "It thickens the natural oxide layer on the surface (1), improving corrosion resistance and allowing coloured dyes to be absorbed for a decorative finish (2)."
+    }
+   ]
+  },
+  {
+   "slug": "commercial-manufacture",
+   "title": "Commercial manufacture",
+   "paper": "either",
+   "rule": "Scale of production changes the method:\n\n- **One-off** — bespoke, high skill, high cost per unit\n- **Batch** — set number produced, then changeover; needs jigs and storage\n- **Mass/continuous** — high volume, automated, low cost per unit\n\nEnablers of commercial production: **jigs and fixtures** (speed and consistency), **CNC**, **standardised parts**, **division of labour**, **automation**.\n\nCosts: set-up costs are high but **unit costs fall** as volume rises (economies of scale).",
+   "example": "**Q: Explain how a jig improves commercial manufacture. (2)**\n\n**Model answer:** A jig holds the workpiece in the same position every time (1), so repeated operations such as drilling are faster and every part comes out identical, reducing waste and rework (2).",
+   "trap": "Confusing a **jig** (holds and guides the tool) with a **fixture** (holds the work only). Also, saying mass production is always better — it needs huge investment and offers no flexibility.",
+   "practice": [
+    {
+     "q": "Explain the difference between a jig and a fixture. (2)",
+     "a": "A jig holds the workpiece **and** guides the tool to the correct position. A fixture only holds the workpiece securely without guiding the tool."
+    },
+    {
+     "q": "Why do unit costs fall as production volume increases? (2)",
+     "a": "Set-up costs and tooling are spread over many more units (1), and automated production reduces labour cost per item (2)."
+    }
+   ]
+  },
+  {
+   "slug": "impact-sustainability",
+   "title": "Impact & sustainability",
+   "paper": "either",
+   "rule": "Design decisions have environmental and social impacts.\n\n**The 6 Rs:** Rethink, Refuse, Reduce, Reuse, Repair, Recycle.\n\nConsider:\n- **Material source** — renewable? recycled? sustainably certified (FSC timber)?\n- **Energy use** in manufacture and in use\n- **Transport** — locally sourced reduces carbon\n- **Lifetime** — durable and repairable beats disposable\n- **End of life** — can it be disassembled and recycled?\n- **Social impact** — fair labour, safe working conditions\n\n**Life cycle assessment (LCA)** evaluates impact from raw material to disposal.",
+   "example": "**Q: Explain how designing for disassembly reduces environmental impact. (2)**\n\n**Model answer:** If a product can be taken apart easily, components and materials can be separated and recycled or replaced (1), rather than the whole product being sent to landfill when one part fails (2).",
+   "trap": "Only mentioning recycling. The strongest answers discuss **material choice, energy, transport, lifetime and end of life**. Also, assuming 'natural' materials are automatically more sustainable — they may be transported long distances.",
+   "practice": [
+    {
+     "q": "Give two ways a designer can reduce a product's environmental impact. (2)",
+     "a": "Use recycled or sustainably sourced materials; design the product to be durable and repairable so it lasts longer."
+    },
+    {
+     "q": "Explain why locally sourcing materials can be more sustainable. (2)",
+     "a": "Shorter transport distances reduce fuel use and carbon emissions (1), and local sourcing can support the regional economy (2)."
+    }
+   ]
+  },
+  {
+   "slug": "planning-evaluation",
+   "title": "Planning for manufacture & evaluation",
+   "paper": "either",
+   "rule": "**Planning for manufacture** includes:\n- A **production plan** / flow chart of operations in order\n- **Materials list** (with quantities and costs)\n- **Tools and equipment** required\n- **Health and safety** risk assessment\n- **Quality checks** at key stages\n- **Time plan**\n\n**Evaluation** after manufacture tests the product against the **specification**, identifies strengths and weaknesses, and suggests improvements.",
+   "example": "**Q: Explain why a risk assessment is needed before manufacture. (2)**\n\n**Model answer:** It identifies hazards such as sharp tools, dust or electrical equipment and states the controls needed to reduce them (1). This protects workers from injury and ensures the business meets health and safety law (2).",
+   "trap": "Evaluating only the appearance. A proper evaluation covers **function, performance, ergonomics, safety, cost and sustainability**, and must refer back to the specification criteria.",
+   "practice": [
+    {
+     "q": "List four items that should appear in a production plan. (4)",
+     "a": "Sequence of operations; materials and quantities; tools and equipment; quality checks (also acceptable: time plan, health and safety notes)."
+    },
+    {
+     "q": "Explain why evaluation should refer to the specification. (2)",
+     "a": "The specification states the criteria the product was designed to meet (1), so measuring against it gives an objective judgement of success rather than personal opinion (2)."
+    }
+   ]
+  }
+ ]
+}

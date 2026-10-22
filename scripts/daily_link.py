@@ -13,11 +13,29 @@ cron stays silent on days the plan is finished.
 """
 import datetime
 import json
+import os
 import pathlib
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-SCHEDULE = ROOT / "docs" / "schedule.json"
+REPO = pathlib.Path("/Users/Sam/national-5-learning-lab")
+
+def _find_schedule():
+    """Locate schedule.json. This script is copied into ~/.hermes/scripts/ for
+    the scheduler, so __file__-relative resolution is not reliable."""
+    candidates = [
+        pathlib.Path(os.environ.get("N5_REPO", "")) / "docs" / "schedule.json"
+        if os.environ.get("N5_REPO") else None,
+        REPO / "docs" / "schedule.json",
+        pathlib.Path(__file__).resolve().parent.parent / "docs" / "schedule.json",
+        pathlib.Path(__file__).resolve().parent / "schedule.json",
+    ]
+    for c in candidates:
+        if c and c.exists():
+            return c
+    return REPO / "docs" / "schedule.json"
+
+
+SCHEDULE = _find_schedule()
 BASE = "https://samratewal.github.io/national-5-learning-lab"
 
 WEEKDAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -110,7 +128,9 @@ def main():
     data = load()
     day = find_day(data, when)
     if day is None:
-        return 1
+        # Outside the plan window: stay silent, exit cleanly. A non-zero exit
+        # would be reported as a failure by the scheduler every single day.
+        return 0
     print(render(data, day, when))
     return 0
 

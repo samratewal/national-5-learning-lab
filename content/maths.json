@@ -1,0 +1,459 @@
+{
+ "subject": "maths",
+ "title": "Mathematics",
+ "icon": "📐",
+ "assessment": "Paper 1: non-calculator, 1 hour (50 marks) | Paper 2: calculator, 1 hour 30 minutes (60 marks)",
+ "intro": "National 5 Maths is assessed across three course areas — Expressions and Formulae, Relationships, and Applications. Every mark comes from **showing your working**.",
+ "topics": [
+  {
+   "slug": "fractions-percentages",
+   "title": "Fractions & percentages",
+   "paper": "either",
+   "rule": "**Adding/subtracting fractions:** find a common denominator first.\n\n**Multiplying:** multiply straight across — no common denominator needed.\n\n**Dividing:** flip the second fraction and multiply.\n\n**Percentage increase/decrease:** multiply by the decimal multiplier.\n- Increase by 15% → multiply by **1.15**\n- Decrease by 15% → multiply by **0.85**\n\n**Compound (repeated) change:** multiply the multiplier repeatedly — $1.15^3$ for three years. **Never** just add the percentages.",
+   "example": "A jacket costs £80. It is reduced by 15%, then the sale price is reduced by a further 10%.\n\nFirst reduction: $80 \\times 0.85 = \\pounds 68$\n\nSecond reduction: $68 \\times 0.90 = \\pounds 61.20$\n\n**Sale price = £61.20**\n\n*Note:* the total reduction is 23.5%, **not** 25%.",
+   "trap": "Adding percentages for repeated change (15% then 10% is **not** 25%). Also, forgetting to simplify the final fraction, and using the wrong denominator when adding.",
+   "practice": [
+    {
+     "q": "Evaluate $\\dfrac{2}{3} + \\dfrac{1}{4}$",
+     "a": "Common denominator 12: $\\dfrac{8}{12} + \\dfrac{3}{12} = \\dfrac{11}{12}$"
+    },
+    {
+     "q": "A car worth £12,000 depreciates by 12% each year. Find its value after 2 years.",
+     "a": "Multiplier $= 0.88$. $12000 \\times 0.88^2 = 12000 \\times 0.7744 = \\pounds 9,292.80$"
+    }
+   ]
+  },
+  {
+   "slug": "surds-indices",
+   "title": "Surds & indices",
+   "paper": "noncalc",
+   "rule": "**Simplifying surds:** split into a square factor. $\\sqrt{72}=\\sqrt{36\\times2}=6\\sqrt{2}$.\n\n**Adding surds:** only like surds combine. $3\\sqrt{2}+5\\sqrt{2}=8\\sqrt{2}$, but $\\sqrt{2}+\\sqrt{3}$ stays as it is.\n\n**Rationalising the denominator:** multiply top and bottom by the surd. $\\dfrac{6}{\\sqrt{3}} \\times \\dfrac{\\sqrt{3}}{\\sqrt{3}} = \\dfrac{6\\sqrt{3}}{3}=2\\sqrt{3}$.\n\n**Index laws:**\n- $a^m \\times a^n = a^{m+n}$\n- $a^m \\div a^n = a^{m-n}$\n- $(a^m)^n = a^{mn}$\n- $a^0 = 1$\n- $a^{-n} = \\dfrac{1}{a^n}$\n- $a^{1/n} = \\sqrt[n]{a}$",
+   "example": "Simplify $\\dfrac{\\sqrt{50}}{\\sqrt{2}}$.\n\n$\\sqrt{50}=\\sqrt{25\\times2}=5\\sqrt{2}$\n\n$\\dfrac{5\\sqrt{2}}{\\sqrt{2}} = 5$\n\n**Answer = 5**",
+   "trap": "Writing $\\sqrt{a+b}=\\sqrt{a}+\\sqrt{b}$ — this is **false**. Also forgetting that $a^{-n}$ is a reciprocal, and adding indices when multiplying bases that are different.",
+   "practice": [
+    {
+     "q": "Simplify $\\sqrt{48}+\\sqrt{27}$",
+     "a": "$\\sqrt{48}=4\\sqrt{3}$, $\\sqrt{27}=3\\sqrt{3}$, so total $=7\\sqrt{3}$"
+    },
+    {
+     "q": "Evaluate $27^{-\\frac{2}{3}}$",
+     "a": "$27^{1/3}=3$, so $27^{-2/3}=\\dfrac{1}{3^2}=\\dfrac{1}{9}$"
+    }
+   ]
+  },
+  {
+   "slug": "scientific-notation",
+   "title": "Scientific notation",
+   "paper": "either",
+   "rule": "A number is in scientific notation when written as $a\\times10^n$ where **$1\\le a<10$** and $n$ is an integer.\n\n- Big numbers → positive $n$ (move the point left)\n- Small numbers → negative $n$ (move the point right)\n\n**Multiplying:** multiply the numbers, add the indices.\n\n**Dividing:** divide the numbers, subtract the indices.",
+   "example": "Write 0.000472 in scientific notation.\n\nMove the point 4 places right: $4.72$\n\nSince we moved right, $n=-4$.\n\n**Answer = $4.72\\times10^{-4}$**",
+   "trap": "Writing $47.2\\times10^{-5}$ — the first number **must** be between 1 and 10. Also mixing up the direction of the point movement.",
+   "practice": [
+    {
+     "q": "Calculate $(3\\times10^{5})\\times(4\\times10^{-2})$, giving your answer in scientific notation.",
+     "a": "$3\\times4=12$, indices $5+(-2)=3$, so $12\\times10^{3}=1.2\\times10^{4}$"
+    },
+    {
+     "q": "Write 6,850,000 in scientific notation.",
+     "a": "$6.85\\times10^{6}$"
+    }
+   ]
+  },
+  {
+   "slug": "expanding-brackets",
+   "title": "Expanding brackets",
+   "paper": "either",
+   "rule": "Multiply every term in the first bracket by every term in the second.\n\n**Single bracket:** $a(b+c)=ab+ac$\n\n**Double bracket:** $(a+b)(c+d)=ac+ad+bc+bd$\n\n**Squared bracket:** $(x+3)^2=(x+3)(x+3)$ — **not** $x^2+9$.",
+   "example": "Expand $(2x-3)(x+5)$.\n\n$2x(x)+2x(5)+(-3)(x)+(-3)(5)$\n\n$=2x^2+10x-3x-15$\n\n$=2x^2+7x-15$",
+   "trap": "Squaring each term separately: $(x+3)^2 \\ne x^2+9$. Also losing a negative sign when multiplying a negative by a negative.",
+   "practice": [
+    {
+     "q": "Expand $(x+4)(x-7)$",
+     "a": "$x^2-7x+4x-28 = x^2-3x-28$"
+    },
+    {
+     "q": "Expand $(3a-2)^2$",
+     "a": "$(3a-2)(3a-2)=9a^2-6a-6a+4=9a^2-12a+4$"
+    }
+   ]
+  },
+  {
+   "slug": "factorising",
+   "title": "Factorising",
+   "paper": "either",
+   "rule": "**Common factor:** take out the highest common factor. $6x^2+9x=3x(2x+3)$.\n\n**Difference of two squares:** $a^2-b^2=(a-b)(a+b)$.\n\n**Trinomial ($x^2+bx+c$):** find two numbers that multiply to $c$ and add to $b$.\n\n**Trinomial ($ax^2+bx+c$ with $a\\ne1$):** find two numbers multiplying to $ac$ and adding to $b$, then split the middle term.",
+   "example": "Factorise $x^2-5x-24$.\n\nTwo numbers multiplying to $-24$ and adding to $-5$: $-8$ and $+3$.\n\n$=(x-8)(x+3)$\n\nCheck by expanding: $x^2+3x-8x-24=x^2-5x-24$ ✓",
+   "trap": "Getting the signs wrong in the brackets. Always expand your answer back to check. Also forgetting to take out a common factor **first** before trying other methods.",
+   "practice": [
+    {
+     "q": "Factorise $4x^2-25$",
+     "a": "Difference of two squares: $(2x-5)(2x+5)$"
+    },
+    {
+     "q": "Factorise $2x^2+7x+3$",
+     "a": "$ac=6$, need two numbers multiplying to 6 and adding to 7: 6 and 1. Split: $2x^2+6x+x+3 = 2x(x+3)+1(x+3)=(2x+1)(x+3)$"
+    }
+   ]
+  },
+  {
+   "slug": "completing-square",
+   "title": "Completing the square",
+   "paper": "noncalc",
+   "rule": "Rewrite $x^2+bx+c$ as $(x+\\tfrac{b}{2})^2 - (\\tfrac{b}{2})^2 + c$.\n\nIn the form $(x+p)^2+q$:\n- $p = \\dfrac{b}{2}$\n- $q = c - p^2$\n\nThe **minimum turning point** of the graph is $(-p,\\ q)$.",
+   "example": "Write $x^2+6x+2$ in the form $(x+p)^2+q$.\n\n$p = 6/2 = 3$\n\n$q = 2 - 3^2 = 2 - 9 = -7$\n\n**Answer = $(x+3)^2-7$**\n\nMinimum turning point: $(-3,\\ -7)$",
+   "trap": "Sign error on $p$ — the bracket is $(x+p)$ so a positive $b$ gives a **negative** $x$-coordinate at the minimum. Also forgetting to subtract $p^2$ when finding $q$.",
+   "practice": [
+    {
+     "q": "Write $x^2-8x+5$ in the form $(x+p)^2+q$.",
+     "a": "$p=-4$, $q=5-16=-11$, so $(x-4)^2-11$"
+    },
+    {
+     "q": "State the minimum turning point of $y=x^2+10x+3$.",
+     "a": "$p=5$, $q=3-25=-22$, so the minimum is $(-5,\\ -22)$"
+    }
+   ]
+  },
+  {
+   "slug": "algebraic-fractions",
+   "title": "Algebraic fractions",
+   "paper": "either",
+   "rule": "Treat them exactly like number fractions.\n\n**Adding/subtracting:** find a common denominator.\n\n**Multiplying:** multiply across, then cancel.\n\n**Dividing:** flip and multiply.\n\n**Always factorise first** — cancelling only works on factors, never on terms.",
+   "example": "Simplify $\\dfrac{x^2-9}{x^2+x-12}$.\n\nFactorise top: $(x-3)(x+3)$\n\nFactorise bottom: $(x+4)(x-3)$\n\n$=\\dfrac{(x-3)(x+3)}{(x+4)(x-3)} = \\dfrac{x+3}{x+4}$",
+   "trap": "Cancelling across a $+$ sign. $\\dfrac{x+3}{x+4} \\ne \\dfrac{3}{4}$. You may only cancel whole factors. Also, the mark scheme wants to **see the factorisation** before you cancel.",
+   "practice": [
+    {
+     "q": "Simplify $\\dfrac{2x+6}{x^2-9}$",
+     "a": "$\\dfrac{2(x+3)}{(x-3)(x+3)} = \\dfrac{2}{x-3}$"
+    },
+    {
+     "q": "Express $\\dfrac{3}{x}+\\dfrac{2}{x+1}$ as a single fraction.",
+     "a": "$\\dfrac{3(x+1)+2x}{x(x+1)} = \\dfrac{5x+3}{x(x+1)}$"
+    }
+   ]
+  },
+  {
+   "slug": "changing-subject",
+   "title": "Changing the subject",
+   "paper": "either",
+   "rule": "Rearrange so the required variable sits alone on one side.\n\n1. Remove fractions by multiplying through.\n2. Expand brackets if the variable appears inside them.\n3. Collect all terms containing the variable on one side.\n4. Factorise it out.\n5. Divide by the bracket.\n\nIf the subject appears **twice**, you must factorise.",
+   "example": "Make $x$ the subject of $y=\\dfrac{3x+2}{x-1}$.\n\nMultiply through: $y(x-1)=3x+2$\n\nExpand: $yx-y=3x+2$\n\nCollect $x$ terms: $yx-3x=2+y$\n\nFactorise: $x(y-3)=2+y$\n\n**$x=\\dfrac{2+y}{y-3}$**",
+   "trap": "Forgetting to factorise when the subject appears twice — you cannot just divide one term. Also dropping signs when moving terms across the equals sign.",
+   "practice": [
+    {
+     "q": "Make $r$ the subject of $C=2\\pi r$",
+     "a": "$r=\\dfrac{C}{2\\pi}$"
+    },
+    {
+     "q": "Make $a$ the subject of $v^2=u^2+2as$",
+     "a": "$2as=v^2-u^2$, so $a=\\dfrac{v^2-u^2}{2s}$"
+    }
+   ]
+  },
+  {
+   "slug": "equations-inequations",
+   "title": "Equations & inequations",
+   "paper": "either",
+   "rule": "**Linear equations:** do the same operation to both sides until the variable is alone.\n\n**Equations with fractions:** multiply every term by the common denominator.\n\n**Inequations:** solve exactly like an equation, but **reverse the inequality sign when you multiply or divide by a negative number**.\n\nAnswers to inequations are shown on a number line: open circle for $<$ or $>$, closed circle for $\\le$ or $\\ge$.",
+   "example": "Solve $3(x-2) < 5x+4$.\n\nExpand: $3x-6 < 5x+4$\n\nSubtract $3x$: $-6 < 2x+4$\n\nSubtract 4: $-10 < 2x$\n\nDivide by 2: $-5 < x$, i.e. **$x > -5$**",
+   "trap": "Forgetting to flip the sign when dividing by a negative. Also forgetting to multiply **every** term by the denominator when clearing fractions.",
+   "practice": [
+    {
+     "q": "Solve $4x-7 = 2x+9$",
+     "a": "$2x=16$, so $x=8$"
+    },
+    {
+     "q": "Solve $-2x \\ge 8$ and show the answer on a number line.",
+     "a": "Divide by $-2$ and **flip**: $x \\le -4$. Closed circle at $-4$, arrow to the left."
+    }
+   ]
+  },
+  {
+   "slug": "simultaneous",
+   "title": "Simultaneous equations",
+   "paper": "either",
+   "rule": "**Elimination method:**\n1. Scale one or both equations so the coefficients of one variable match.\n2. Add or subtract to eliminate that variable.\n3. Solve for the remaining variable.\n4. Substitute back to find the other.\n\n**Graphical method:** the solution is where the two lines cross.\n\nCheck by substituting **both** values into **both** original equations.",
+   "example": "Solve $3x+2y=12$ and $x-2y=4$.\n\nAdd the equations (the $2y$ terms cancel):\n\n$4x=16 \\Rightarrow x=4$\n\nSubstitute into $x-2y=4$: $4-2y=4 \\Rightarrow y=0$\n\n**Solution: $x=4,\\ y=0$**",
+   "trap": "Substituting back into only one equation. Also sign errors when subtracting equations — subtracting is the same as adding the negative.",
+   "practice": [
+    {
+     "q": "Solve $2x+y=11$ and $3x-y=4$.",
+     "a": "Add: $5x=15$, so $x=3$. Then $6+y=11$, so $y=5$. Solution $(3,5)$."
+    },
+    {
+     "q": "Solve $4x+3y=18$ and $2x-3y=6$.",
+     "a": "Add: $6x=24$, so $x=4$. Then $16+3y=18$, so $3y=2$, $y=\\tfrac23$. Solution $(4,\\tfrac23)$."
+    }
+   ]
+  },
+  {
+   "slug": "straight-line",
+   "title": "The straight line",
+   "paper": "either",
+   "rule": "$y=mx+c$ where $m$ is the **gradient** and $c$ is the **y-intercept**.\n\n**Gradient from two points:** $m=\\dfrac{y_2-y_1}{x_2-x_1}$\n\n**Distance between two points:** $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$\n\n**Midpoint:** $\\left(\\dfrac{x_1+x_2}{2},\\ \\dfrac{y_1+y_2}{2}\\right)$\n\n**Parallel lines** have equal gradients. **Perpendicular lines** have gradients multiplying to $-1$.",
+   "example": "Find the equation of the line through $(2,5)$ and $(6,13)$.\n\n$m=\\dfrac{13-5}{6-2}=\\dfrac{8}{4}=2$\n\nUsing $(2,5)$: $5=2(2)+c \\Rightarrow c=1$\n\n**$y=2x+1$**",
+   "trap": "Subtracting the coordinates in the wrong order — keep the same order top and bottom. Also, perpendicular gradient is the **negative reciprocal** ($-\\tfrac{1}{m}$), not just $-m$.",
+   "practice": [
+    {
+     "q": "Find the gradient of the line through $(1,2)$ and $(4,11)$.",
+     "a": "$m=\\dfrac{11-2}{4-1}=\\dfrac{9}{3}=3$"
+    },
+    {
+     "q": "Find the equation of the line perpendicular to $y=3x+2$ passing through $(6,1)$.",
+     "a": "Perpendicular gradient $=-\\tfrac13$. $1=-\\tfrac13(6)+c \\Rightarrow 1=-2+c \\Rightarrow c=3$. So $y=-\\tfrac13x+3$."
+    }
+   ]
+  },
+  {
+   "slug": "functions",
+   "title": "Function notation",
+   "paper": "either",
+   "rule": "$f(x)$ means \"the function $f$ applied to $x$\".\n\n- $f(3)$ = substitute $x=3$.\n- $f(a)=b$ means **solve** for $a$.\n- Composite functions: $f(g(x))$ means apply $g$ **first**, then $f$.\n- Inverse: find $f^{-1}(x)$ by swapping $x$ and $y$, then rearranging.",
+   "example": "$f(x)=3x-4$ and $g(x)=x^2$.\n\nFind $f(g(2))$.\n\n$g(2)=2^2=4$\n\n$f(4)=3(4)-4=8$\n\n**$f(g(2))=8$**",
+   "trap": "Applying the functions in the wrong order — $f(g(x))$ is **not** the same as $g(f(x))$. Also, confusing $f^{-1}(x)$ with $\\dfrac{1}{f(x)}$.",
+   "practice": [
+    {
+     "q": "$f(x)=2x+1$. Find $f^{-1}(x)$.",
+     "a": "$y=2x+1 \\Rightarrow x=\\dfrac{y-1}{2}$, so $f^{-1}(x)=\\dfrac{x-1}{2}$"
+    },
+    {
+     "q": "$f(x)=x^2-5$. Solve $f(x)=20$.",
+     "a": "$x^2-5=20 \\Rightarrow x^2=25 \\Rightarrow x=\\pm5$"
+    }
+   ]
+  },
+  {
+   "slug": "quadratic-graphs",
+   "title": "Quadratic graphs & equations",
+   "paper": "either",
+   "rule": "A quadratic has the form $y=ax^2+bx+c$ and graphs as a **parabola**.\n\n- $a>0$ → opens upwards (minimum)\n- $a<0$ → opens downwards (maximum)\n\n**Roots** = where $y=0$ (where it crosses the x-axis).\n\n**Solving by factorising:** rearrange to $ax^2+bx+c=0$, factorise, then set each bracket to zero.\n\n**Quadratic formula:** $x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$\n\n**Discriminant** $b^2-4ac$: $>0$ two roots, $=0$ one root, $<0$ no real roots.",
+   "example": "Solve $x^2-3x-10=0$.\n\nFactorise: $(x-5)(x+2)=0$\n\nSo $x-5=0$ or $x+2=0$\n\n**$x=5$ or $x=-2$**",
+   "trap": "Forgetting that a quadratic usually has **two** solutions. Also, not rearranging to $=0$ before factorising — you cannot factorise $x^2=3x+10$ without moving everything first.",
+   "practice": [
+    {
+     "q": "Solve $2x^2+5x-3=0$",
+     "a": "$ac=-6$; numbers multiplying to $-6$ adding to $5$: $6,-1$. Split: $2x^2+6x-x-3=2x(x+3)-1(x+3)=(2x-1)(x+3)$. So $x=\\tfrac12$ or $x=-3$."
+    },
+    {
+     "q": "State the number of real roots of $x^2+4x+9=0$.",
+     "a": "$b^2-4ac=16-36=-20<0$, so **no real roots**."
+    }
+   ]
+  },
+  {
+   "slug": "pythagoras",
+   "title": "Pythagoras (incl. 3D & converse)",
+   "paper": "either",
+   "rule": "In a right-angled triangle: **$a^2+b^2=c^2$** where $c$ is the hypotenuse (the longest side, opposite the right angle).\n\n**Finding the hypotenuse:** add the squares, then square root.\n\n**Finding a shorter side:** **subtract** the squares, then square root.\n\n**Converse:** if $a^2+b^2=c^2$ for a triangle's three sides, the triangle is right-angled. If $a^2+b^2 \\ne c^2$, it is not.\n\n**3D problems:** find a diagonal in a face first, then use it as a side in the cross-section triangle.",
+   "example": "A cuboid measures 3 cm × 4 cm × 12 cm. Find the space diagonal.\n\nFace diagonal: $\\sqrt{3^2+4^2}=\\sqrt{25}=5$ cm\n\nSpace diagonal: $\\sqrt{5^2+12^2}=\\sqrt{25+144}=\\sqrt{169}$\n\n**= 13 cm**",
+   "trap": "Adding the squares when you need a **shorter** side. The hypotenuse is always the side opposite the right angle — identify it first. In the converse, you must compare the **two shorter** sides' squares with the longest side.",
+   "practice": [
+    {
+     "q": "A triangle has sides 9 cm, 12 cm and 15 cm. Is it right-angled?",
+     "a": "$9^2+12^2=81+144=225$ and $15^2=225$. They are equal, so by the converse of Pythagoras the triangle **is** right-angled (right angle opposite the 15 cm side)."
+    },
+    {
+     "q": "A ladder 5 m long leans against a wall, with its foot 3 m from the base. How far up the wall does it reach?",
+     "a": "$h=\\sqrt{5^2-3^2}=\\sqrt{25-9}=\\sqrt{16}=4$ m"
+    }
+   ]
+  },
+  {
+   "slug": "arcs-sectors",
+   "title": "Arcs & sectors",
+   "paper": "calc",
+   "rule": "The **arc length** and **sector area** are fractions of the whole circle's circumference/area, given by $\\dfrac{\\text{angle}}{360}$.\n\n**Arc length:** $\\dfrac{\\theta}{360}\\times \\pi d$\n\n**Sector area:** $\\dfrac{\\theta}{360}\\times \\pi r^2$\n\n**Chord length** (from a triangle): use the cosine rule with the two radii.\n\nAngles may be given in radians — then use $\\ell=r\\theta$ and $A=\\tfrac12 r^2\\theta$.",
+   "example": "Find the area of a sector of radius 8 cm with angle 135°.\n\n$\\dfrac{135}{360}\\times\\pi\\times 8^2 = 0.375\\times\\pi\\times64$\n\n$=75.4$ cm² (1 d.p.)",
+   "trap": "Using the diameter in the area formula, or the radius in the circumference formula. Also forgetting the answer is a **fraction** of the full circle — check it is smaller than the whole area.",
+   "practice": [
+    {
+     "q": "Find the arc length of a sector of radius 10 cm with angle 72°.",
+     "a": "$\\dfrac{72}{360}\\times\\pi\\times20 = 0.2\\times\\pi\\times20 = 4\\pi \\approx 12.6$ cm"
+    },
+    {
+     "q": "A sector has radius 6 cm and area 18 cm². Find its angle.",
+     "a": "$\\dfrac{\\theta}{360}\\times\\pi\\times36=18 \\Rightarrow \\theta\\pi=180 \\Rightarrow \\theta=\\dfrac{180}{\\pi}\\approx57.3°$"
+    }
+   ]
+  },
+  {
+   "slug": "circle-angles",
+   "title": "Circle angle properties",
+   "paper": "either",
+   "rule": "The circle theorems you must know:\n\n- The angle in a **semicircle** is 90°.\n- A **tangent** meets a radius at 90°.\n- The **perpendicular from the centre** to a chord **bisects** it.\n- Angles in the **same segment** are equal.\n- The angle at the **centre** is **twice** the angle at the circumference (standing on the same arc).\n- Opposite angles of a **cyclic quadrilateral** sum to 180°.\n- A **radius bisects** the angle between two tangents from the same external point.",
+   "example": "Angle $ABC$ = 35° where $AC$ is a diameter. Find angle $ACB$.\n\nThe angle in a semicircle is 90°, so angle $ABC \\times ...$ — here angle $ABC$ is at the circumference subtending the diameter, so angle $ABC=90°$ only if $B$ is on the circle with $AC$ as diameter.\n\nUsing the triangle: angles sum to 180°, so $90°+35°+\\angle ACB=180°$\n\n**$\\angle ACB = 55°$**",
+   "trap": "Quoting a theorem without stating **why** it applies — the reason earns marks in proof-style questions. Also, reflex vs non-reflex angles at the centre are a classic trap: 'twice the angle at the circumference' refers to the angle standing on the **same arc**.",
+   "practice": [
+    {
+     "q": "Two tangents are drawn to a circle from point P. The angle between them is 68°. Find the angle at the centre between the two radii.",
+     "a": "The radii meet the tangents at 90°. In quadrilateral OAPB: $90+90+68+\\theta=360$, so $\\theta=112°$."
+    },
+    {
+     "q": "A cyclic quadrilateral has angles $2x$, $x+30$, $3x$ and $x+50$ degrees. Find $x$.",
+     "a": "Opposite angles sum to 180°. Also all four sum to 360: $2x+x+30+3x+x+50=360 \\Rightarrow 7x+80=360 \\Rightarrow x=40$."
+    }
+   ]
+  },
+  {
+   "slug": "similar-shapes",
+   "title": "Similar shapes",
+   "paper": "either",
+   "rule": "Similar shapes have the same shape but different size. All corresponding lengths scale by the **linear scale factor** $k$.\n\n- Lengths $\\times k$\n- Areas $\\times k^2$\n- Volumes $\\times k^3$\n\nSo: $k=\\dfrac{\\text{new length}}{\\text{old length}}$\n\n**Always find $k$ from the lengths first.**",
+   "example": "Two similar bottles have heights 12 cm and 8 cm. The large bottle holds 540 ml. Find the small bottle's volume.\n\n$k=\\dfrac{8}{12}=\\dfrac{2}{3}$\n\nVolume factor $=k^3=\\left(\\dfrac23\\right)^3=\\dfrac{8}{27}$\n\n$V=540\\times\\dfrac{8}{27}=160$ ml\n\n**= 160 ml**",
+   "trap": "Using the **linear** scale factor on an area or volume. Volume scales by the **cube** of the length factor. Give $k$ as an exact fraction (e.g. $\\tfrac23$) rather than a rounded decimal — rounding $0.67$ can lose a mark.",
+   "practice": [
+    {
+     "q": "Two similar cones have base radii 3 cm and 5 cm. Find the ratio of their volumes.",
+     "a": "Volume ratio $=3^3:5^3=27:125$"
+    },
+    {
+     "q": "Two similar rectangles have areas $24\\text{ cm}^2$ and $54\\text{ cm}^2$. The smaller is 4 cm long. Find the corresponding length on the larger.",
+     "a": "Area factor $=\\dfrac{54}{24}=\\dfrac94$, so $k=\\sqrt{\\dfrac94}=\\dfrac32$. Length $=4\\times\\dfrac32=6$ cm."
+    }
+   ]
+  },
+  {
+   "slug": "trig-bearings",
+   "title": "Trigonometry & bearings",
+   "paper": "either",
+   "rule": "**SOHCAHTOA** for right-angled triangles:\n- $\\sin\\theta=\\dfrac{\\text{opp}}{\\text{hyp}}$,$\\cos\\theta=\\dfrac{\\text{adj}}{\\text{hyp}}$,$\\tan\\theta=\\dfrac{\\text{opp}}{\\text{adj}}$\n\n**Bearings** are measured **clockwise from North**, always written as three digits (e.g. 047°).\n\n- Back-bearing $=$ forward bearing $\\pm 180°$.\n- Bearings are drawn from the North line at each point.",
+   "example": "A ship sails 6 km on a bearing of 090°, then 8 km on a bearing of 180°. How far is it from the start?\n\nThese directions are perpendicular, so use Pythagoras:\n\n$d=\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}$\n\n**= 10 km**",
+   "trap": "Measuring bearings anticlockwise, or from the wrong point. Also, using the **same** North line for both legs of a journey — each point has its own North line. Give bearings as 3 digits (e.g. 060°, not 60°).",
+   "practice": [
+    {
+     "q": "A boat sails 5 km on a bearing of 060°. How far East of its start is it?",
+     "a": "East component $=5\\sin60° = 5\\times0.866 = 4.33$ km"
+    },
+    {
+     "q": "The bearing of B from A is 125°. Find the bearing of A from B.",
+     "a": "$125+180=305°$"
+    }
+   ]
+  },
+  {
+   "slug": "sine-cosine-rule",
+   "title": "Sine rule, cosine rule & triangle area",
+   "paper": "either",
+   "rule": "For **any** triangle:\n\n**Sine rule (sides):** $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$ — use when you have a matching side-and-angle pair.\n\n**Cosine rule (side):** $a^2=b^2+c^2-2bc\\cos A$ — use when you have two sides and the included angle.\n\n**Cosine rule (angle):** $\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}$ — use when you have all three sides.\n\n**Area:** $A=\\tfrac12 ab\\sin C$\n\n**For the sine rule finding an angle**, check whether the answer could be the obtuse supplement.",
+   "example": "In triangle $ABC$, $b=7$, $c=9$ and angle $A=52°$. Find $a$.\n\n$a^2=7^2+9^2-2(7)(9)\\cos52°$\n\n$=49+81-126(0.6157)$\n\n$=130-77.6=52.4$\n\n$a=\\sqrt{52.4}=7.2$ (1 d.p.)",
+   "trap": "Using the sine rule when the cosine rule is needed (no matching pair). Also forgetting the $2bc\\cos A$ term is **subtracted**. When finding an angle with the sine rule, remember $\\sin^{-1}$ only gives the acute angle.",
+   "practice": [
+    {
+     "q": "Find the area of a triangle with sides 8 cm and 11 cm including an angle of 40°.",
+     "a": "$A=\\tfrac12(8)(11)\\sin40° = 44\\times0.6428 = 28.3\\text{ cm}^2$"
+    },
+    {
+     "q": "A triangle has sides 5, 7 and 9. Find the largest angle.",
+     "a": "Largest angle is opposite 9. $\\cos C=\\dfrac{25+49-81}{2(5)(7)}=\\dfrac{-7}{70}=-0.1$, so $C=\\cos^{-1}(-0.1)=95.7°$"
+    }
+   ]
+  },
+  {
+   "slug": "vectors",
+   "title": "Vectors",
+   "paper": "either",
+   "rule": "A vector has **magnitude** and **direction**. Written as a column: $\\begin{pmatrix}a\\\\b\\end{pmatrix}$ (2D) or $\\begin{pmatrix}a\\\\b\\\\c\\end{pmatrix}$ (3D).\n\n**Magnitude:** $|\\mathbf{v}|=\\sqrt{a^2+b^2}$ (add $c^2$ in 3D).\n\n**Addition/subtraction:** add or subtract corresponding components.\n\n**Scalar multiplication:** multiply each component by the number.\n\n**Pathways:** if you can walk from one point to another, the vectors add — including reversing $\\overrightarrow{AB}=-\\overrightarrow{BA}$.",
+   "example": "$\\mathbf{u}=\\begin{pmatrix}3\\\\-2\\end{pmatrix}$, $\\mathbf{v}=\\begin{pmatrix}-1\\\\5\\end{pmatrix}$.\n\nFind $|\\mathbf{u}+\\mathbf{v}|$.\n\n$\\mathbf{u}+\\mathbf{v}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$\n\n$|\\mathbf{u}+\\mathbf{v}|=\\sqrt{2^2+3^2}=\\sqrt{13}$\n\n**$=\\sqrt{13}$ (≈ 3.61)**",
+   "trap": "Forgetting that $\\overrightarrow{BA}$ is the **negative** of $\\overrightarrow{AB}$. Also, magnitude must always be positive, and leaving it as an unsimplified surd when the question asks for the simplest form.",
+   "practice": [
+    {
+     "q": "Find the magnitude of $\\begin{pmatrix}4\\\\-5\\\\7\\end{pmatrix}$.",
+     "a": "$\\sqrt{16+25+49}=\\sqrt{90}=3\\sqrt{10}$"
+    },
+    {
+     "q": "$\\overrightarrow{AB}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$ and $\\overrightarrow{BC}=\\begin{pmatrix}-5\\\\1\\end{pmatrix}$. Find $\\overrightarrow{AC}$.",
+     "a": "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{BC}=\\begin{pmatrix}-3\\\\4\\end{pmatrix}$"
+    }
+   ]
+  },
+  {
+   "slug": "volume-surface-area",
+   "title": "Volume & surface area",
+   "paper": "either",
+   "rule": "**Prism:** area of cross-section × length\n\n**Cylinder:** $V=\\pi r^2h$\n\n**Cone:** $V=\\tfrac13\\pi r^2h$\n\n**Sphere:** $V=\\tfrac43\\pi r^3$\n\n**Composite solids:** split into simple shapes, add or subtract.\n\nFor **surface area** of a curved solid, make sure you include the flat faces.",
+   "example": "A solid consists of a cylinder (radius 3 cm, height 10 cm) with a hemisphere on top. Find the total volume.\n\nCylinder: $\\pi(3)^2(10)=90\\pi$\n\nHemisphere: $\\tfrac12\\times\\tfrac43\\pi(3)^3=18\\pi$\n\nTotal $=108\\pi \\approx 339.3\\text{ cm}^3$",
+   "trap": "Forgetting the $\\tfrac13$ for a cone or the $\\tfrac43$ for a sphere. Also using the **diameter** instead of the radius — the most common error in this topic. For a hemisphere, remember to halve the sphere's volume.",
+   "practice": [
+    {
+     "q": "Find the volume of a sphere of diameter 12 cm, to 1 d.p.",
+     "a": "$r=6$. $V=\\tfrac43\\pi(6)^3=\\tfrac43\\pi(216)=288\\pi\\approx904.8\\text{ cm}^3$"
+    },
+    {
+     "q": "A cone has radius 5 cm and height 12 cm. Find its slant height and curved surface area.",
+     "a": "Slant $l=\\sqrt{5^2+12^2}=\\sqrt{169}=13$ cm. Curved SA $=\\pi r l=\\pi(5)(13)=65\\pi\\approx204.2\\text{ cm}^2$"
+    }
+   ]
+  },
+  {
+   "slug": "statistics",
+   "title": "Statistics & standard deviation",
+   "paper": "calc",
+   "rule": "**Mean:** $\\bar{x}=\\dfrac{\\sum x}{n}$\n\n**Median:** the middle value (average the two middle values if $n$ is even).\n\n**Quartiles:** Q1 = median of lower half, Q3 = median of upper half.\n\n**IQR** $=$ Q3 − Q1 (measures spread, ignores outliers).\n\n**Semi-interquartile range** $=\\dfrac{\\text{IQR}}{2}$\n\n**Standard deviation:** $s=\\sqrt{\\dfrac{\\sum(x-\\bar{x})^2}{n-1}}$ — measures how spread out values are.\n\n**Box plots:** show min, Q1, median, Q3, max. **Comparing distributions** requires a comment on both the **median** (typical value) and the **spread** (IQR/SD).",
+   "example": "Find the standard deviation of 4, 7, 8, 9, 12.\n\n$\\bar{x}=\\dfrac{40}{5}=8$\n\nDeviations: $-4,-1,0,1,4$; squares: $16,1,0,1,16$; sum $=34$\n\n$s=\\sqrt{\\dfrac{34}{5-1}}=\\sqrt{8.5}=2.92$",
+   "trap": "Forgetting to **order the data first** before finding the median or quartiles. When comparing two distributions, a comment on only one of median/spread loses the comparison mark — you must say something about **both**, and mention **which** is larger.",
+   "practice": [
+    {
+     "q": "Find the median and IQR of: 5, 8, 2, 11, 4, 7, 9, 3",
+     "a": "Ordered: 2,3,4,5,7,8,9,11. Median $=\\dfrac{5+7}{2}=6$. Q1$=\\dfrac{3+4}{2}=3.5$, Q3$=\\dfrac{8+9}{2}=8.5$. IQR$=5$."
+    },
+    {
+     "q": "Two classes' test scores have median 62, IQR 14 and median 58, IQR 22. Compare.",
+     "a": "Class 1 scored higher on average (62 > 58). Class 2's scores were more varied (IQR 22 > 14)."
+    }
+   ]
+  },
+  {
+   "slug": "probability",
+   "title": "Probability",
+   "paper": "either",
+   "rule": "$P(E)=\\dfrac{\\text{number of favourable outcomes}}{\\text{total number of outcomes}}$\n\nAll probabilities lie between 0 and 1. The probabilities of all outcomes sum to 1.\n\n**Complement:** $P(\\text{not }E)=1-P(E)$\n\n**Expected frequency:** $P(E)\\times\\text{number of trials}$\n\n**Independent events** (both happen): multiply.\n\n**Mutually exclusive** (one or the other): add.",
+   "example": "A bag has 5 red and 3 blue counters. Two are taken **without replacement**. Find P(both red).\n\n$P(\\text{1st red})=\\dfrac58$\n\nAfter taking one red, 4 red remain from 7:\n\n$P(\\text{2nd red})=\\dfrac47$\n\n$P=\\dfrac58\\times\\dfrac47=\\dfrac{20}{56}=\\dfrac{5}{14}$",
+   "trap": "Using 'with replacement' probabilities when the question says 'without replacement' — the denominator **changes**. Also, adding when you should multiply (independent events use multiplication).",
+   "practice": [
+    {
+     "q": "A fair die is rolled. Find the probability of rolling a number greater than 4.",
+     "a": "Favourable: 5, 6 → $\\dfrac26=\\dfrac13$"
+    },
+    {
+     "q": "The probability it rains is 0.3. Find the expected number of rainy days in a 30-day month.",
+     "a": "$0.3\\times30=9$ days"
+    }
+   ]
+  },
+  {
+   "slug": "tolerance-bounds",
+   "title": "Tolerance & bounds",
+   "paper": "noncalc",
+   "rule": "A **tolerance** is the permitted variation around a stated value.\n\nIf a value $v$ is given with tolerance $\\pm t$, then:\n\n- **minimum** $=v-t$\n- **maximum** $=v+t$\n\nThe value is acceptable if it lies between (and including) these limits.\n\nFor a stated upper limit $U$ and lower limit $L$, the tolerance is $\\pm\\dfrac{U-L}{2}$.",
+   "example": "A metal rod is specified as 250 mm long with a tolerance of ±0.5 mm. A rod measures 250.7 mm. Is it acceptable?\n\nLower limit $=249.5$ mm, upper limit $=250.5$ mm\n\n$250.7 > 250.5$, so it is **not** acceptable.",
+   "trap": "Forgetting the limits are **inclusive** — a value exactly on the limit IS acceptable. Also, tolerance written as a ± value must be halved if you are given a range, and added to/subtracted from the nominal value only once.",
+   "practice": [
+    {
+     "q": "A packet must contain 500 g ± 15 g. State the acceptable range.",
+     "a": "485 g to 515 g inclusive"
+    },
+    {
+     "q": "A bolt has limits 39.8 mm and 40.2 mm. Express the tolerance as a ± value about the nominal size.",
+     "a": "Nominal $=\\dfrac{39.8+40.2}{2}=40$ mm; tolerance $=\\pm0.2$ mm"
+    }
+   ]
+  },
+  {
+   "slug": "ratio-proportion",
+   "title": "Ratio & proportion",
+   "paper": "either",
+   "rule": "**Simplifying ratios:** divide all parts by their highest common factor.\n\n**Sharing in a ratio:** total parts → find the value of one part → multiply.\n\n**Direct proportion:** as one quantity increases, the other increases at the same rate. Use $y=kx$.\n\n**Inverse proportion:** as one increases, the other decreases. Use $y=\\dfrac{k}{x}$. Find $k$ first, then use it.",
+   "example": "£240 is shared between Ali and Ben in the ratio 3:5.\n\nTotal parts $=3+5=8$\n\nOne part $=\\pounds240\\div8=\\pounds30$\n\nAli: $3\\times30=\\pounds90$; Ben: $5\\times30=\\pounds150$",
+   "trap": "Forgetting to find the value of **one part** first. For inverse proportion, a common error is multiplying instead of dividing — always find the constant $k$ first.",
+   "practice": [
+    {
+     "q": "Simplify the ratio 24:36:60",
+     "a": "HCF is 12, so $2:3:5$"
+    },
+    {
+     "q": "$y$ is inversely proportional to $x$. When $x=4$, $y=15$. Find $y$ when $x=10$.",
+     "a": "$k=xy=60$, so $y=\\dfrac{60}{10}=6$"
+    }
+   ]
+  }
+ ]
+}
