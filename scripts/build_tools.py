@@ -53,7 +53,7 @@ def head(title):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} &mdash; N5 Prelim Revision</title>
+<title>{title} - N5 Prelim Revision</title>
 <link rel="stylesheet" href="style.css">
 <script>window.MathJax={{tex:{{inlineMath:[['$','$']],displayMath:[['$$','$$']]}},svg:{{fontCache:'global'}}}};</script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>

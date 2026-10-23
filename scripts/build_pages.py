@@ -49,6 +49,11 @@ NAV = """<nav class="top"><div class="wrap">
 </div></nav>"""
 
 
+def title_text(s):
+    """Plain-text title: no HTML entities, so link previews read cleanly."""
+    return s.replace('&', 'and').replace('  ', ' ').strip()
+
+
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
@@ -177,7 +182,13 @@ def render_page(data):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(data['title'])} &mdash; N5 Prelim Revision</title>
+<title>{title_text(data['title'])} - N5 Prelim Revision</title>
+<meta name="description" content="{title_text(data['title'])} revision: {len(topics)} topics with rules, worked examples, exam traps, videos and practice questions.">
+<meta property="og:title" content="{title_text(data['title'])} - National 5 Prelim Revision">
+<meta property="og:description" content="{len(topics)} topics with worked examples, exam traps, videos and practice questions.">
+<meta property="og:url" content="https://samratewal.github.io/national-5-learning-lab/{SUBJECT_PAGES.get(slug, slug + '.html')}">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#0f1117">
 <link rel="stylesheet" href="style.css">
 <script>
 window.MathJax = {{tex:{{inlineMath:[['$','$'],['\\\\(','\\\\)']],displayMath:[['$$','$$']]}},svg:{{fontCache:'global'}}}};

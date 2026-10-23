@@ -526,7 +526,13 @@ def wrap_plan(body, days):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>S4 Prelim Revision Plan &mdash; 7 Subjects</title>
+<title>S4 Prelim Revision Plan - 7 Subjects</title>
+<meta name="description" content="45 nights, 111 topics, 7 subjects. Every topic with notes, worked examples, a video and practice questions.">
+<meta property="og:title" content="S4 Prelim Revision Plan - 7 Subjects">
+<meta property="og:description" content="45 nights, 111 topics across Maths, Physics, English, Business, Design, PE and Cookery. Notes, videos and practice questions for every one.">
+<meta property="og:url" content="https://samratewal.github.io/national-5-learning-lab/plan.html">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f1117">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
