@@ -189,7 +189,7 @@ def render_page(data):
 <meta property="og:url" content="https://samratewal.github.io/national-5-learning-lab/{SUBJECT_PAGES.get(slug, slug + '.html')}">
 <meta property="og:type" content="article">
 <meta name="theme-color" content="#0f1117">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=3">
 <script>
 window.MathJax = {{tex:{{inlineMath:[['$','$'],['\\\\(','\\\\)']],displayMath:[['$$','$$']]}},svg:{{fontCache:'global'}}}};
 </script>

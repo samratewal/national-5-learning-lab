@@ -533,7 +533,7 @@ def wrap_plan(body, days):
 <meta property="og:url" content="https://samratewal.github.io/national-5-learning-lab/plan.html">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0f1117">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <nav class="top"><div class="wrap">
