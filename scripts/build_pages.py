@@ -116,9 +116,10 @@ def render_topic(t, n):
     video_html = ""
     if t.get("video"):
         v = t["video"]
+        lbl = t.get("video_label") or "Watch the video for this topic"
         video_html = (
             f'<p class="video"><a href="{v}" target="_blank" rel="noopener">'
-            f'\u25b6 Watch video explanations for this topic</a></p>'
+            f'\u25b6 {esc(lbl)}</a></p>'
         )
 
     diagram = t.get("diagram")
@@ -226,7 +227,7 @@ SUBJECT_PAGES = {
 def main():
     DOCS.mkdir(exist_ok=True)
     wanted = sys.argv[1:]
-    files = sorted(CONTENT.glob("*.json"))
+    files = [f for f in sorted(CONTENT.glob("*.json")) if not f.name.startswith("_")]
     if wanted:
         files = [f for f in files if f.stem in wanted]
     if not files:

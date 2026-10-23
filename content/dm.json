@@ -22,7 +22,8 @@
      "a": "A model lets the designer test form, fit and function cheaply before committing to manufacture (1), revealing problems that are hard to see on a drawing (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+The+design+process"
+   "video": "https://www.youtube.com/watch?v=376RetUGfpI",
+   "video_label": "National 5 - Design & Manufacture"
   },
   {
    "slug": "research-techniques",
@@ -41,7 +42,8 @@
      "a": "It is quick and cheap because the data already exists (1), so the designer can learn about standards and competitor products without spending time or money collecting new data (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Research+techniques"
+   "video": "https://www.youtube.com/watch?v=iwr3-nk_hgA",
+   "video_label": "FVWL RIC National 5 Design and Manufacture"
   },
   {
    "slug": "specification",
@@ -60,7 +62,8 @@
      "a": "Function; performance; ergonomics; aesthetics (also acceptable: materials, cost, manufacture, safety, sustainability)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+The+product+specification"
+   "video": "https://www.youtube.com/watch?v=Prev8biU6LY",
+   "video_label": "Nat 5 Common Workshop Machines"
   },
   {
    "slug": "idea-generation",
@@ -79,7 +82,8 @@
      "a": "The specification states what the product must achieve, so scoring ideas against it gives an objective basis for choosing (1) rather than selecting on personal preference (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Idea-generation+techniques"
+   "video": "https://www.youtube.com/watch?v=NqSgOnKB1V0",
+   "video_label": "Higher Design and Manufacture Lesson 2: Idea Generation"
   },
   {
    "slug": "modelling",
@@ -98,7 +102,8 @@
      "a": "It may not behave the same as the full-size product — for example, strength and weight do not always scale proportionally."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Modelling"
+   "video": "https://www.youtube.com/watch?v=a83eN7gUs3w",
+   "video_label": "Manufacturing processes"
   },
   {
    "slug": "graphics",
@@ -119,7 +124,8 @@
    ],
    "diagram": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Isometric cube beside orthographic front and plan views\"><text x=\"16\" y=\"24\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Isometric</text><polygon points=\"60,150 130,185 130,115 60,80\" fill=\"#4da3ff\" fill-opacity=\"0.15\" stroke=\"#4da3ff\" stroke-width=\"2\"/><polygon points=\"130,185 200,150 200,80 130,115\" fill=\"#4da3ff\" fill-opacity=\"0.25\" stroke=\"#4da3ff\" stroke-width=\"2\"/><polygon points=\"60,80 130,115 200,80 130,45\" fill=\"#4da3ff\" fill-opacity=\"0.35\" stroke=\"#4da3ff\" stroke-width=\"2\"/><text x=\"250\" y=\"24\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Orthographic</text><rect x=\"250\" y=\"60\" width=\"92\" height=\"52\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"278\" y=\"93\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">front</text><rect x=\"250\" y=\"128\" width=\"92\" height=\"52\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><text x=\"282\" y=\"161\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">plan</text></svg>",
    "diagram_caption": "Isometric shows 3D; orthographic shows separate flat views carrying the dimensions.",
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Graphics+in+design"
+   "video": "https://www.youtube.com/watch?v=07UPCwfSTDU",
+   "video_label": "N5 Design Factors 1 & 2 - Function and Performance"
   },
   {
    "slug": "function-performance",
@@ -138,7 +144,8 @@
      "a": "Testing reveals where the design fails in real use (1), so the designer can strengthen or adjust those parts before manufacture, improving reliability (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Function+%26+performance"
+   "video": "https://www.youtube.com/watch?v=YWvIWwh_IdU",
+   "video_label": "Materials revision"
   },
   {
    "slug": "market-aesthetics",
@@ -157,7 +164,8 @@
      "a": "Handle diameter should fit the average hand; the shape should prevent the hand slipping forward onto the blade."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Market%2C+aesthetics+%26+ergonomics"
+   "video": "https://www.youtube.com/watch?v=mOlFP6bISAI",
+   "video_label": "Ergonomics and Anthropometrics"
   },
   {
    "slug": "people-influence",
@@ -176,7 +184,8 @@
      "a": "It means the shape of a product should be determined by what it needs to do rather than decoration (1), so unnecessary ornament is removed and the design is efficient and easy to manufacture (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+People+who+influence+design"
+   "video": "https://www.youtube.com/watch?v=q7PpXuDE_Ws",
+   "video_label": "SQA National 5 Design & Manufacture - The Design Factors ..."
   },
   {
    "slug": "materials-woods",
@@ -195,7 +204,8 @@
      "a": "It is inexpensive to produce from waste wood (1) and can be veneered or laminated to look like solid wood, keeping costs low (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Woods+%26+manufactured+boards"
+   "video": "https://www.youtube.com/watch?v=pmDnCCQwIME",
+   "video_label": "Turning (wood and metal)"
   },
   {
    "slug": "materials-metals",
@@ -214,7 +224,8 @@
      "a": "PVC is a thermoplastic that does not corrode or rot and needs no painting (1), so it is low maintenance and durable outdoors (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Metals+%26+plastics"
+   "video": "https://www.youtube.com/watch?v=r8fpAsXHT-M",
+   "video_label": "All of MATERIALS explained | GCSE & A-Level Design Technology"
   },
   {
    "slug": "measuring-tools",
@@ -233,7 +244,8 @@
      "a": "A marking gauge has one pin and marks a single line parallel to an edge; a mortise gauge has two pins and marks two parallel lines at once for joints such as mortise and tenon."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Measuring+%26+marking-out+tools"
+   "video": "https://www.youtube.com/watch?v=WN85oxqIENc",
+   "video_label": "3 easy ways to make a Mortise and Tenon Joint"
   },
   {
    "slug": "hand-tools",
@@ -252,7 +264,8 @@
      "a": "It holds the workpiece firmly to the bench (1), so it cannot spin or move while drilling, which prevents injury and inaccurate holes (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Hand+tools"
+   "video": "https://www.youtube.com/watch?v=FV140QWiLU4",
+   "video_label": "Nat 5 Common Tools"
   },
   {
    "slug": "machine-tools",
@@ -271,7 +284,8 @@
      "a": "Once programmed, it repeats identical operations without variation (1), so hundreds of identical parts can be made accurately with less skilled labour per unit (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Machine+tools"
+   "video": "https://www.youtube.com/watch?v=H6XtXCvhaec",
+   "video_label": "What is DFMA®? Design for Manufacture and Assembly ..."
   },
   {
    "slug": "joining",
@@ -290,7 +304,8 @@
      "a": "Screws hold more securely and can be removed later for dismantling or repair (1), whereas nails are driven in permanently and can split thin wood (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Joining+%26+assembly"
+   "video": "https://www.youtube.com/watch?v=2HbT08PwSAE",
+   "video_label": "Technology Interventions in DfMA Workflows and Precision Engineering"
   },
   {
    "slug": "finishing",
@@ -309,7 +324,8 @@
      "a": "It thickens the natural oxide layer on the surface (1), improving corrosion resistance and allowing coloured dyes to be absorbed for a decorative finish (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Finishing"
+   "video": "https://www.youtube.com/watch?v=NJZj-9Ro7WU",
+   "video_label": "Surface finishes"
   },
   {
    "slug": "commercial-manufacture",
@@ -328,7 +344,8 @@
      "a": "Set-up costs and tooling are spread over many more units (1), and automated production reduces labour cost per item (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Commercial+manufacture"
+   "video": "https://www.youtube.com/watch?v=2fgWJ0T9VZg",
+   "video_label": "Ready...Steady...FAB...Design & Manufacture / N5"
   },
   {
    "slug": "impact-sustainability",
@@ -347,7 +364,8 @@
      "a": "Shorter transport distances reduce fuel use and carbon emissions (1), and local sourcing can support the regional economy (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Impact+%26+sustainability"
+   "video": "https://www.youtube.com/watch?v=GM3nLAiW-OI",
+   "video_label": "Episode 5 - Manufacturing a Greener Future"
   },
   {
    "slug": "planning-evaluation",
@@ -366,7 +384,8 @@
      "a": "The specification states the criteria the product was designed to meet (1), so measuring against it gives an objective judgement of success rather than personal opinion (2)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Design+and+Manufacture+Planning+for+manufacture+%26+evaluation"
+   "video": "https://www.youtube.com/watch?v=Mfbv8_LJbNM",
+   "video_label": "National 5 - Computing Science"
   }
  ],
  "channels": [

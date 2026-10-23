@@ -22,7 +22,8 @@
      "a": "Distance (scalar) $=30+40=70\\ \text{m}$.\n\nDisplacement (vector) $=30-40=-10\\ \text{m}$, i.e. magnitude **10 m** in the **west** direction.\n\n**Distance = 70 m; displacement = 10 m west.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Vectors+%26+scalars"
+   "video": "https://www.youtube.com/watch?v=-YokQBWbC-8",
+   "video_label": "National 5 Physics | Dynamics | Vector & Scalar Quantities | THEORY"
   },
   {
    "slug": "velocity-time",
@@ -43,7 +44,8 @@
    ],
    "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Velocity-time graph with the area shaded showing displacement\"><line x1=\"55\" y1=\"192\" x2=\"370\" y2=\"192\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><line x1=\"55\" y1=\"192\" x2=\"55\" y2=\"30\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><text x=\"358\" y=\"214\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">time</text><text x=\"18\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">v</text><polygon points=\"55,192 150,84 280,84 280,192\" fill=\"#4da3ff\" fill-opacity=\"0.2\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"84\" x2=\"280\" y2=\"84\" stroke=\"#4da3ff\" stroke-width=\"3\"/><text x=\"168\" y=\"122\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#ffcf5c\">area = displacement</text><line x1=\"150\" y1=\"84\" x2=\"150\" y2=\"192\" stroke=\"#7ee0a8\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"120\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">gradient = acceleration</text></svg>",
    "diagram_caption": "Area under a velocity-time graph is displacement; gradient is acceleration.",
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Velocity%E2%80%93time+graphs"
+   "video": "https://www.youtube.com/watch?v=GU0ALLXelz0",
+   "video_label": "Drawing Velocity-Time Graphs - National 5 Physics"
   },
   {
    "slug": "acceleration",
@@ -62,7 +64,8 @@
      "a": "$a=\\dfrac{0-25}{20}=-1.25\\ \text{m s}^{-2}$.\n\n**Acceleration = $-1.25$ m s$^{-2}$** (a deceleration of 1.25 m s$^{-2}$; to 2 s.f. this is $-1.3$ m s$^{-2}$)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Acceleration"
+   "video": "https://www.youtube.com/watch?v=xdVg3NUNXps",
+   "video_label": "National 5 Physics | Acceleration & Deceleration | WORKED EXAMPLES"
   },
   {
    "slug": "newtons-laws",
@@ -81,7 +84,8 @@
      "a": "$a=\\dfrac{F}{m}=\\dfrac{20}{5.0}=4.0\\ \text{m s}^{-2}$.\n\n**Acceleration = 4.0 m s$^{-2}$** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Newton%27s+laws"
+   "video": "https://www.youtube.com/watch?v=z0ULNZTQ06k",
+   "video_label": "National 5 Physics | Dynamics | Newton's First Law | THEORY"
   },
   {
    "slug": "energy",
@@ -100,7 +104,8 @@
      "a": "$E_k=\tfrac12 mv^2=\tfrac12\times1500\times20^2=0.5\times1500\times400=3.0\times10^5\\ \text{J}$.\n\n**Kinetic energy = $3.0\times10^5$ J** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Energy"
+   "video": "https://www.youtube.com/watch?v=EYO4rDcdsUU",
+   "video_label": "National 5 Physics | Dynamics | Conservation of Energy | THEORY"
   },
   {
    "slug": "projectile",
@@ -119,7 +124,8 @@
      "a": "Both have the same **vertical** initial velocity ($u_v=0$) and the same **vertical** acceleration ($g=9.8$ m s$^{-2}$). Horizontal velocity does not affect vertical motion, so both take the same time to fall the same height.\n\n**Same time of flight because the vertical motions are identical.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Projectile+motion"
+   "video": "https://www.youtube.com/watch?v=7hkVjCRHLLU",
+   "video_label": "Projectiles (National 5 Physics)"
   },
   {
    "slug": "space-exploration",
@@ -138,7 +144,8 @@
      "a": "A higher orbit has a **larger orbital radius**, so the satellite travels a **longer circumference** ($2\\pi r$). The gravitational force is weaker at that distance, so its orbital speed is lower. A longer distance travelled at a lower speed means a **longer period**.\n\n**Larger radius → longer circumference and lower speed → longer period.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Space+exploration"
+   "video": "https://www.youtube.com/watch?v=u-G1J8sd1mM",
+   "video_label": "National 5 Physics | Space | Risks of Space Exploration"
   },
   {
    "slug": "cosmology",
@@ -157,7 +164,8 @@
      "a": "$1.9\times10^{17}\\div9.46\times10^{15}=20.1$.\n\n**Distance = 20 light-years** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Cosmology"
+   "video": "https://www.youtube.com/watch?v=aS2LXfaSKQY",
+   "video_label": "National 5 Physics | Space | What You Should Know"
   },
   {
    "slug": "charge-carriers",
@@ -176,7 +184,8 @@
      "a": "$I=\\dfrac{Q}{t}=\\dfrac{15}{30}=0.50\\ \text{A}$.\n\n**Current = 0.50 A** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Charge+carriers+%26+current"
+   "video": "https://www.youtube.com/watch?v=ECu3pfU0YyU",
+   "video_label": "National 5 Physics | Electricity | What You Should Know"
   },
   {
    "slug": "potential-difference",
@@ -195,7 +204,8 @@
      "a": "$V=\\dfrac{E}{Q}=\\dfrac{45}{9.0}=5.0\\ \text{V}$.\n\n**Potential difference = 5.0 V** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Potential+difference"
+   "video": "https://www.youtube.com/watch?v=Do0gGrFPSbc",
+   "video_label": "National 5 Physics | Electricity | Voltage | THEORY"
   },
   {
    "slug": "ohms-law",
@@ -214,7 +224,8 @@
      "a": "$V=IR=0.20\times50=10\\ \text{V}$.\n\n**Potential difference = 10 V** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Ohms+law"
+   "video": "https://www.youtube.com/watch?v=YwIsLgRx1OU",
+   "video_label": "N5 Physics - Ohm's Law demo and graph"
   },
   {
    "slug": "circuits",
@@ -235,7 +246,8 @@
    ],
    "diagram": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Series and parallel circuits compared\"><text x=\"18\" y=\"26\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Series</text><line x1=\"40\" y1=\"156\" x2=\"40\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"40\" y1=\"70\" x2=\"100\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"100\" y1=\"70\" x2=\"100\" y2=\"96\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"100\" y1=\"126\" x2=\"100\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"90\" y=\"96\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><line x1=\"100\" y1=\"156\" x2=\"40\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"26\" y=\"101\" width=\"26\" height=\"22\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"30\" y=\"188\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">same current everywhere</text><text x=\"228\" y=\"26\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\">Parallel</text><line x1=\"248\" y1=\"70\" x2=\"364\" y2=\"70\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"156\" x2=\"364\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"70\" x2=\"248\" y2=\"98\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"248\" y1=\"128\" x2=\"248\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"238\" y=\"98\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><line x1=\"292\" y1=\"70\" x2=\"292\" y2=\"94\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><line x1=\"292\" y1=\"124\" x2=\"292\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><rect x=\"282\" y=\"94\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><line x1=\"364\" y1=\"70\" x2=\"364\" y2=\"156\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\"/><text x=\"232\" y=\"188\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">same voltage across each branch</text></svg>",
    "diagram_caption": "Series: current is the same everywhere. Parallel: voltage is the same across each branch.",
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Series+%26+parallel+circuits"
+   "video": "https://www.youtube.com/watch?v=I0ZRsjK6QbI",
+   "video_label": "National 5 Physics | Electricity | Parallel Circuits | THEORY"
   },
   {
    "slug": "electrical-power",
@@ -254,7 +266,8 @@
      "a": "$t=5.0\times60=300\\ \text{s}$; $E=Pt=60\times300=18\\,000\\ \text{J}$.\n\n**Energy = $1.8\times10^4$ J** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Electrical+power"
+   "video": "https://www.youtube.com/watch?v=SW-BXB-J-UI",
+   "video_label": "National 5 Physics | Electrical Power | WORKED EXAMPLES"
   },
   {
    "slug": "shc",
@@ -273,7 +286,8 @@
      "a": "$E_h=cm\\Delta T=4180\times3.0\times25=313\\,500\\ \text{J}$.\n\n**Heat energy = $3.1\times10^5$ J** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Specific+heat+capacity"
+   "video": "https://www.youtube.com/watch?v=z1gS1iI65nw",
+   "video_label": "National 5 Physics | Specific Heat Capacity | Properties of Matter"
   },
   {
    "slug": "latent-heat",
@@ -292,7 +306,8 @@
      "a": "$E_h=ml=0.50\times3.34\times10^5=1.67\times10^5\\ \text{J}$.\n\n**Heat energy = $1.7\times10^5$ J** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Specific+latent+heat"
+   "video": "https://www.youtube.com/watch?v=pku9L5_3bCk",
+   "video_label": "National 5 Physics | Properties of Matter | Specific Latent Heat"
   },
   {
    "slug": "gas-laws",
@@ -311,7 +326,8 @@
      "a": "$T_1=27+273=300\\ \text{K}$.\n\n$T_2=\\dfrac{T_1V_2}{V_1}=\\dfrac{300\times200}{500}=120\\ \text{K}$.\n\n$120\\ \text{K}=120-273=-153\\ ^\\circ\text{C}$.\n\n**New temperature = $-153$ °C.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Gas+laws+%26+the+kinetic+model"
+   "video": "https://www.youtube.com/watch?v=ILhudQAcFqg",
+   "video_label": "National 5 Physics | Properties of Matter | The Kinetic Theory of Gases"
   },
   {
    "slug": "wave-parameters",
@@ -332,7 +348,8 @@
    ],
    "diagram": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sine wave with wavelength and amplitude labelled\"><line x1=\"30\" y1=\"120\" x2=\"380\" y2=\"120\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#5a6478\"/><path d=\"M40 120 Q70 38 100 120 Q130 202 160 120 Q190 38 220 120 Q250 202 280 120 Q310 38 340 120\" fill=\"none\" stroke=\"#4da3ff\" stroke-width=\"2.5\"/><line x1=\"100\" y1=\"40\" x2=\"220\" y2=\"40\" stroke=\"#ffcf5c\" stroke-width=\"2\"/><text x=\"124\" y=\"32\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">wavelength &#955;</text><line x1=\"368\" y1=\"120\" x2=\"368\" y2=\"60\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"286\" y=\"204\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">amplitude</text><text x=\"20\" y=\"212\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#4da3ff\">v = f &#955;</text></svg>",
    "diagram_caption": "Wavelength is one full cycle; amplitude is the height from the centre line.",
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Wave+parameters+%26+behaviour"
+   "video": "https://www.youtube.com/watch?v=DzE-2LtLpqI",
+   "video_label": "YouTube"
   },
   {
    "slug": "em-spectrum",
@@ -351,7 +368,8 @@
      "a": "$f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\times10^8}{1.0\times10^{-10}}=3.0\times10^{18}\\ \text{Hz}$.\n\n**Frequency = $3.0\times10^{18}$ Hz** (2 s.f.)."
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+The+electromagnetic+spectrum"
+   "video": "https://www.youtube.com/watch?v=NvGFeYsc0oQ",
+   "video_label": "National 5 Physics | Waves | Electromagnetic Spectrum | THEORY"
   },
   {
    "slug": "refraction",
@@ -372,7 +390,8 @@
    ],
    "diagram": "<svg viewBox=\"0 0 400 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Light ray refracting at a boundary and bending toward the normal\"><line x1=\"20\" y1=\"124\" x2=\"380\" y2=\"124\" stroke=\"#e8ecf4\" stroke-width=\"2\" fill=\"none\" stroke=\"#7ee0a8\" stroke-width=\"2\"/><text x=\"322\" y=\"116\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#7ee0a8\">boundary</text><line x1=\"200\" y1=\"22\" x2=\"200\" y2=\"218\" stroke=\"#5a6478\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\"/><text x=\"206\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#9aa4bb\">normal</text><line x1=\"82\" y1=\"44\" x2=\"200\" y2=\"124\" stroke=\"#ffcf5c\" stroke-width=\"2.5\"/><line x1=\"200\" y1=\"124\" x2=\"268\" y2=\"206\" stroke=\"#ffcf5c\" stroke-width=\"2.5\"/><text x=\"46\" y=\"38\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">incident ray</text><text x=\"248\" y=\"202\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffcf5c\">refracted ray</text><text x=\"212\" y=\"100\" fill=\"#e8ecf4\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#4da3ff\">slower medium</text></svg>",
    "diagram_caption": "Entering a slower medium the ray bends toward the normal.",
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Refraction+of+light"
+   "video": "https://www.youtube.com/watch?v=Rxs8oanVt50",
+   "video_label": "National 5 Physics | Waves | Refraction Experiments"
   },
   {
    "slug": "nuclear-radiation",
@@ -391,7 +410,8 @@
      "a": "The radiation is **beta**. Alpha would be stopped by the paper, while gamma would pass through the aluminium. Beta passes through paper but is stopped by aluminium.\n\n**Beta radiation.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Nuclear+radiation"
+   "video": "https://www.youtube.com/watch?v=gjVRnk0BPkU",
+   "video_label": "National 5 Physics | Radiation | What You Should Know"
   },
   {
    "slug": "half-life",
@@ -410,7 +430,8 @@
      "a": "$64\to32\to16\to8$ is 3 halvings.\n\n**3 half-lives have passed.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Half-life"
+   "video": "https://www.youtube.com/watch?v=wOLH6MOfLB0",
+   "video_label": "National 5 Physics | Radiation | Half-life | WORKED EXAMPLES"
   },
   {
    "slug": "dosimetry",
@@ -429,7 +450,8 @@
      "a": "$H=D w_r=0.0010\times20=0.020\\ \text{Sv}$.\n\n**Equivalent dose = 0.020 Sv = 20 mSv.**"
     }
    ],
-   "video": "https://www.youtube.com/results?search_query=National+5+Physics+Dose%2C+equivalent+dose+%26+safety"
+   "video": "https://www.youtube.com/watch?v=pFLMvt68fCI",
+   "video_label": "National 5 Physics | Radiation | Equivalent Dose | THEORY"
   }
  ],
  "channels": [
