@@ -251,10 +251,9 @@
     {
      "subject": "physics",
      "topics": [
-      "space-exploration",
-      "cosmology"
+      "space-exploration"
      ],
-     "label": "Space exploration \u00b7 Cosmology",
+     "label": "Space exploration",
      "mins": 55
     }
    ]
@@ -669,8 +668,7 @@
      "subject": "physics",
      "topics": [
       "wave-parameters",
-      "em-spectrum",
-      "refraction"
+      "em-spectrum"
      ],
      "label": "Wave parameters \u00b7 EM spectrum",
      "mins": 55
@@ -795,9 +793,9 @@
      "subject": "physics",
      "topics": [
       "nuclear-radiation",
-      "half-life"
+      "refraction"
      ],
-     "label": "Nuclear radiation \u00b7 Half-life",
+     "label": "Nuclear radiation",
      "mins": 55
     }
    ]
@@ -841,10 +839,9 @@
     {
      "subject": "physics",
      "topics": [
-      "dosimetry",
       "physics-past-paper-1"
      ],
-     "label": "Dosimetry \u00b7 Physics past paper (Dynamics)",
+     "label": "Physics past paper \u2014 Dynamics & Space",
      "mins": 55
     }
    ]
@@ -1229,10 +1226,6 @@
     "title": "Space exploration"
    },
    {
-    "slug": "cosmology",
-    "title": "Cosmology"
-   },
-   {
     "slug": "charge-carriers",
     "title": "Charge carriers & current"
    },
@@ -1279,14 +1272,6 @@
    {
     "slug": "nuclear-radiation",
     "title": "Nuclear radiation"
-   },
-   {
-    "slug": "half-life",
-    "title": "Half-life"
-   },
-   {
-    "slug": "dosimetry",
-    "title": "Dose, equivalent dose & safety"
    }
   ],
   "bm": [

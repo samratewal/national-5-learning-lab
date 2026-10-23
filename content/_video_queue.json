@@ -901,15 +901,6 @@
  },
  {
   "subject": "physics",
-  "slug": "cosmology",
-  "title": "Cosmology",
-  "query": "National 5 Physics Cosmology",
-  "video_id": "aS2LXfaSKQY",
-  "video_title": "National 5 Physics | Space | What You Should Know",
-  "channel": ""
- },
- {
-  "subject": "physics",
   "slug": "charge-carriers",
   "title": "Charge carriers & current",
   "query": "National 5 Physics Charge carriers and current",
@@ -1014,24 +1005,6 @@
   "query": "National 5 Physics Nuclear radiation",
   "video_id": "gjVRnk0BPkU",
   "video_title": "National 5 Physics | Radiation | What You Should Know",
-  "channel": ""
- },
- {
-  "subject": "physics",
-  "slug": "half-life",
-  "title": "Half-life",
-  "query": "National 5 Physics Half-life",
-  "video_id": "wOLH6MOfLB0",
-  "video_title": "National 5 Physics | Radiation | Half-life | WORKED EXAMPLES",
-  "channel": ""
- },
- {
-  "subject": "physics",
-  "slug": "dosimetry",
-  "title": "Dose, equivalent dose & safety",
-  "query": "National 5 Physics Dose, equivalent dose and safety",
-  "video_id": "pFLMvt68fCI",
-  "video_title": "National 5 Physics | Radiation | Equivalent Dose | THEORY",
   "channel": ""
  }
 ]
