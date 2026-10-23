@@ -792,10 +792,10 @@
     {
      "subject": "physics",
      "topics": [
-      "nuclear-radiation",
+      "physics-past-paper-5",
       "refraction"
      ],
-     "label": "Nuclear radiation",
+     "label": "Physics past paper \u2014 full paper, timed",
      "mins": 55
     }
    ]
@@ -1268,10 +1268,6 @@
    {
     "slug": "refraction",
     "title": "Refraction of light"
-   },
-   {
-    "slug": "nuclear-radiation",
-    "title": "Nuclear radiation"
    }
   ],
   "bm": [

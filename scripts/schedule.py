@@ -76,7 +76,6 @@ TOPICS = {
  ("wave-parameters",   "Wave parameters & behaviour"),
  ("em-spectrum",       "The electromagnetic spectrum"),
  ("refraction",        "Refraction of light"),
- ("nuclear-radiation", "Nuclear radiation"),
 ],
 "bm": [
  ("role-of-business",  "Role of business in society"),
@@ -164,7 +163,7 @@ PAST_PAPERS = {
     "maths-past-paper-1", "maths-past-paper-2", "maths-past-paper-3",
     "maths-past-paper-4", "maths-past-paper-5",
     "physics-past-paper-1", "physics-past-paper-2",
-    "physics-past-paper-3", "physics-past-paper-4",
+    "physics-past-paper-3", "physics-past-paper-4", "physics-past-paper-5",
     "english-past-paper-1", "english-past-paper-2", "english-past-paper-3",
     "ruae-past-paper", "bm-past-paper-1", "dm-past-paper-1",
 }
@@ -346,7 +345,7 @@ d("maths",   ["maths-past-paper-2"], "Maths past paper: calculator, Paper 2", 55
 d("cook",    ["understanding-ingredients"], "Understanding ingredients", 55),
 d("bm",      ["quality","hr-planning"], "Quality · HR planning", 55),
 d("dm",      ["joining","finishing"], "Joining & assembly · Finishing", 55),
-d("physics", ["nuclear-radiation"], "Nuclear radiation", 55),
+d("physics", ["physics-past-paper-5"], "Physics past paper — full paper, timed", 55),
 d("pe",      ["physical-factors"], "Physical factors — portfolio sheet 5", 55),
 d("english", ["ruae-past-paper"], "RUAE past paper under timed conditions", 55),
 

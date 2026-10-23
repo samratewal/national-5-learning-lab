@@ -372,26 +372,6 @@
    "diagram_caption": "Entering a slower medium the ray bends toward the normal.",
    "video": "https://www.youtube.com/watch?v=Rxs8oanVt50",
    "video_label": "National 5 Physics | Waves | Refraction Experiments"
-  },
-  {
-   "slug": "nuclear-radiation",
-   "title": "Nuclear radiation",
-   "paper": "either",
-   "rule": "- **Alpha (α):** 2 protons + 2 neutrons (a helium nucleus), charge +2. Highly ionising; stopped by paper or a few centimetres of air.\n- **Beta (β):** a fast electron, charge −1. Medium ionising; stopped by a few millimetres of aluminium.\n- **Gamma (γ):** electromagnetic radiation, no charge. Weakly ionising; stopped by thick lead or concrete.\n- **Ionisation** is the removal of electrons from neutral atoms, creating ions. It can damage living cells.\n- **Activity:** $A=\\dfrac{N}{t}$, where $N$ is the number of nuclear disintegrations and $t$ is time. Unit: becquerel (Bq) = 1 disintegration per second.\n- Sources of background radiation include radon gas, rocks, cosmic rays, food and medical sources.",
-   "example": "A radioactive source produces 6000 disintegrations in 200 s. Find its activity.\n\n$A=\\dfrac{N}{t}=\\dfrac{6000}{200}=30\\ \\text{Bq}$\n\n**Activity = 30 Bq** (2 s.f.).",
-   "trap": "- **Confusing the penetration order.** Alpha is stopped first (paper); gamma is the most penetrating (lead).\n- **Thinking gamma is charged.** Gamma is electromagnetic radiation with no charge.\n- **Forgetting that activity is disintegrations per second,** not the total count.\n- **Using minutes without converting to seconds.**\n- **Mixing up ionising ability and penetration.** Alpha is the most ionising but the least penetrating.",
-   "practice": [
-    {
-     "q": "A source produces 1.5×10⁴ disintegrations in 500 s. Find its activity.",
-     "a": "$A=\\dfrac{N}{t}=\\dfrac{1.5\times10^4}{500}=30\\ \text{Bq}$.\n\n**Activity = 30 Bq** (2 s.f.)."
-    },
-    {
-     "q": "A source's radiation passes through paper but is stopped by a few millimetres of aluminium. Identify the radiation and explain your answer.",
-     "a": "The radiation is **beta**. Alpha would be stopped by the paper, while gamma would pass through the aluminium. Beta passes through paper but is stopped by aluminium.\n\n**Beta radiation.**"
-    }
-   ],
-   "video": "https://www.youtube.com/watch?v=gjVRnk0BPkU",
-   "video_label": "National 5 Physics | Radiation | What You Should Know"
   }
  ],
  "channels": [
