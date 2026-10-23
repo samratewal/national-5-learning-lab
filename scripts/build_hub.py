@@ -26,6 +26,41 @@ SUBJ_NAV = """<nav class="top"><div class="wrap">
   <a href="practical-cookery.html">Cookery</a>
 </div></nav>"""
 
+CONTENT = ROOT / "content"
+
+# Per-subject page metadata. Topic counts are NEVER written here; they are
+# derived from content/*.json so the hub cannot drift out of sync again.
+SUBJ_META = {
+    "maths":  ("maths.html", "📐", "Mathematics", "2 papers"),
+    "physics": ("physics.html", "⚛️", "Physics", "110 marks"),
+    "english": ("english.html", "📖", "English", "RUAE + Critical + Folio"),
+    "bm":     ("business-management.html", "💼", "Business Management", "90 marks"),
+    "dm":     ("design-manufacture.html", "🔧", "Design &amp; Manufacture", "80 marks"),
+    "pe":     ("pe.html", "🏃", "Physical Education", "portfolio"),
+    "cook":   ("practical-cookery.html", "🍳", "Practical Cookery", "paper + practical"),
+}
+
+
+def _load_content():
+    import json
+    out = {}
+    for f in sorted(CONTENT.glob("*.json")):
+        if f.name.startswith("_"):
+            continue
+        d = json.loads(f.read_text(encoding="utf-8"))
+        out[d["subject"]] = d
+    return out
+
+
+def topic_counts():
+    return {k: len(v.get("topics", [])) for k, v in _load_content().items()}
+
+
+def practice_total():
+    return sum(len(t.get("practice", []))
+               for v in _load_content().values()
+               for t in v.get("topics", []))
+
 
 def head(title):
     return f"""<!DOCTYPE html>
@@ -118,19 +153,15 @@ def build_past():
 def build_index():
     tools = [
         ("plan.html", "📅", "45-day plan", "Two 55-minute blocks every night, every topic dated"),
-        ("flashcards.html", "🃏", "Flashcards", "~230 flip cards: key rules and practice questions"),
+        ("flashcards.html", "🃏", "Flashcards", f"{practice_total()} flip cards: key rules and practice questions"),
         ("quizzes.html", "✅", "Topic quizzes", "Self-marking — spot weak topics instantly"),
         ("tests.html", "📝", "Practice exams", "7 papers, one every Sunday, with marking schemes"),
         ("past-papers.html", "📄", "Past papers", "Official SQA papers and marking instructions"),
     ]
+    counts = topic_counts()
     subjects = [
-        ("maths.html", "📐", "Mathematics", "25 topics &middot; 2 papers"),
-        ("physics.html", "⚛️", "Physics", "22 topics &middot; 110 marks"),
-        ("english.html", "📖", "English", "9 topics &middot; RUAE + Critical + Folio"),
-        ("business-management.html", "💼", "Business Management", "24 topics &middot; 90 marks"),
-        ("design-manufacture.html", "🔧", "Design &amp; Manufacture", "19 topics &middot; 80 marks"),
-        ("pe.html", "🏃", "Physical Education", "8 topics &middot; portfolio"),
-        ("practical-cookery.html", "🍳", "Practical Cookery", "8 topics &middot; paper + practical"),
+        (page, icon, name, f"{counts.get(code, 0)} topics &middot; {suffix}")
+        for code, (page, icon, name, suffix) in SUBJ_META.items()
     ]
     t = "".join(f'<a class="card" href="{u}" style="text-decoration:none"><h3>{i} {n}</h3><p>{d}</p></a>'
                 for u, i, n, d in tools)
@@ -139,13 +170,13 @@ def build_index():
     return (head("S4 Prelim Revision Hub")
             + NAV
             + '<main class="wrap"><h1>S4 Prelim Revision Hub</h1>'
-            '<p class="lede">7 subjects &middot; 115 topics &middot; 45 nights &middot; 2 hours a night</p>'
+            f'<p class="lede">7 subjects &middot; {sum(counts.values())} topics &middot; 45 nights &middot; 2 hours a night</p>'
             '<div class="callout"><strong>Start here.</strong> Open the <a href="plan.html">45-day plan</a> '
             'and work down it night by night. Every topic links to its rule, worked example, exam trap, '
             'practice questions and a video.</div>'
             '<div class="stats"><div><b>7</b><span>subjects</span></div>'
-            '<div><b>115</b><span>topics</span></div><div><b>45</b><span>nights</span></div>'
-            '<div><b>212</b><span>practice questions</span></div></div>'
+            f'<div><b>{sum(counts.values())}</b><span>topics</span></div><div><b>45</b><span>nights</span></div>'
+            f'<div><b>{practice_total()}</b><span>practice questions</span></div></div>'
             '<h2>Study tools</h2><div class="grid two">' + t + '</div>'
             '<h2>Subjects</h2><div class="grid two">' + s + '</div>'
             '<h2>The rule that matters most</h2>'
