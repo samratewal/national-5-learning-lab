@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quizzes &mdash; N5 Prelim Revision</title>
+<link rel="stylesheet" href="style.css">
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']]},svg:{fontCache:'global'}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+.fcgrid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin:18px 0}
+.fc{perspective:1000px;height:190px;cursor:pointer}
+.fcin{position:relative;width:100%;height:100%;transition:transform .55s;transform-style:preserve-3d}
+.fc.on .fcin{transform:rotateY(180deg)}
+.fcf,.fcb{position:absolute;inset:0;backface-visibility:hidden;border-radius:13px;padding:16px 18px;
+overflow:auto;border:1px solid var(--line);font-size:14px;line-height:1.5}
+.fcf{background:var(--panel);display:flex;flex-direction:column;justify-content:center}
+.fcb{background:#15251c;border-color:#2b4a37;transform:rotateY(180deg)}
+.fcl{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--dim);
+font-weight:800;margin-bottom:8px}
+.fcb .fcl{color:var(--acc2)}
+.fchint{position:absolute;bottom:9px;right:12px;font-size:10.5px;color:var(--dim)}
+.qbox{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:20px;margin:16px 0}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 15px;border-radius:10px;
+background:var(--panel2);border:1px solid var(--line);color:var(--ink);font-size:14.5px;cursor:pointer;
+font-family:inherit;transition:.12s}
+.opt:hover{border-color:var(--acc);background:var(--chip)}
+.opt.right{background:#1d3325;border-color:#3f7a55;color:#b7f0c8}
+.opt.wrong{background:#331d20;border-color:#7a3f45;color:#f0b7b7}
+.score{font-size:15px;font-weight:700;margin-top:14px}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a href="index.html">Home</a>
+  <a href="plan.html">Plan</a>
+  <a href="maths.html">Maths</a>
+  <a href="physics.html">Physics</a>
+  <a href="english.html">English</a>
+  <a href="business-management.html">Business</a>
+  <a href="design-manufacture.html">Design</a>
+  <a href="pe.html">PE</a>
+  <a href="practical-cookery.html">Cookery</a>
+  <a href="flashcards.html">Flashcards</a>
+  <a href="quizzes.html">Quizzes</a>
+  <a href="tests.html">Tests</a>
+  <a href="past-papers.html">Past papers</a>
+</div></nav>
+<main class="wrap">
+<h1>✅ Topic quizzes</h1>
+<p class="lede">56 questions. Read the rule, pick the topic it belongs to. Instant marking — every wrong answer is a topic to revisit.</p>
+<p class="score" id="score">Score: 0 / 0</p>
+<h2>💼 Business Management</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Businesses exist to satisfy **needs and wants** by producing goods and providing services.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Recruitment &amp; selection</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Motivation</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Role of business in society</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Market research</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Four factors of production are needed to make goods and services:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Suppliers &amp; supply chain</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Role of business in society</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Ratio analysis</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Factors of production</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Sectors of industry:**</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Sectors of industry &amp; economy</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Methods of production</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Stakeholders</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Human resource planning</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">A **stakeholder** is anyone with an interest in a business.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Role of business in society</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Stakeholders</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Training</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cash flow forecasting</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Internal environment** — factors the business controls:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Quality management</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Internal &amp; external environments</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Suppliers &amp; supply chain</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Role of business in society</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The **4 Ps** of the marketing mix:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Pricing &amp; distribution</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Suppliers &amp; supply chain</button>
+<button class="opt" data-ok="1" onclick="pick(this)">The marketing mix</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Human resource planning</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Market research** gathers information about customers, competitors and the market.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Cash flow forecasting</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Market research</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The marketing mix</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Ratio analysis</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Segmenting** means dividing a market into groups of customers with similar characteristics, so marketing can be targeted.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Market segmentation</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Internal &amp; external environments</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The marketing mix</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Product life cycle</button>
+<hr style="margin:14px 0">
+</div>
+<h2>🍳 Practical Cookery</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Food preparation techniques** are the skills used to get ingredients ready before or during cooking. SQA groups them as:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Understanding ingredients</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cookery processes</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Food preparation techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Current dietary advice</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Cookery processes** are the methods of applying heat to food. SQA lists: **baking, boiling, grilling, poaching, shallow frying, stir-frying, steaming and stewing**.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Cookery processes</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning meals</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Food preparation techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cooking &amp; finishing dishes</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Current UK advice is based on the **Eatwell Guide**, which shows the proportions of a healthy, balanced diet:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Understanding ingredients</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Current dietary advice</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Categories of ingredients</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning meals</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Ingredients are grouped into categories so a cook can choose, substitute and balance them. The main **food groups** are:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning meals</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cookery processes</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Categories of ingredients</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cooking &amp; finishing dishes</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Understanding ingredients means being able to judge and use them well:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Food preparation techniques</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Understanding ingredients</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cooking &amp; finishing dishes</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Current dietary advice</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Planning a meal (and the N5 **assignment**) means thinking ahead about four things:</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Planning meals</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Food preparation techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cooking &amp; finishing dishes</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Cookery processes</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Cooking and finishing covers **testing for doneness, finishing techniques and serving**:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Understanding ingredients</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Cooking &amp; finishing dishes</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning meals</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Food preparation techniques</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Safety and hygiene** in the kitchen protects people from illness and injury.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Safety &amp; hygiene</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Food preparation techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Categories of ingredients</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning meals</button>
+<hr style="margin:14px 0">
+</div>
+<h2>🔧 Design &amp; Manufacture</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The design process is a structured sequence:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Function &amp; performance</button>
+<button class="opt" data-ok="0" onclick="pick(this)">People who influence design</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Idea-generation techniques</button>
+<button class="opt" data-ok="1" onclick="pick(this)">The design process</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Primary research** — you collect it: user interviews, questionnaires, observation, ergonomic testing, making and testing models.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Planning for manufacture &amp; evaluation</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Research techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Function &amp; performance</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Impact &amp; sustainability</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The specification is a list of **measurable criteria** the product must satisfy, written after research and before ideas are generated.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">The design process</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Function &amp; performance</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Modelling</button>
+<button class="opt" data-ok="1" onclick="pick(this)">The product specification</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Brainstorming** — generate many ideas quickly without judging them.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Idea-generation techniques</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Market, aesthetics &amp; ergonomics</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Function &amp; performance</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Measuring &amp; marking-out tools</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Models let designers test ideas before manufacture.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">The design process</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Modelling</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Machine tools</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Metals &amp; plastics</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Designers communicate through graphics.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Impact &amp; sustainability</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Metals &amp; plastics</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The design process</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Graphics in design</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Function** is what the product does. **Performance** is how well it does it.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Function &amp; performance</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The design process</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Market, aesthetics &amp; ergonomics</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Graphics in design</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Market pull** — the design responds to what customers want (demand-driven).</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">People who influence design</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Market, aesthetics &amp; ergonomics</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Modelling</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Idea-generation techniques</button>
+<hr style="margin:14px 0">
+</div>
+<h2>📖 English</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Understanding questions ask **what** the writer says, not how they say it.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Evaluation</button>
+<button class="opt" data-ok="1" onclick="pick(this)">RUAE: Understanding</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Imagery</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Word choice questions require **three steps** for full marks:</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">RUAE: Word choice</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Portfolio: creative writing</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Understanding</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Imagery questions use a strict **four-step** format for full marks:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Understanding</button>
+<button class="opt" data-ok="1" onclick="pick(this)">RUAE: Imagery</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Scottish text (Critical Reading section 1)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Sentence structure** questions need: quote the feature → **name** the feature → explain its **function/effect**.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Understanding</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Evaluation</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Evaluation questions ask **how effective** a passage is at doing something — persuading, shocking, engaging, informing.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Word choice</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="1" onclick="pick(this)">RUAE: Evaluation</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Section 1 assesses a **Scottish text** (or a prescribed extract) you have studied in class. 20 marks, split between:</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Scottish text (Critical Reading section 1)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Evaluation</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The critical essay is worth **20 marks** and is answered on **one text** (prose, poetry, drama, film or media) that you have studied.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Scottish text (Critical Reading section 1)</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Critical essay (Critical Reading section 2)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Understanding</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The portfolio-writing is **one piece**, worth 15 marks scaled to **30** — the highest-weighted single component in the course.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Imagery</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Portfolio: creative writing</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Sentence structure &amp; tone</button>
+<button class="opt" data-ok="0" onclick="pick(this)">RUAE: Word choice</button>
+<hr style="margin:14px 0">
+</div>
+<h2>📐 Mathematics</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Adding/subtracting fractions:** find a common denominator first.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Volume &amp; surface area</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Changing the subject</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Circle angle properties</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Fractions &amp; percentages</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Simplifying surds:** split into a square factor. $\sqrt{72}=\sqrt{36\times2}=6\sqrt{2}$.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Fractions &amp; percentages</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Circle angle properties</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Surds &amp; indices</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Ratio &amp; proportion</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">A number is in scientific notation when written as $a\times10^n$ where **$1\le a&lt;10$** and $n$ is an integer.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Completing the square</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Simultaneous equations</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Scientific notation</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Ratio &amp; proportion</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Multiply every term in the first bracket by every term in the second.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">Expanding brackets</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Circle angle properties</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Quadratic graphs &amp; equations</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Equations &amp; inequations</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Common factor:** take out the highest common factor. $6x^2+9x=3x(2x+3)$.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Completing the square</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Quadratic graphs &amp; equations</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Factorising</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Trigonometry &amp; bearings</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Rewrite $x^2+bx+c$ as $(x+\tfrac{b}{2})^2 - (\tfrac{b}{2})^2 + c$.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Simultaneous equations</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Completing the square</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Surds &amp; indices</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Function notation</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Treat them exactly like number fractions.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Equations &amp; inequations</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Algebraic fractions</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Pythagoras (incl. 3D &amp; converse)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Circle angle properties</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">Rearrange so the required variable sits alone on one side.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Similar shapes</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Statistics &amp; standard deviation</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Changing the subject</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Equations &amp; inequations</button>
+<hr style="margin:14px 0">
+</div>
+<h2>🏃 Physical Education</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Performance skills** are the skills you demonstrate in an activity. They split into:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Approaches to development</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Social factors</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Performance skills</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The portfolio (60 marks)</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Mental factors** affect how well you think and cope during performance:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Physical factors</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Mental factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The portfolio (60 marks)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Emotional factors** relate to how you feel during performance:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Mental factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The portfolio (60 marks)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Emotional factors</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Social factors** relate to interaction with others:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Physical factors</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Social factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Performance skills</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Physical factors** are the body's capacities:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Physical factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Mental factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Approaches to development</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Approaches used to develop performance:**</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Performance skills</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Emotional factors</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Approaches to development</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Mental factors</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">**Monitoring** = collecting data about your performance. Methods:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Performance skills</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Physical factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Emotional factors</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">The **portfolio** is the written assessment — 60 marks, and there is **no exam paper** for National 5 PE.</span></p>
+<button class="opt" data-ok="1" onclick="pick(this)">The portfolio (60 marks)</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Mental factors</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Approaches to development</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Monitoring, recording &amp; evaluating</button>
+<hr style="margin:14px 0">
+</div>
+<h2>⚛️ Physics</h2><div class="qbox">
+<p><strong>1.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- **Scalar** — magnitude only, no direction. Examples: distance, speed, mass, time, energy, temperature.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Specific latent heat</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Vectors &amp; scalars</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Electrical power</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Newton's laws</button>
+<hr style="margin:14px 0">
+<p><strong>2.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">On a velocity–time graph:</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Potential difference</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Acceleration</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Projectile motion</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Velocity–time graphs</button>
+<hr style="margin:14px 0">
+<p><strong>3.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- Acceleration is the **rate of change of velocity**: $a=\dfrac{v-u}{t}$.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Dose, equivalent dose &amp; safety</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Acceleration</button>
+<button class="opt" data-ok="0" onclick="pick(this)">The electromagnetic spectrum</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Refraction of light</button>
+<hr style="margin:14px 0">
+<p><strong>4.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- **Newton's first law:** balanced forces → an object stays at rest or moves with constant velocity.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Electrical power</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Specific heat capacity</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Newton's laws</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Nuclear radiation</button>
+<hr style="margin:14px 0">
+<p><strong>5.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- **Work done:** $E_w=Fd$ (J), where $F$ is the unbalanced force (N) and $d$ is the distance (m).</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Newton's laws</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Energy</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Specific latent heat</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Specific heat capacity</button>
+<hr style="margin:14px 0">
+<p><strong>6.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- Projectile motion is split into **horizontal** and **vertical** motion.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Specific heat capacity</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Dose, equivalent dose &amp; safety</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Velocity–time graphs</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Projectile motion</button>
+<hr style="margin:14px 0">
+<p><strong>7.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- **Weight in a gravitational field:** $W=mg$, where $g$ varies across the universe (Earth 9.8, Moon 1.6, Mars 3.7 N kg$^{-1}$).</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Dose, equivalent dose &amp; safety</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Acceleration</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Space exploration</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Nuclear radiation</button>
+<hr style="margin:14px 0">
+<p><strong>8.</strong> Which topic is this the rule for?<br><span style="color:var(--dim);font-size:14px">- A **light-year** is the distance light travels in one year: $1\ \text{ly}=c\,t=3.0\times10^8\times3.15\times10^7=9.46\times10^{15}\ \text{m}$.</span></p>
+<button class="opt" data-ok="0" onclick="pick(this)">Energy</button>
+<button class="opt" data-ok="1" onclick="pick(this)">Cosmology</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Wave parameters &amp; behaviour</button>
+<button class="opt" data-ok="0" onclick="pick(this)">Charge carriers &amp; current</button>
+<hr style="margin:14px 0">
+</div>
+<script>
+let score=0, asked=0;
+function pick(btn){
+  const box=btn.parentElement;
+  if(box.dataset.done) return;
+  box.dataset.done=1; asked++;
+  box.querySelectorAll('.opt').forEach(b=>{ if(b.dataset.ok==='1') b.classList.add('right'); });
+  if(btn.dataset.ok==='1'){ score++; } else { btn.classList.add('wrong'); }
+  const s=document.getElementById('score');
+  if(s) s.textContent='Score: '+score+' / '+asked;
+}
+</script>
+<footer><p><a href='plan.html'>Back to the plan</a></p></footer></main></body></html>

@@ -42,6 +42,10 @@ NAV = """<nav class="top"><div class="wrap">
   <a href="design-manufacture.html">Design</a>
   <a href="pe.html">PE</a>
   <a href="practical-cookery.html">Cookery</a>
+  <a href="flashcards.html">Flashcards</a>
+  <a href="quizzes.html">Quizzes</a>
+  <a href="tests.html">Tests</a>
+  <a href="past-papers.html">Past papers</a>
 </div></nav>"""
 
 

@@ -172,6 +172,91 @@ PAST_PAPERS = {
     "ruae-past-paper", "bm-past-paper-1", "dm-past-paper-1",
 }
 
+TEST = "test"
+SUNDAY_DAYS = [3, 10, 17, 24, 31, 38, 45]
+WEEK_OF_TEST = {3: 1, 10: 2, 17: 3, 24: 4, 31: 5, 38: 6, 45: 7}
+
+
+def apply_sunday_tests(schedule):
+    """Return a new schedule where each Sunday is a test day.
+
+    Topics found on a Sunday are spread across that week's other blocks so the
+    full topic inventory is still covered.
+    """
+    sched = [dict(b) for b in schedule]
+    for day in SUNDAY_DAYS:
+        i = (day - 1) * 2
+        week = WEEK_OF_TEST[day]
+        ndays = len(sched) // 2
+        week_days = [d for d in range((week - 1) * 7 + 1, week * 7 + 1)
+                     if d not in SUNDAY_DAYS and d <= ndays]
+
+        # harvest topics that would otherwise be lost
+        orphans = []
+        for blk in sched[i:i + 2]:
+            if blk["subject"] in (REVIEW, TEST):
+                continue
+            keep = [t for t in blk["topics"]]
+            if keep and not all(t in PAST_PAPERS for t in keep):
+                orphans.extend([t for t in keep if t not in PAST_PAPERS])
+
+        # rehome each orphan into a block of the SAME subject within this week
+        by_subject = {}
+        for d in week_days:
+            for k in (0, 1):
+                blk = sched[(d - 1) * 2 + k]
+                by_subject.setdefault(blk["subject"], []).append((d - 1) * 2 + k)
+
+        # remember which subject each orphan came from
+        orphan_pairs = []
+        for blk in sched[i:i + 2]:
+            if blk["subject"] in (REVIEW, TEST):
+                continue
+            for topic in blk["topics"]:
+                if topic not in PAST_PAPERS:
+                    orphan_pairs.append((blk["subject"], topic))
+
+        # global fallback: every same-subject block in the whole schedule
+        glob = {}
+        for idx, blk in enumerate(sched):
+            if blk["subject"] in (REVIEW, TEST):
+                continue
+            glob.setdefault(blk["subject"], []).append(idx)
+
+        for subj, topic in orphan_pairs:
+            slots = by_subject.get(subj) or glob.get(subj, [])
+            if not slots:
+                continue
+            target_i = min(slots, key=lambda idx: len(sched[idx]["topics"]))
+            if topic not in sched[target_i]["topics"]:
+                sched[target_i]["topics"].append(topic)
+
+        # Sunday becomes the test day
+        sched[i] = dict(subject=TEST, topics=[], label=f"Sit the Week {week} practice exam — timed", mins=55)
+        sched[i + 1] = dict(subject=TEST, topics=[], label=f"Mark the Week {week} test and list what to revise", mins=55)
+
+    # ---- safety pass: guarantee every declared topic has a home ----
+    placed = {t for blk in sched if blk["subject"] not in (REVIEW, TEST)
+              for t in blk["topics"]}
+    glob = {}
+    for idx, blk in enumerate(sched):
+        if blk["subject"] not in (REVIEW, TEST):
+            glob.setdefault(blk["subject"], []).append(idx)
+
+    for subj, topics in TOPICS.items():
+        for slug, _title in topics:
+            if slug in placed:
+                continue
+            slots = glob.get(subj, [])
+            if not slots:
+                continue
+            target_i = min(slots, key=lambda idx: len(sched[idx]["topics"]))
+            sched[target_i]["topics"].append(slug)
+            placed.add(slug)
+
+    return sched
+
+
 # --------------------------------------------------------------------------
 # The 45-day schedule. Each day = 2 x ~55 min blocks (+10 min break).
 # (subject, [topic slugs], block label, minutes)
@@ -293,6 +378,8 @@ d("english", ["english-past-paper-3"], "English: full Critical Reading under tim
 d("pe",      ["portfolio"], "PE portfolio — final check against mark scheme", 55),
 ]
 
+SCHEDULE = apply_sunday_tests(SCHEDULE)
+
 # --------------------------------------------------------------------------
 # Day/date scaffolding
 # --------------------------------------------------------------------------
@@ -326,7 +413,7 @@ def check():
     for day in days:
         for b in day["blocks"]:
             s = b["subject"]
-            if s == REVIEW:
+            if s in (REVIEW, TEST):
                 continue
             if s not in SUBJECTS:
                 unknown.append(s)
@@ -392,6 +479,11 @@ def render_plan(days):
             s = b["subject"]
             if s == REVIEW:
                 cells.append(f'<td class="sess">🔁 {esc(b["label"])}</td>')
+            elif s == TEST:
+                wk = WEEK_OF_TEST.get(day["n"], "")
+                link = f'<a href="test-{wk}.html">Week {wk} practice exam</a>'
+                cells.append(f'<td class="sess">📝 <strong>TEST DAY</strong><br>'
+                             f'{esc(b["label"].split("—")[0].strip())}<br>{link}</td>')
             else:
                 meta = SUBJECTS[s]
                 titles = {x[0]: x[1] for x in TOPICS[s]}

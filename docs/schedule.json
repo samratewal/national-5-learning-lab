@@ -55,17 +55,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "review",
+     "subject": "test",
      "topics": [],
-     "label": "Active recall: Maths mixed set + Physics mixed set (no new content)",
+     "label": "Sit the Week 1 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "english",
-     "topics": [
-      "ruae-understanding"
-     ],
-     "label": "RUAE \u2014 Understanding questions",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 1 test and list what to revise",
      "mins": 55
     }
    ]
@@ -135,7 +133,8 @@
      "subject": "bm",
      "topics": [
       "role-of-business",
-      "factors-production"
+      "factors-production",
+      "segmentation"
      ],
      "label": "Role of business \u00b7 Factors of production",
      "mins": 55
@@ -159,7 +158,8 @@
     {
      "subject": "pe",
      "topics": [
-      "performance-skills"
+      "performance-skills",
+      "portfolio"
      ],
      "label": "Performance skills \u2014 portfolio sheet 1",
      "mins": 55
@@ -183,7 +183,8 @@
     {
      "subject": "english",
      "topics": [
-      "ruae-word-choice"
+      "ruae-word-choice",
+      "ruae-understanding"
      ],
      "label": "RUAE \u2014 Word choice",
      "mins": 55
@@ -221,18 +222,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "review",
+     "subject": "test",
      "topics": [],
-     "label": "Active recall: Maths mixed set + Business mixed set",
+     "label": "Sit the Week 2 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "dm",
-     "topics": [
-      "design-process",
-      "research-techniques"
-     ],
-     "label": "Design process \u00b7 Research techniques",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 2 test and list what to revise",
      "mins": 55
     }
    ]
@@ -294,7 +292,9 @@
      "subject": "dm",
      "topics": [
       "specification",
-      "idea-generation"
+      "idea-generation",
+      "design-process",
+      "research-techniques"
      ],
      "label": "Specification \u00b7 Idea generation",
      "mins": 55
@@ -386,21 +386,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "dm",
-     "topics": [
-      "modelling",
-      "graphics"
-     ],
-     "label": "Modelling \u00b7 Graphics",
+     "subject": "test",
+     "topics": [],
+     "label": "Sit the Week 3 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "bm",
-     "topics": [
-      "market-research",
-      "segmentation"
-     ],
-     "label": "Market research \u00b7 Segmentation",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 3 test and list what to revise",
      "mins": 55
     }
    ]
@@ -482,7 +476,9 @@
      "subject": "dm",
      "topics": [
       "function-performance",
-      "market-aesthetics"
+      "market-aesthetics",
+      "modelling",
+      "graphics"
      ],
      "label": "Function & performance \u00b7 Market, aesthetics & ergonomics",
      "mins": 55
@@ -551,20 +547,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "english",
-     "topics": [
-      "scottish-text"
-     ],
-     "label": "Scottish text \u2014 poem/short story 1",
+     "subject": "test",
+     "topics": [],
+     "label": "Sit the Week 4 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "dm",
-     "topics": [
-      "people-influence",
-      "materials-woods"
-     ],
-     "label": "People who influence design \u00b7 Woods & boards",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 4 test and list what to revise",
      "mins": 55
     }
    ]
@@ -626,7 +617,8 @@
     {
      "subject": "english",
      "topics": [
-      "critical-essay"
+      "critical-essay",
+      "scottish-text"
      ],
      "label": "Critical essay \u2014 planning & structure",
      "mins": 55
@@ -651,7 +643,9 @@
      "subject": "dm",
      "topics": [
       "materials-metals",
-      "measuring-tools"
+      "measuring-tools",
+      "people-influence",
+      "materials-woods"
      ],
      "label": "Metals & plastics \u00b7 Measuring tools",
      "mins": 55
@@ -675,7 +669,8 @@
      "subject": "physics",
      "topics": [
       "wave-parameters",
-      "em-spectrum"
+      "em-spectrum",
+      "refraction"
      ],
      "label": "Wave parameters \u00b7 EM spectrum",
      "mins": 55
@@ -720,20 +715,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "dm",
-     "topics": [
-      "hand-tools",
-      "machine-tools"
-     ],
-     "label": "Hand tools \u00b7 Machine tools",
+     "subject": "test",
+     "topics": [],
+     "label": "Sit the Week 5 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "physics",
-     "topics": [
-      "refraction"
-     ],
-     "label": "Refraction of light",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 5 test and list what to revise",
      "mins": 55
     }
    ]
@@ -794,7 +784,9 @@
      "subject": "dm",
      "topics": [
       "joining",
-      "finishing"
+      "finishing",
+      "hand-tools",
+      "machine-tools"
      ],
      "label": "Joining & assembly \u00b7 Finishing",
      "mins": 55
@@ -889,20 +881,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "dm",
-     "topics": [
-      "commercial-manufacture",
-      "impact-sustainability"
-     ],
-     "label": "Commercial manufacture \u00b7 Impact",
+     "subject": "test",
+     "topics": [],
+     "label": "Sit the Week 6 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "english",
-     "topics": [
-      "english-past-paper-1"
-     ],
-     "label": "Critical Reading past paper \u2014 Scottish text",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 6 test and list what to revise",
      "mins": 55
     }
    ]
@@ -947,7 +934,9 @@
     {
      "subject": "dm",
      "topics": [
-      "planning-evaluation"
+      "planning-evaluation",
+      "commercial-manufacture",
+      "impact-sustainability"
      ],
      "label": "Planning for manufacture & evaluation",
      "mins": 55
@@ -1019,7 +1008,8 @@
     {
      "subject": "bm",
      "topics": [
-      "bm-past-paper-1"
+      "bm-past-paper-1",
+      "market-research"
      ],
      "label": "Business Management past paper \u2014 Section 1",
      "mins": 55
@@ -1055,19 +1045,15 @@
    "weekday": "Sun",
    "blocks": [
     {
-     "subject": "english",
-     "topics": [
-      "english-past-paper-3"
-     ],
-     "label": "English: full Critical Reading under time",
+     "subject": "test",
+     "topics": [],
+     "label": "Sit the Week 7 practice exam \u2014 timed",
      "mins": 55
     },
     {
-     "subject": "pe",
-     "topics": [
-      "portfolio"
-     ],
-     "label": "PE portfolio \u2014 final check against mark scheme",
+     "subject": "test",
+     "topics": [],
+     "label": "Mark the Week 7 test and list what to revise",
      "mins": 55
     }
    ]

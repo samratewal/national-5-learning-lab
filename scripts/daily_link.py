@@ -39,6 +39,7 @@ SCHEDULE = _find_schedule()
 BASE = "https://samratewal.github.io/national-5-learning-lab"
 
 WEEKDAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+TEST_WEEK_BY_DAY = {3: 1, 10: 2, 17: 3, 24: 4, 31: 5, 38: 6, 45: 7}
 
 
 def load():
@@ -71,6 +72,19 @@ def render(data, day, when):
         if b["subject"] == "review":
             lines.append(f"**Block {i} — 🔁 {b['label']}**")
             lines.append("No new topic. Redo questions you got wrong this week, from memory.")
+            lines.append("")
+            continue
+
+        if b["subject"] == "test":
+            week = TEST_WEEK_BY_DAY.get(day["n"])
+            lines.append(f"**Block {i} — 📝 TEST DAY**")
+            if "Mark" in b["label"]:
+                lines.append(f"[Mark the Week {week} test]({BASE}/test-{week}.html) against the scheme, "
+                             f"then fill in the score tracker. Anything under 70% goes back on your list.")
+            else:
+                lines.append(f"[Sit the Week {week} practice exam]({BASE}/test-{week}.html) "
+                             f"— no notes, no phone, timed.")
+            lines.append(f"_{b['label']}_")
             lines.append("")
             continue
 
