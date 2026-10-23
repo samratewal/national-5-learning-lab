@@ -57,28 +57,6 @@ def head(title):
 <link rel="stylesheet" href="style.css">
 <script>window.MathJax={{tex:{{inlineMath:[['$','$']],displayMath:[['$$','$$']]}},svg:{{fontCache:'global'}}}};</script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<style>
-.fcgrid{{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin:18px 0}}
-.fc{{perspective:1000px;height:190px;cursor:pointer}}
-.fcin{{position:relative;width:100%;height:100%;transition:transform .55s;transform-style:preserve-3d}}
-.fc.on .fcin{{transform:rotateY(180deg)}}
-.fcf,.fcb{{position:absolute;inset:0;backface-visibility:hidden;border-radius:13px;padding:16px 18px;
-overflow:auto;border:1px solid var(--line);font-size:14px;line-height:1.5}}
-.fcf{{background:var(--panel);display:flex;flex-direction:column;justify-content:center}}
-.fcb{{background:#15251c;border-color:#2b4a37;transform:rotateY(180deg)}}
-.fcl{{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--dim);
-font-weight:800;margin-bottom:8px}}
-.fcb .fcl{{color:var(--acc2)}}
-.fchint{{position:absolute;bottom:9px;right:12px;font-size:10.5px;color:var(--dim)}}
-.qbox{{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:20px;margin:16px 0}}
-.opt{{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 15px;border-radius:10px;
-background:var(--panel2);border:1px solid var(--line);color:var(--ink);font-size:14.5px;cursor:pointer;
-font-family:inherit;transition:.12s}}
-.opt:hover{{border-color:var(--acc);background:var(--chip)}}
-.opt.right{{background:#1d3325;border-color:#3f7a55;color:#b7f0c8}}
-.opt.wrong{{background:#331d20;border-color:#7a3f45;color:#f0b7b7}}
-.score{{font-size:15px;font-weight:700;margin-top:14px}}
-</style>
 </head>
 <body>
 {NAV}
